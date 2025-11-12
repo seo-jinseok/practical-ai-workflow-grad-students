@@ -2,7 +2,7 @@
 
 **Version**: v13.0 Part 2
 **Date**: 2025-11-12
-**Status**: 🚧 In Progress (2/15 완료)
+**Status**: 🚧 In Progress (0/15 완료 - 디렉토리 생성 완료, 스크린샷 생성 대기)
 **Purpose**: Part 2 관련 스크린샷 필요한 경우의 가이드 문서
 **Related**: [Part 2 메인 문서](../../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Copilot 워크북](12_copilot_workbook_exercises.md)
 
@@ -35,9 +35,9 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - Python 데이터 분석 결과 출력 화면
     - 생성된 그래프/차트 이미지
 - **캡처 지침**:
-  - 해상도: 1920x1080 이상
-  - 주석 추가: 주요 부분을 화살표나 텍스트로 강조
-  - 저장 경로: `v13.0_resources/part2/images/exercise3-*.png`
+    - 해상도: 1920x1080 이상
+    - 주석 추가: 주요 부분을 화살표나 텍스트로 강조
+    - 저장 경로: `v13.0_resources/part2/images/exercise3-*.png`
 
 #### Exercise 4: 논문 작성 지원
 
@@ -45,8 +45,8 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - 논문 초안 완성된 VS Code 화면
     - Copilot이 학술적 표현을 제안하는 과정
 - **캡처 지침**:
-  - 논문 구조가 명확히 보이도록 캡처
-  - Before/After 비교 형태 권장
+    - 논문 구조가 명확히 보이도록 캡처
+    - Before/After 비교 형태 권장
 
 ### 2. MCP 설치 가이드 관련 (15_mcp_installation_guide.md)
 
@@ -58,9 +58,9 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - Claude Desktop에서 MCP 서버 연결 확인 화면
     - JSON 설정 파일 내용 표시
 - **캡처 지침**:
-  - 해상도: 1920x1080 이상
-  - 오류가 있는 경우와 정상 작동하는 경우 모두 캡처
-  - 단계별로 스크린샷 캡처 (설치 전 → 설치 중 → 설치 후)
+    - 해상도: 1920x1080 이상
+    - 오류가 있는 경우와 정상 작동하는 경우 모두 캡처
+    - 단계별로 스크린샷 캡처 (설치 전 → 설치 중 → 설치 후)
 - **저장 경로**: `v13.0_resources/part2/images/mcp-installation-*.png`
 
 #### MCP 테스트 및 문제 해결
@@ -70,8 +70,8 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - 일반적인 오류 메시지들 및 해결 방법
     - 설정 파일 검증 과정
 - **캡처 지침**:
-  - 오류 상황을 명확히 보여주는 화면
-  - 해결 방법과 함께 캡처
+    - 오류 상황을 명확히 보여주는 화면
+    - 해결 방법과 함께 캡처
 
 ### 3. SpecKit 설치 가이드 관련 (19_speckit_installation_guide.md)
 
@@ -82,8 +82,8 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - 7단계 워크플로우 실행 과정
     - 생성된 Constitution, Spec, Plan 문서 예시
 - **캡처 지침**:
-  - 워크플로우의 각 단계를 순차적으로 캡처
-  - 생성된 문서의 예시를 함께 캡처
+    - 워크플로우의 각 단계를 순차적으로 캡처
+    - 생성된 문서의 예시를 함께 캡처
 - **저장 경로**: `v13.0_resources/part2/images/speckit-*.png`
 
 ---
@@ -138,13 +138,13 @@ v13.0_resources/part2/
 
 ### 자동화 완료 항목 (MCP 사용)
 
-- [x] **공식 문서 페이지** (2개) 🤖 [MCP 자동화 완료]:
-    - [x] MCP 프로토콜 소개 페이지
-        - ✅ **생성 완료**: 2025-11-12
+- [ ] **공식 문서 페이지** (2개) 🤖 [MCP 자동화 대기]:
+    - [ ] MCP 프로토콜 소개 페이지
+        - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
         - **파일명**: `mcp-protocol-intro.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
-    - [x] SpecKit GitHub 리포지토리
-        - ✅ **생성 완료**: 2025-11-12
+    - [ ] SpecKit GitHub 리포지토리
+        - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
         - **파일명**: `speckit-repository.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
 
@@ -191,16 +191,17 @@ v13.0_resources/part2/
 
 ---
 
-## 🤖 MCP 자동화 완료 로그
+## 🤖 MCP 자동화 로그
 
 ### 2025-11-12
 
-- ✅ MCP 프로토콜 소개 페이지 ([MCP Protocol](https://modelcontextprotocol.io/))
-- ✅ SpecKit 리포지토리 ([SpecKit Repository](https://github.com/github/spec-kit))
+- ⏳ **디렉토리 생성 완료**: `v13.0_resources/part2/images/` 생성
+- ⏳ **스크린샷 생성 대기**: MCP Protocol 및 SpecKit Repository 스크린샷
+- 📋 **다음 단계**: Cline MCP automation 실행 또는 수동 캡처
 
-**사용 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)
-**총 소요 시간**: 약 5분
-**생성 방법**: `part2-screenshot-generation-prompts.md` 참고
+**사용 예정 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)
+**예상 소요 시간**: 약 5-10분
+**생성 방법**: `part2-screenshot-generation-prompts.md` 참고 또는 `CAPTURE_INSTRUCTIONS.md` 참고
 **저장 위치**: `v13.0_resources/part2/images/`
 
 ---
@@ -209,7 +210,7 @@ v13.0_resources/part2/
 
 ### 캡처 우선순위
 
-1. ✅ **완료**: 공식 문서 페이지 (MCP 자동화)
+1. ⏳ **대기중**: 공식 문서 페이지 (MCP 자동화 또는 수동 캡처)
 2. **1순위**: MCP 설치 및 설정 과정 (수동 캡처)
 3. **2순위**: SpecKit 워크플로우 실행 (수동 캡처)
 4. **3순위**: Copilot 워크북 예시 결과 (수동 캡처)

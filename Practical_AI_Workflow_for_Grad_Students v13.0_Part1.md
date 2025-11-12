@@ -5,12 +5,12 @@
 <!-- 
 버전 관리 메타데이터:
 - 버전: v13.0 Part 1
-- 최종 수정일: 2025-11-10
+- 최종 수정일: 2025-11-12
 - 기반: v12.0 Sections 1-4 + 2025 GitHub Copilot 신기능
 - 대상: 다양한 전공의 대학원생 (코딩 지식 불필요)
 - 목적: AI 시대의 연구 기본기 다지기
 - 특징: 학생 무료 도구, 즉시 적용 가능, Part 2/3으로 확장
-- 2025 신기능: Agent mode, Custom Instructions, AGENTS.md, Prompt files, Model picker, Vision, Next Edit Suggestions
+- 2025 신기능: Agent mode, Custom Instructions, Multi-model, Vision, MCP
 -->
 
 ## 📚 Part 1 소개
@@ -2218,6 +2218,6 @@ MCP는 AI가 여러분의 연구 도구들과
 
 ---
 
-*최종 업데이트: 2025-11-10*  
+*최종 업데이트: 2025-11-12*  
 *버전: v13.0 Part 1*  
 *소요 시간: 약 3시간 (읽기 2시간 + 실습 1시간)*

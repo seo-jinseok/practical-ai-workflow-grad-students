@@ -65,14 +65,14 @@
 
 ## Part 2 체크리스트 (추정 15개)
 
-### MCP 자동화 완료 (2개)
+### MCP 자동화 대기 (2개)
 
-- [x] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
-    - ✅ **생성 완료**: 2025-11-12
+- [ ] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
+    - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
     - **파일명**: `mcp-protocol-intro.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
-- [x] [SpecKit 리포지토리](https://github.com/github/spec-kit)
-    - ✅ **생성 완료**: 2025-11-12
+- [ ] [SpecKit 리포지토리](https://github.com/github/spec-kit)
+    - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
     - **파일명**: `speckit-repository.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
 

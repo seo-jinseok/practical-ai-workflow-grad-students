@@ -1,5 +1,8 @@
 # GitHub Copilot Instructions for Generative AI Special Lecture
 
+> **Note**: See also [AGENTS.md](../AGENTS.md) for a concise summary of these instructions.  
+> **Cross-reference**: When editing this file, update AGENTS.md accordingly for consistency.
+
 This repository contains educational materials for graduate students learning AI-assisted research workflows.
 
 ## Project Goals
