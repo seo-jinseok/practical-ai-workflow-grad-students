@@ -1,0 +1,32 @@
+# Part 3 이미지 디렉토리
+
+이 디렉토리에는 Part 3 통합 워크플로우에 필요한 스크린샷과 이미지들이 저장됩니다.
+
+## 포함될 이미지들
+
+### AI 도구별 스크린샷
+- [ ] elicit/ - Elicit systematic review workflow
+- [ ] perplexity/ - Perplexity Research mode
+- [ ] consensus/ - Consensus Scholar Agent
+- [ ] scite/ - Scite Smart Citations
+- [ ] researchrabbit/ - ResearchRabbit network
+- [ ] connected-papers/ - Connected Papers graph
+- [ ] semantic-scholar/ - Semantic Scholar TLDR
+- [ ] notebooklm/ - NotebookLM mind map 및 audio overview
+
+### 통합 워크플로우
+- [ ] integrated-workflow/ - 전체 8단계 연구 라이프사이클 다이어그램
+- [ ] folder-examples/ - 전공별 폴더 구조 예시
+- [ ] progress-tracking/ - 진행 상황 추적 대시보드
+
+## 이미지 가이드라인
+- **해상도**: 최소 1920x1080
+- **형식**: PNG 또는 JPG
+- **용량**: 각 파일 2MB 이하
+- **파일명**: descriptive-name-YYYY-MM-DD.png
+
+## 스크린샷 촬영 가이드
+1. 실제 작동 화면을 캡처
+2. 개인 정보 제거
+3. 해상도 및 품질 최적화
+4. 명확하고 읽기 쉬운 상태로 편집

@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "task-master-mcp": {
+      "command": "npx",
+      "args": ["-y", "task-master-ai"]
+    },
+    "arxiv": {
+      "command": "npx",
+      "args": ["-y", "@blazickjp/arxiv-mcp-server"]
+    },
+    "zotero": {
+      "command": "npx",
+      "args": ["-y", "zotero-mcp"]
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "@suekou/mcp-notion-server"]
+    },
+    "jupyter": {
+      "command": "npx",
+      "args": ["-y", "jupyter-mcp"]
+    }
+  }
+}
