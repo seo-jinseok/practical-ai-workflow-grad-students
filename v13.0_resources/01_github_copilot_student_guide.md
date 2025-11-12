@@ -38,7 +38,7 @@
 2. "Get your pack" 또는 "Sign up for Student Developer Pack" 클릭
 3. GitHub 로그인 (Step 1에서 만든 계정)
 
-[SCREENSHOT: GitHub Education Pack 메인 페이지]
+![GitHub Education Pack 메인 페이지](../images/part1/github-education/github-education-pack-main.png)
 
 ### Step 3: 학생 인증
 1. **학교 이메일 주소** 입력
@@ -50,7 +50,7 @@
    - 졸업 예정 연도
    - 재학 중인 과정 (석사/박사)
 
-[SCREENSHOT: 학생 인증 폼]
+![학생 인증 폼](../images/part1/github-education/github-education-pack-main.png)
 
 3. **사용 목적** 작성
    - "I plan to use GitHub Education for..."
@@ -71,7 +71,7 @@
    - 학교 이메일 도메인이 등록되어 있으면 즉시 승인
    - 서류 검토 필요 시 며칠 소요 가능
 
-[SCREENSHOT: 신청 완료 확인 페이지]
+![신청 완료 확인 페이지](../images/part1/github-education/github-education-pack-main.png)
 
 ## 3. Copilot Pro 활성화
 
@@ -95,7 +95,7 @@
    - 상태바 Copilot 아이콘에 체크 표시
    - 마우스 오버 시 "GitHub Copilot Pro" 표시 확인
 
-[SCREENSHOT: Copilot Pro 활성화 상태]
+![Copilot Pro 활성화 상태](../images/part1/vscode-setup/copilot-pro-status-active.png)
 
 ### Step 3: 기능 테스트
 1. 새 파일 생성 (.md 또는 .py)

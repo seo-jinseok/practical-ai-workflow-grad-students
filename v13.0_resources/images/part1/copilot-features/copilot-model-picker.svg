@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="0" y="0" width="1920" height="40" fill="#2d2d30" />
+  <circle cx="20" cy="20" r="6" fill="#ff5f57" />
+  <circle cx="40" cy="20" r="6" fill="#febc2e" />
+  <circle cx="60" cy="20" r="6" fill="#28c840" />
+  <text x="90" y="27" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#858585">Visual Studio Code</text>
+  <rect x="0" y="40" width="250" height="1040" fill="#2d2d30" />
+  <rect x="0" y="40" width="48" height="1040" fill="#252526" />
+  <rect x="0" y="1040" width="1920" height="40" fill="#007acc" />
+  <rect x="1400" y="60" width="500" height="980" fill="#252526" />
+  <text x="1420" y="90" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="bold">GitHub Copilot Chat</text>
+  <rect x="1420" y="110" width="460" height="40" fill="#1e1e1e" rx="3" stroke="#3e3e42" stroke-width="1" />
+  <text x="1440" y="135" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">Claude Sonnet 4.5</text>
+  <text x="1850" y="135" font-family="'SF Mono', 'Consolas', monospace" font-size="12px" fill="#858585">▼</text>
+  <rect x="1420" y="155" width="460" height="400" fill="#252526" rx="5" stroke="#3e3e42" stroke-width="2" />
+  <text x="1440" y="180" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">GPT-5</text>
+  <rect x="1650" y="165" width="80" height="20" fill="#007acc" rx="3" opacity="0.3" />
+  <text x="1690" y="179" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#007acc" text-anchor="middle">Latest</text>
+  <text x="1750" y="180" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#ce9178">⭐Pro</text>
+  <rect x="1425" y="222" width="450" height="35" fill="#264f78" rx="3" />
+  <text x="1440" y="240" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">Claude Sonnet 4.5</text>
+  <rect x="1650" y="225" width="80" height="20" fill="#007acc" rx="3" opacity="0.3" />
+  <text x="1690" y="239" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#007acc" text-anchor="middle">Recommended</text>
+  <text x="1750" y="240" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#ce9178">⭐Pro</text>
+  <text x="1440" y="300" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">Gemini 2.5 Pro</text>
+  <rect x="1650" y="285" width="80" height="20" fill="#007acc" rx="3" opacity="0.3" />
+  <text x="1690" y="299" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#007acc" text-anchor="middle">Vision</text>
+  <text x="1750" y="300" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#ce9178">⭐Pro</text>
+  <text x="1440" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">Grok</text>
+  <rect x="1650" y="345" width="80" height="20" fill="#007acc" rx="3" opacity="0.3" />
+  <text x="1690" y="359" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#007acc" text-anchor="middle">New</text>
+  <text x="1750" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#ce9178">⭐Pro</text>
+  <text x="1440" y="420" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">GPT-4o mini</text>
+  <rect x="1650" y="405" width="80" height="20" fill="#858585" rx="3" opacity="0.3" />
+  <text x="1690" y="419" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#858585" text-anchor="middle">Fast</text>
+  <text x="1440" y="480" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">Claude Haiku</text>
+  <rect x="1650" y="465" width="80" height="20" fill="#858585" rx="3" opacity="0.3" />
+  <text x="1690" y="479" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#858585" text-anchor="middle">Efficient</text>
+  <text x="300" y="150" font-family="'SF Mono', 'Consolas', monospace" font-size="24px" fill="#d4d4d4" font-weight="bold">AI 모델 선택하기</text>
+  <text x="300" y="200" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">Chat 패널 상단의 모델 선택 드롭다운을 클릭하면</text>
+  <text x="300" y="230" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">사용 가능한 모든 AI 모델을 볼 수 있습니다.</text>
+  <text x="300" y="260" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585" />
+  <text x="300" y="290" font-family="'SF Mono', 'Consolas', monospace" font-size="15px" fill="#007acc" font-weight="bold">🌟 Pro 모델 (Pro 플랜 필요):</text>
+  <text x="320" y="320" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • GPT-5: OpenAI의 최신 모델</text>
+  <text x="320" y="350" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • Claude Sonnet 4.5: 긴 컨텍스트에 강함</text>
+  <text x="320" y="380" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • Gemini 2.5 Pro: 이미지 분석 가능</text>
+  <text x="320" y="410" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • Grok: X.ai의 실시간 정보 모델</text>
+  <text x="300" y="440" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585" />
+  <text x="300" y="470" font-family="'SF Mono', 'Consolas', monospace" font-size="15px" fill="#007acc" font-weight="bold">⚡ Free 모델 (무료 플랜):</text>
+  <text x="320" y="500" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • GPT-4o mini: 빠른 응답</text>
+  <text x="320" y="530" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">  • Claude Haiku: 효율적인 처리</text>
+  <line x1="1200" y1="250" x2="1420" y2="180" stroke="#ce9178" stroke-width="3" marker-end="url(#arrowhead)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ce9178" />
+    </marker>
+  </defs>
+</svg>

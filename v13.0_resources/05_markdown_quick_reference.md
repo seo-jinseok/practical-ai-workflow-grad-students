@@ -239,7 +239,7 @@ Tab / Shift+Tab      → 들여쓰기/내어쓰기
 ```
 
 ### 유용한 확장 프로그램
-[SCREENSHOT: VS Code Extensions - Markdown 관련]
+![VS Code Extensions - Markdown 관련](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 - **Markdown All in One**: 완성도 높은 Markdown 도구
 - **markdownlint**: 문법 검사 및 자동 수정

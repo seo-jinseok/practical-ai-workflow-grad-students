@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="0" y="0" width="1920" height="40" fill="#2d2d30" />
+  <circle cx="20" cy="20" r="6" fill="#ff5f57" />
+  <circle cx="40" cy="20" r="6" fill="#febc2e" />
+  <circle cx="60" cy="20" r="6" fill="#28c840" />
+  <text x="90" y="27" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#858585">Visual Studio Code</text>
+  <rect x="0" y="40" width="250" height="1040" fill="#2d2d30" />
+  <rect x="0" y="40" width="48" height="1040" fill="#252526" />
+  <rect x="0" y="1040" width="1920" height="40" fill="#007acc" />
+  <text x="60" y="70" font-family="'SF Mono', 'Consolas', monospace" font-size="11px" fill="#858585" font-weight="bold">EXTENSIONS</text>
+  <rect x="60" y="90" width="180" height="30" fill="#1e1e1e" stroke="#3e3e42" stroke-width="1" rx="3" />
+  <text x="70" y="111" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">github copilot</text>
+  <rect x="60" y="140" width="180" height="80" fill="#252526" rx="5" stroke="#3e3e42" stroke-width="1" />
+  <rect x="70" y="150" width="40" height="40" fill="#007acc" rx="3" />
+  <text x="85" y="175" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="white" font-weight="bold" text-anchor="middle">GH</text>
+  <text x="120" y="165" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4" font-weight="bold">GitHub Copilot</text>
+  <text x="120" y="182" font-family="'SF Mono', 'Consolas', monospace" font-size="11px" fill="#858585">GitHub</text>
+  <text x="120" y="198" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#858585">Your AI pair programmer</text>
+  <rect x="60" y="225" width="80" height="25" fill="#007acc" rx="3" />
+  <text x="100" y="242" font-family="'SF Mono', 'Consolas', monospace" font-size="12px" fill="white" text-anchor="middle">Install</text>
+  <rect x="60" y="260" width="180" height="80" fill="#252526" rx="5" stroke="#3e3e42" stroke-width="1" />
+  <rect x="70" y="270" width="40" height="40" fill="#007acc" rx="3" />
+  <text x="85" y="295" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="white" font-weight="bold" text-anchor="middle">GH</text>
+  <text x="120" y="285" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4" font-weight="bold">GitHub Copilot Chat</text>
+  <text x="120" y="302" font-family="'SF Mono', 'Consolas', monospace" font-size="11px" fill="#858585">GitHub</text>
+  <text x="120" y="318" font-family="'SF Mono', 'Consolas', monospace" font-size="10px" fill="#858585">Chat with your AI pair programmer</text>
+  <rect x="60" y="345" width="80" height="25" fill="#1e1e1e" rx="3" />
+  <text x="100" y="362" font-family="'SF Mono', 'Consolas', monospace" font-size="12px" fill="white" text-anchor="middle">Install</text>
+  <text x="300" y="100" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="#d4d4d4" font-weight="bold">Extensions Marketplace - GitHub Copilot 검색</text>
+  <text x="300" y="140" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">1. 좌측 Extensions 아이콘 클릭 (Ctrl+Shift+X)</text>
+  <text x="300" y="170" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">2. 검색창에 'github copilot' 입력</text>
+  <text x="300" y="200" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">3. 'GitHub Copilot' 확장 선택</text>
+  <text x="300" y="230" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">4. 'Install' 버튼 클릭</text>
+  <line x1="245" y1="165" x2="60" y2="165" stroke="#ce9178" stroke-width="3" marker-end="url(#arrowhead)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ce9178" />
+    </marker>
+  </defs>
+</svg>

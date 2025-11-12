@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="610" y="340" width="700" height="400" fill="#252526" rx="10" stroke="#3e3e42" stroke-width="2" />
+  <circle cx="960" cy="420" r="50" fill="#ffffff" />
+  <text x="960" y="435" font-family="'SF Mono', 'Consolas', monospace" font-size="28px" fill="#24292f" text-anchor="middle" font-weight="bold">GH</text>
+  <text x="960" y="520" font-family="'SF Mono', 'Consolas', monospace" font-size="22px" fill="#d4d4d4" text-anchor="middle" font-weight="bold">Sign in to use GitHub Copilot</text>
+  <text x="960" y="560" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585" text-anchor="middle">GitHub 계정으로 로그인하여 Copilot을 시작하세요</text>
+  <rect x="760" y="600" width="400" height="50" fill="#007acc" rx="5" />
+  <text x="960" y="633" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="white" text-anchor="middle" font-weight="bold">Sign in with GitHub</text>
+  <text x="960" y="690" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#4ec9b0" text-anchor="middle">✓ 학생 계정이면 Copilot Pro를 무료로 사용할 수 있습니다</text>
+</svg>

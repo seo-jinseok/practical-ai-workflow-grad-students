@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="0" y="0" width="1920" height="40" fill="#2d2d30" />
+  <circle cx="20" cy="20" r="6" fill="#ff5f57" />
+  <circle cx="40" cy="20" r="6" fill="#febc2e" />
+  <circle cx="60" cy="20" r="6" fill="#28c840" />
+  <text x="90" y="27" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">연구컨텍스트.md</text>
+  <text x="50" y="100" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="#007acc" font-weight="bold"># 연구 컨텍스트</text>
+  <text x="50" y="140" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#d4d4d4" font-weight="normal" />
+  <text x="50" y="170" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#007acc" font-weight="bold">## 연구 분야</text>
+  <text x="50" y="200" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">교육학 &gt; 교육공학 &gt; AI 활용 교육</text>
+  <text x="50" y="230" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal" />
+  <text x="50" y="260" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#007acc" font-weight="bold">## 연구 목적</text>
+  <text x="50" y="290" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">고등학교 수학 수업에서 AI 도구(ChatGPT, Copilot)를</text>
+  <text x="50" y="315" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">활용한 개별화 학습의 효과를 분석하고, 교사를 위한</text>
+  <text x="50" y="340" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">실천적 가이드라인을 개발합니다.</text>
+  <text x="50" y="370" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal" />
+  <text x="50" y="400" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#007acc" font-weight="bold">## 핵심 연구 질문</text>
+  <text x="50" y="430" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">1. AI 도구가 학습 성취도에 미치는 영향은?</text>
+  <text x="50" y="455" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">2. 학생들의 AI 활용 패턴은 어떠한가?</text>
+  <text x="50" y="480" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">3. 교사는 어떤 역할을 해야 하는가?</text>
+  <rect x="900" y="400" width="900" height="600" fill="#252526" rx="10" stroke="#007acc" stroke-width="2" />
+  <text x="1350" y="450" font-family="'SF Mono', 'Consolas', monospace" font-size="22px" fill="#007acc" text-anchor="middle" font-weight="bold">💡 컨텍스트 작성 Tip</text>
+  <text x="950" y="500" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#4ec9b0" font-weight="bold">✓ 구체적인 분야를 명시하세요</text>
+  <text x="970" y="530" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">(예: 교육학 &gt; 교육공학)</text>
+  <text x="950" y="560" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" />
+  <text x="950" y="590" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#4ec9b0" font-weight="bold">✓ 연구 목적을 명확히 서술하세요</text>
+  <text x="970" y="620" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">(대상, 방법, 기대효과)</text>
+  <text x="950" y="650" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" />
+  <text x="950" y="680" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#4ec9b0" font-weight="bold">✓ 핵심 질문을 3-5개 작성하세요</text>
+  <text x="950" y="710" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" />
+  <text x="950" y="740" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#4ec9b0" font-weight="bold">✓ Copilot에게 이 파일을 참조하게 하면</text>
+  <text x="970" y="770" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">더 정확한 답변을 받을 수 있습니다</text>
+</svg>

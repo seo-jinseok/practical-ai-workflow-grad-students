@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="0" y="0" width="1920" height="40" fill="#2d2d30" />
+  <circle cx="20" cy="20" r="6" fill="#ff5f57" />
+  <circle cx="40" cy="20" r="6" fill="#febc2e" />
+  <circle cx="60" cy="20" r="6" fill="#28c840" />
+  <text x="90" y="27" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#858585">Visual Studio Code</text>
+  <rect x="0" y="40" width="250" height="1040" fill="#2d2d30" />
+  <rect x="0" y="40" width="48" height="1040" fill="#252526" />
+  <rect x="0" y="1040" width="1920" height="40" fill="#007acc" />
+  <rect x="250" y="40" width="200" height="35" fill="#252526" />
+  <text x="270" y="63" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#d4d4d4">연구계획서.md</text>
+  <text x="290" y="100" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#007acc" font-weight="bold"># 연구 계획서</text>
+  <text x="290" y="130" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal" />
+  <text x="290" y="160" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#007acc" font-weight="bold">## 연구 주제</text>
+  <text x="290" y="190" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">교육 현장에서의 AI 활용 효과 분석</text>
+  <text x="290" y="220" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal" />
+  <text x="290" y="250" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#007acc" font-weight="bold">## 연구 방법</text>
+  <text x="290" y="280" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" font-weight="normal">본 연구에서는 </text>
+  <text x="450" y="280" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585" font-style="italic">혼합 연구 방법(Mixed Methods)을 사용합니다. 정량적 데이터는</text>
+  <rect x="448" y="266" width="2" height="20" fill="#d4d4d4" />
+  <rect x="700" y="400" width="500" height="80" fill="#252526" rx="10" stroke="#3e3e42" stroke-width="2" />
+  <text x="950" y="445" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#007acc" text-anchor="middle" font-weight="bold">💡 Copilot 제안</text>
+  <text x="950" y="470" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4" text-anchor="middle">Tab 키를 눌러 제안을 수락하세요</text>
+  <line x1="850" y1="450" x2="700" y2="290" stroke="#ce9178" stroke-width="3" marker-end="url(#arrowhead)" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ce9178" />
+    </marker>
+  </defs>
+</svg>

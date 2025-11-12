@@ -27,7 +27,7 @@
 ## 🛠️ VS Code 설치 (5분)
 
 ### Windows 사용자
-[SCREENSHOT: VS Code 다운로드 페이지 - Windows용 설치 파일]
+![VS Code 다운로드 페이지 - Windows용 설치 파일](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 1. **다운로드**
    - [ ] https://code.visualstudio.com/ 방문
@@ -45,7 +45,7 @@
    - [ ] 설치 완료까지 대기
 
 ### macOS 사용자
-[SCREENSHOT: VS Code 다운로드 페이지 - macOS용]
+![VS Code 다운로드 페이지 - macOS용](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 1. **다운로드**
    - [ ] https://code.visualstudio.com/ 방문
@@ -59,7 +59,7 @@
    - [ ] 첫 실행 시 "확인 없이 열기" 클릭 (Gatekeeper 우회)
 
 ### Linux 사용자
-[SCREENSHOT: VS Code 설치 방법 안내]
+![VS Code 설치 방법 안내](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **Ubuntu/Debian:**
 ```bash
@@ -78,7 +78,7 @@ sudo apt update && sudo apt install code
 ## 🔌 GitHub Copilot 설치 (5분)
 
 ### Copilot 확장 설치
-[SCREENSHOT: VS Code Extensions Marketplace - GitHub Copilot 검색]
+![VS Code Extensions Marketplace - GitHub Copilot 검색](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 1. **VS Code 실행**
    - [ ] VS Code 아이콘 더블클릭하여 프로그램 시작
@@ -96,7 +96,7 @@ sudo apt update && sudo apt install code
    - [ ] "Reload" 클릭하여 VS Code 재시작
 
 ### GitHub 계정 연결
-[SCREENSHOT: Copilot 로그인 프롬프트 - 상태바]
+![Copilot 로그인 프롬프트 - 상태바](../images/part1/vscode-setup/copilot-login-prompt.png)
 
 1. **로그인 시작**
    - [ ] VS Code 하단 상태바의 GitHub Copilot 아이콘 확인
@@ -120,7 +120,7 @@ sudo apt update && sudo apt install code
 ## 🎓 학생 혜택 신청 (10분, 선택사항)
 
 ### Student Developer Pack 신청
-[SCREENSHOT: GitHub Education Pack 신청 페이지]
+![GitHub Education Pack 신청 페이지](../images/part1/github-education/github-education-pack-main.png)
 
 1. **GitHub Education 페이지 접속**
    - [ ] https://education.github.com/pack 방문
@@ -154,7 +154,7 @@ sudo apt update && sudo apt install code
 ## ⚙️ 기본 설정 (5분, 선택사항)
 
 ### 테마 및 외관 설정
-[SCREENSHOT: VS Code Settings - 테마 및 폰트 설정]
+![VS Code Settings - 테마 및 폰트 설정](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 1. **테마 변경**
    - [ ] `Ctrl+K` (Windows/Linux) / `Cmd+K` (macOS) → `Ctrl+T` (Windows/Linux) / `Cmd+T` (macOS)
@@ -173,7 +173,7 @@ sudo apt update && sudo apt install code
    - [ ] 예: `'Malgun Gothic', 'Noto Sans KR', Consolas, 'Courier New', monospace`
 
 ### 유용한 확장 프로그램 추가
-[SCREENSHOT: VS Code Extensions - 권장 확장]
+![VS Code Extensions - 권장 확장](../images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 - [ ] **Korean Language Pack**: 한국어 번역 지원
 - [ ] **Markdown All in One**: Markdown 작성 도구
@@ -185,7 +185,7 @@ sudo apt update && sudo apt install code
 ## ✅ 설정 완료 확인
 
 ### Copilot 활성화 확인
-[SCREENSHOT: Copilot Pro 활성화 확인]
+![Copilot Pro 활성화 확인](../images/part1/vscode-setup/copilot-pro-status-active.png)
 
 - [ ] **하단 상태바 아이콘**
   - [ ] "✓" 마크가 있는 Copilot 아이콘 확인
@@ -198,7 +198,7 @@ sudo apt update && sudo apt install code
   - [ ] Copilot이 자동완성 제안 표시 확인
 
 ### Copilot Student Pro 확인
-[SCREENSHOT: GitHub Copilot 설정 페이지]
+![GitHub Copilot 설정 페이지](../images/part1/vscode-setup/copilot-pro-status-active.png)
 
 1. **웹에서 확인**
    - [ ] https://github.com/settings/copilot 방문

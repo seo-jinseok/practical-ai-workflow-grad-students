@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <rect x="460" y="340" width="1000" height="400" fill="#2d2d30" rx="15" stroke="#f48771" stroke-width="3" />
+  <text x="960" y="440" font-family="'SF Mono', 'Consolas', monospace" font-size="72px" fill="#d4d4d4" text-anchor="middle">⚠️</text>
+  <text x="960" y="520" font-family="'SF Mono', 'Consolas', monospace" font-size="28px" fill="#f48771" text-anchor="middle" font-weight="bold">Copilot이 비활성화되어 있습니다</text>
+  <text x="960" y="580" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#d4d4d4" text-anchor="middle">1. 인터넷 연결을 확인하세요</text>
+  <text x="960" y="615" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#d4d4d4" text-anchor="middle">2. GitHub 로그인 상태를 확인하세요</text>
+  <text x="960" y="650" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#d4d4d4" text-anchor="middle">3. VS Code를 재시작해보세요</text>
+  <text x="960" y="685" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#d4d4d4" text-anchor="middle">4. Copilot 확장이 활성화되어 있는지 확인하세요</text>
+  <rect x="560" y="420" width="800" height="40" fill="#007acc" />
+  <text x="1300" y="445" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#858585">GitHub Copilot</text>
+  <text x="1240" y="445" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#d4d4d4">❌</text>
+</svg>

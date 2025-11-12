@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="60" fill="#2d2d30" />
+  <text x="960" y="40" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="white" text-anchor="middle">🌐 education.github.com/pack</text>
+  <rect x="0" y="60" width="1920" height="1020" fill="white" />
+  <rect x="0" y="60" width="1920" height="120" fill="#24292f" />
+  <text x="960" y="130" font-family="'SF Mono', 'Consolas', monospace" font-size="36px" fill="white" text-anchor="middle" font-weight="bold">GitHub Student Developer Pack</text>
+  <rect x="200" y="220" width="1520" height="300" fill="#f6f8fa" rx="15" stroke="#d0d7de" stroke-width="2" />
+  <text x="960" y="280" font-family="'SF Mono', 'Consolas', monospace" font-size="32px" fill="#24292f" text-anchor="middle" font-weight="bold">🎓 무료로 시작하세요</text>
+  <text x="960" y="330" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#57606a" text-anchor="middle">학생 인증만 하면 $200,000 상당의 개발 도구를 무료로 사용할 수 있습니다</text>
+  <rect x="810" y="370" width="300" height="60" fill="#2da44e" rx="10" />
+  <text x="960" y="410" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white" text-anchor="middle" font-weight="bold">Get your pack</text>
+  <rect x="260" y="580" width="340" height="180" fill="white" rx="10" stroke="#d0d7de" stroke-width="2" />
+  <text x="430" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="48px" fill="#d4d4d4" text-anchor="middle">🤖</text>
+  <text x="430" y="700" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#24292f" text-anchor="middle" font-weight="bold">GitHub Copilot Pro</text>
+  <text x="430" y="730" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#57606a" text-anchor="middle">가치: $240/year</text>
+  <rect x="640" y="580" width="340" height="180" fill="white" rx="10" stroke="#d0d7de" stroke-width="2" />
+  <text x="810" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="48px" fill="#d4d4d4" text-anchor="middle">☁️</text>
+  <text x="810" y="700" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#24292f" text-anchor="middle" font-weight="bold">Azure Credits</text>
+  <text x="810" y="730" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#57606a" text-anchor="middle">가치: $100</text>
+  <rect x="1020" y="580" width="340" height="180" fill="white" rx="10" stroke="#d0d7de" stroke-width="2" />
+  <text x="1190" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="48px" fill="#d4d4d4" text-anchor="middle">🚀</text>
+  <text x="1190" y="700" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#24292f" text-anchor="middle" font-weight="bold">Vercel Pro</text>
+  <text x="1190" y="730" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#57606a" text-anchor="middle">가치: $240/year</text>
+  <rect x="1400" y="580" width="340" height="180" fill="white" rx="10" stroke="#d0d7de" stroke-width="2" />
+  <text x="1570" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="48px" fill="#d4d4d4" text-anchor="middle">💾</text>
+  <text x="1570" y="700" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#24292f" text-anchor="middle" font-weight="bold">MongoDB Atlas</text>
+  <text x="1570" y="730" font-family="'SF Mono', 'Consolas', monospace" font-size="14px" fill="#57606a" text-anchor="middle">가치: $200</text>
+  <rect x="250" y="570" width="360" height="200" fill="none" rx="15" stroke="#ff6b6b" stroke-width="4" />
+</svg>

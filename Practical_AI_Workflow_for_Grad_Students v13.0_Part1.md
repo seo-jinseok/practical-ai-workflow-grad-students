@@ -210,7 +210,7 @@
 🎓 학생 혜택: GitHub Student Developer Pack 신청 필수!
 ```
 
-[SCREENSHOT: VS Code + GitHub Copilot 통합 환경]
+![VS Code + GitHub Copilot 통합 환경](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 ### 2.2 GitHub Copilot 학생 무료 혜택 (2025-11-10 업데이트)
 
@@ -253,14 +253,14 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. 사용 목적 간단히 작성 (2-3문장)
    - 예: "I will use GitHub Copilot for my graduate research in education technology and data analysis."
 
-[SCREENSHOT: GitHub Education Pack 신청 페이지]
+![GitHub Education Pack 신청 페이지](v13.0_resources/images/part1/github-education/github-education-pack-main.png)
 
 **Step 3: 승인 대기 및 활성화**
 - 승인 시간: 보통 **1-3일** (빠르면 몇 시간)
 - 이메일 확인: 승인 알림 받기
 - VS Code에서 Copilot 로그인 → 자동으로 Pro 활성화!
 
-[SCREENSHOT: Copilot Pro 활성화 확인 - 상태바]
+![Copilot Pro 활성화 확인 - 상태바](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 **문제 해결**:
 - 학교 이메일 인식 안 됨 → 학생증 + 재학증명서 업로드
@@ -283,7 +283,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 💾 용량: 약 300MB
 ```
 
-[SCREENSHOT: VS Code 다운로드 페이지]
+![VS Code 다운로드 페이지](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **설치 시 권장 옵션** (Windows):
 - ✅ "Add to PATH" 체크
@@ -302,7 +302,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. "Install" 버튼 클릭
 6. VS Code 재시작 (필요 시)
 
-[SCREENSHOT: Extensions Marketplace - GitHub Copilot 검색]
+![Extensions Marketplace - GitHub Copilot 검색](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **방법 2: Command Palette로 설치**
 1. `Ctrl+Shift+P` (Windows) / `Cmd+Shift+P` (Mac)
@@ -317,13 +317,13 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 4. "Authorize GitHub Copilot" 승인
 5. VS Code로 돌아오면 자동 활성화
 
-[SCREENSHOT: Copilot 로그인 프롬프트]
+![Copilot 로그인 프롬프트](v13.0_resources/images/part1/vscode-setup/copilot-login-prompt.png)
 
 **활성화 확인**:
 - 하단 상태바에 **Copilot 아이콘** (✓ 표시)
 - 마우스 오버 시 "GitHub Copilot is active" 또는 "GitHub Copilot Pro" 표시
 
-[SCREENSHOT: Copilot 활성화 상태 - Pro 표시]
+![Copilot 활성화 상태 - Pro 표시](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 #### 🎨 Step 4: 기본 설정 (선택사항)
 
@@ -386,7 +386,7 @@ my-research/
 └── README.md
 ```
 
-[SCREENSHOT: VS Code Explorer에서 본 연구 폴더 구조]
+![VS Code Explorer에서 본 연구 폴더 구조](v13.0_resources/images/part1/practice/vscode-folder-structure-example.png)
 
 #### 🚀 VS Code에서 폴더 열기
 
@@ -1027,7 +1027,7 @@ code .
 | 내용 3   | 내용 4   |
 ```
 
-[SCREENSHOT: VS Code에서 Markdown 작성하는 모습]
+![VS Code에서 Markdown 작성하는 모습](v13.0_resources/images/part1/copilot-features/copilot-inline-completion.png)
 
 #### 🎯 연구 문서에 특화된 활용법
 
@@ -1143,7 +1143,7 @@ code .
 3. [참고문헌 3]
 ```
 
-[SCREENSHOT: 연구 계획서 템플릿을 복사해서 사용하는 모습]
+![연구 계획서 템플릿을 복사해서 사용하는 모습](v13.0_resources/images/part1/practice/practice-context-writing.png)
 
 #### 📊 주간 진행 보고서 템플릿
 
@@ -1208,7 +1208,7 @@ code .
 2. 或는 우측 클릭 → "Open Preview"
 3. 실시간 미리보기와 편집 가능
 
-[SCREENSHOT: VS Code의 Markdown 미리보기 기능]
+![VS Code의 Markdown 미리보기 기능](v13.0_resources/images/part1/practice/copilot-markdown-editing-preview.png)
 
 **권장 확장 프로그램** (Part 2에서 상세히 다룰 예정):
 - **Markdown All in One**: 완성도 높은 Markdown 에디팅
@@ -1421,7 +1421,7 @@ AI (Agent mode):
 2. 원하는 모델 선택
 3. Chat 지속 시에도 언제든지 변경 가능
 
-[SCREENSHOT: VS Code의 모델 선택 드롭다운]
+![VS Code의 모델 선택 드롭다운](v13.0_resources/images/part1/copilot-features/copilot-model-picker.png)
 
 #### 👁️ Vision capabilities 활용
 
@@ -1455,7 +1455,7 @@ AI: "분석한 결과입니다:
 - 개선 방안 도출"
 ```
 
-[SCREENSHOT: 이미지를 Copilot에 첨부하여 분석하는 모습]
+![이미지를 Copilot에 첨부하여 분석하는 모습](v13.0_resources/images/part1/2025-features/copilot-vision-image-attach.png)
 
 #### 🔮 Next Edit Suggestions
 

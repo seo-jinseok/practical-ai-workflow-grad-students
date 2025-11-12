@@ -178,7 +178,7 @@
 3. 논문의 그래프 분석 및 해석
 4. UI 목업 → HTML/CSS 생성
 
-[SCREENSHOT: Gemini에 이미지 첨부 예시]
+![Gemini에 이미지 첨부 예시](../images/part1/2025-features/copilot-vision-image-attach.png)
 
 ---
 
@@ -190,7 +190,7 @@
 2. 상단 모델 선택 드롭다운 클릭
 3. 원하는 모델 선택
 
-[SCREENSHOT: Model picker dropdown]
+![Model picker dropdown](../images/part1/copilot-features/copilot-model-picker.png)
 
 ### 방법 2: 기본 모델 설정
 
