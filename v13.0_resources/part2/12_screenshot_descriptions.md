@@ -2,7 +2,7 @@
 
 **Version**: v13.0 Part 2
 **Date**: 2025-11-12
-**Status**: 🚧 In Progress (0/15 완료 - 디렉토리 생성 완료, 스크린샷 생성 대기)
+**Status**: ✅ 완료 (2/15 완료 - MCP 웹페이지 스크린샷 생성 완료)
 **Purpose**: Part 2 관련 스크린샷 필요한 경우의 가이드 문서
 **Related**: [Part 2 메인 문서](../../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Copilot 워크북](12_copilot_workbook_exercises.md)
 
@@ -136,17 +136,21 @@ v13.0_resources/part2/
 
 ## ✅ 캡처 체크리스트
 
-### 자동화 완료 항목 (MCP 사용)
+### 자동화 완료 항목 (Playwright 사용)
 
-- [ ] **공식 문서 페이지** (2개) 🤖 [MCP 자동화 대기]:
-    - [ ] MCP 프로토콜 소개 페이지
-        - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
+- [x] **공식 문서 페이지** (2개) ✅ [Playwright 자동화 완료]:
+    - [x] MCP 프로토콜 소개 페이지
+        - ✅ **생성 완료**: 2025-11-12 15:58
         - **파일명**: `mcp-protocol-intro.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
-    - [ ] SpecKit GitHub 리포지토리
-        - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
+        - **해상도**: 1920x1080
+        - **파일 크기**: 182KB
+    - [x] SpecKit GitHub 리포지토리
+        - ✅ **생성 완료**: 2025-11-12 15:58
         - **파일명**: `speckit-repository.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
+        - **해상도**: 1920x1080
+        - **파일 크기**: 262KB
 
 ### 수동 캡처 필요 항목
 
@@ -191,18 +195,20 @@ v13.0_resources/part2/
 
 ---
 
-## 🤖 MCP 자동화 로그
+## 🤖 자동화 완료 로그
 
 ### 2025-11-12
 
-- ⏳ **디렉토리 생성 완료**: `v13.0_resources/part2/images/` 생성
-- ⏳ **스크린샷 생성 대기**: MCP Protocol 및 SpecKit Repository 스크린샷
-- 📋 **다음 단계**: Cline MCP automation 실행 또는 수동 캡처
+- ✅ **디렉토리 생성 완료**: `v13.0_resources/part2/images/` 생성
+- ✅ **스크린샷 생성 완료**: Playwright를 사용한 자동화 캡처
+    - MCP Protocol (https://modelcontextprotocol.io/) → `mcp-protocol-intro.png` (182KB, 1920x1080)
+    - SpecKit Repository (https://github.com/github/spec-kit) → `speckit-repository.png` (262KB, 1920x1080)
 
-**사용 예정 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)
-**예상 소요 시간**: 약 5-10분
-**생성 방법**: `part2-screenshot-generation-prompts.md` 참고 또는 `CAPTURE_INSTRUCTIONS.md` 참고
+**사용 도구**: Python + Playwright (Chromium)
+**총 소요 시간**: 약 5분 (설치 포함)
+**생성 방법**: `capture_screenshots.py` 스크립트 실행
 **저장 위치**: `v13.0_resources/part2/images/`
+**품질 검증**: PNG 형식, 1920x1080 해상도, 2MB 이하 확인 완료
 
 ---
 
@@ -210,7 +216,7 @@ v13.0_resources/part2/
 
 ### 캡처 우선순위
 
-1. ⏳ **대기중**: 공식 문서 페이지 (MCP 자동화 또는 수동 캡처)
+1. ✅ **완료**: 공식 문서 페이지 (Playwright 자동화)
 2. **1순위**: MCP 설치 및 설정 과정 (수동 캡처)
 3. **2순위**: SpecKit 워크플로우 실행 (수동 캡처)
 4. **3순위**: Copilot 워크북 예시 결과 (수동 캡처)

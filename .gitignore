@@ -58,3 +58,5 @@ Thumbs.db
 # Development Artifacts
 *_todo.md
 *-broken.md
+.venv/
+__pycache__/

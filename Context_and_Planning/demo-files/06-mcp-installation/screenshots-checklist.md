@@ -65,16 +65,20 @@
 
 ## Part 2 체크리스트 (추정 15개)
 
-### MCP 자동화 대기 (2개)
+### Playwright 자동화 완료 (2개) ✅
 
-- [ ] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
-    - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
+- [x] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
+    - ✅ **생성 완료**: 2025-11-12 15:58
     - **파일명**: `mcp-protocol-intro.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
-- [ ] [SpecKit 리포지토리](https://github.com/github/spec-kit)
-    - ⏳ **생성 대기**: 디렉토리 생성 완료, 스크린샷 생성 필요
+    - **해상도**: 1920x1080
+    - **파일 크기**: 182KB
+- [x] [SpecKit 리포지토리](https://github.com/github/spec-kit)
+    - ✅ **생성 완료**: 2025-11-12 15:58
     - **파일명**: `speckit-repository.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
+    - **해상도**: 1920x1080
+    - **파일 크기**: 262KB
 
 ### 수동 캡처 필요 - MCP 설치 (4개)
 
