@@ -20,7 +20,6 @@
 *.aux
 *.log
 *.out
-*.pdf
 *.dvi
 *.bbl
 *.blg
@@ -28,6 +27,10 @@
 *.fls
 *.synctex.gz
 *.toc
+# LaTeX build output directories
+docs/latex/out/*.pdf
+build/*.pdf
+latex-out/*.pdf
 
 # macOS
 .DS_Store
