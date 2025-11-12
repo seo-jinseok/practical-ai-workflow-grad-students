@@ -239,6 +239,51 @@ npx -y @modelcontextprotocol/inspector npx -y @srigi/mcp-webpage-screenshot
 2. Cline 패널에서 "MCP Servers" 탭 확인
 3. 서버 상태가 "Connected"인지 확인
 
+### 11. MCP 자동화 실패 시 수동 캡처 대체 (2025-11-12)
+
+**증상**:
+- Cline MCP `webpageScreenshot` 서버가 설정되지 않아 자동화 실패
+- MCP 설정 파일이 존재하지 않음
+- 스크린샷 생성 요청이 처리되지 않음
+
+**원인**:
+- `cline_mcp_settings.json` 파일이 생성되지 않음
+- webpageScreenshot 서버가 설치/설정되지 않음
+- Node.js 버전은 25.1.0으로 호환되나 MCP 서버 미설정
+
+**해결 방법 (수동 캡처)**:
+1. Chrome 브라우저에서 대상 URL 열기:
+   - https://modelcontextprotocol.io/ (MCP 프로토콜 소개)
+   - https://github.com/github/spec-kit (SpecKit 리포지토리)
+
+2. 개발자 도구로 해상도 설정:
+   - F12 키로 DevTools 열기
+   - Device Toolbar 활성화 (Ctrl+Shift+M / Cmd+Shift+M)
+   - 해상도 1920x1080으로 설정
+   - 페이지 스크롤하여 주요 콘텐츠 표시
+
+3. 스크린샷 캡처:
+   - 우클릭 → "Save as" 또는 "스크린샷 캡처"
+   - PNG 형식으로 저장
+   - 파일명: `mcp-protocol-intro.png`, `speckit-repository.png`
+   - 저장 경로: `v13.0_resources/part2/images/`
+
+4. 품질 검증:
+   - 파일 크기 2MB 이하 확인
+   - 해상도 1920x1080 확인
+   - 콘텐츠 선명도 및 완전성 확인
+
+**결과**:
+- 2025-11-12에 수동 캡처로 2개 PNG 파일 생성 완료
+- 파일 크기: mcp-protocol-intro.png (196KB), speckit-repository.png (256KB)
+- 해상도: 1920x1080, PNG 형식 확인
+- Git 커밋 및 문서 업데이트 완료
+
+**예방 조치**:
+- 향후 MCP 자동화 재시도 시 설정 파일 우선 확인
+- 수동 캡처를 백업 방법으로 유지
+- 문서에 자동화/수동 방법 모두 명시
+
 ---
 
 **참고**: "도구가 중요한 것이 아니라 원칙을 이해하는 것이 중요합니다. 설치에 시간이 너무 오래 걸리면 대안을 먼저 사용해보세요."
