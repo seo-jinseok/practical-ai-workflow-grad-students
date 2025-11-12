@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "webpageScreenshot": {
+      "command": "npx",
+      "args": ["-y", "@srigi/mcp-webpage-screenshot"],
+      "env": {}
+    },
+    "taskmaster-ai": {
+      "command": "npx",
+      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
+      "env": {}
+    },
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"],
+      "env": {}
+    }
+  },
+  "autoApprove": [
+    "webpageScreenshot-capture_screenshot",
+    "webpageScreenshot-capture_full_page_screenshot",
+    "taskmaster-ai-initialize_project",
+    "ddg-search-search"
+  ]
+}

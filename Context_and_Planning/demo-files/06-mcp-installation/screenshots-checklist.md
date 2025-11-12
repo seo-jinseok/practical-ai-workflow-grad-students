@@ -1,198 +1,155 @@
-# MCP 설치 시연 스크린샷 체크리스트
+# 전체 프로젝트 스크린샷 마스터 체크리스트
 
-**목적**: 시연 백업용 스크린샷 목록 및 캡처 가이드  
-**저장 위치**: `demo-files/backup/screenshots/mcp-installation/`  
+**목적**: v13.0 프로젝트 전체 스크린샷 생성 진행 상황 추적  
+**저장 위치**: `v13.0_resources/images/`  
 **해상도**: 1920x1080 이상  
 **형식**: PNG  
 
-## 📸 스크린샷 목록 (12개)
+## 개요
 
-### 필수 스크린샷 (8개)
+- **전체 스크린샷 수**: Part 1 (26개), Part 2 (추정 15개), Part 3 (추정 20개)
+- **MCP 자동화 가능**: 약 15개 (웹페이지 기반)
+- **수동 캡처 필요**: 약 46개 (데스크톱 애플리케이션, 터미널 등)
 
-#### Claude Desktop 관련 (3개)
-- [ ] `mcp-01-claude-desktop-main.png`
-  - 내용: Claude Desktop 메인 화면
-  - 강조: 새 대화 버튼
-  - 용도: Step 1 (Claude 확인)
+## Part 1 체크리스트 (26개)
 
-- [ ] `mcp-02-claude-new-chat.png`
-  - 내용: 새 대화 창
-  - 강조: 입력 필드
-  - 용도: Step 1 (대화 시작)
+### MCP 자동화 완료 (3개)
+- [x] GitHub Education Pack 메인 페이지
+- [x] Copilot Plans 비교 페이지
+- [x] VS Code 다운로드 페이지
 
-- [ ] `mcp-03-claude-mcp-active.png`
-  - 내용: MCP 서버 활성화 표시
-  - 강조: 설정 메뉴 또는 서버 목록
-  - 용도: Step 3 (설치 확인)
+### 수동 캡처 필요 - GitHub/Copilot (2개)
+- [ ] 학생 인증 폼 (민감정보 모자이크 필요)
+- [ ] Copilot Pro 활성화 상태
 
-#### 설정 파일 편집 (3개)
-- [ ] `mcp-04-config-file-location.png`
-  - 내용: Finder/탐색기에서 설정 파일 위치
-  - 강조: 파일 경로
-  - 용도: Step 2 (파일 찾기)
+### 수동 캡처 필요 - VS Code 설정 (3개)
+- [ ] VS Code Extensions 마켓플레이스
+- [ ] Copilot 확장 설치 완료
+- [ ] VS Code 폴더 구조 예시
 
-- [ ] `mcp-05-config-file-empty.png`
-  - 내용: 빈 설정 파일 또는 기본 설정
-  - 강조: JSON 구조
-  - 용도: Step 2 (편집 전)
+### 수동 캡처 필요 - Copilot 기능 (5개)
+- [ ] Inline Completion
+- [ ] Copilot Chat 패널
+- [ ] Model Picker
+- [ ] Markdown 구조 제안
+- [ ] Chat 컨텍스트 제공 예시
 
-- [ ] `mcp-06-config-file-edited.png`
-  - 내용: task-master-ai 추가된 설정 파일
-  - 강조: 추가된 부분
-  - 용도: Step 2 (편집 후)
+### 수동 캡처 필요 - 2025 신기능 (5개)
+- [ ] Agent Mode 표시
+- [ ] Custom Instructions 파일
+- [ ] AGENTS.md 파일
+- [ ] Vision 기능 (이미지 첨부)
+- [ ] Next Edit Suggestions
 
-#### 테스트 및 확인 (2개)
-- [ ] `mcp-07-test-prompt.png`
-  - 내용: "task-master-ai를 사용할 수 있나요?" 프롬프트
-  - 강조: 프롬프트 텍스트
-  - 용도: Step 3 (테스트)
+### 수동 캡처 필요 - MCP (2개)
+- [ ] MCP 개념 다이어그램 (직접 제작 또는 공식 다이어그램)
+- [ ] Claude Desktop MCP 설정
 
-- [ ] `mcp-08-test-response.png`
-  - 내용: AI의 긍정 응답
-  - 강조: "사용할 수 있습니다" 부분
-  - 용도: Step 3 (성공 확인)
+### 수동 캡처 필요 - 문제 해결 (3개)
+- [ ] Copilot 비활성화 상태
+- [ ] 로그인 프롬프트
+- [ ] 제안 없음 상태
 
-### 선택적 스크린샷 (4개)
+### 수동 캡처 필요 - 실습 예시 (3개)
+- [ ] 연구 컨텍스트 작성 중
+- [ ] Markdown 템플릿 사용
+- [ ] Chat으로 문헌 키워드 생성
 
-#### 사용 예시 (2개)
-- [ ] `mcp-09-project-init-prompt.png`
-  - 내용: 프로젝트 초기화 프롬프트
-  - 용도: Step 4 (사용 예시)
+## Part 2 체크리스트 (추정 15개)
 
-- [ ] `mcp-10-project-init-response.png`
-  - 내용: AI의 작업 제안 응답
-  - 용도: Step 4 (결과 확인)
+### MCP 자동화 완료 (2개)
+- [x] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
+  - ✅ **생성 완료**: 2025-11-12
+  - **파일명**: `mcp-protocol-intro.png`
+  - **저장 위치**: `v13.0_resources/part2/images/`
+- [x] [SpecKit 리포지토리](https://github.com/github/spec-kit)
+  - ✅ **생성 완료**: 2025-11-12
+  - **파일명**: `speckit-repository.png`
+  - **저장 위치**: `v13.0_resources/part2/images/`
 
-#### 트러블슈팅 (2개)
-- [ ] `mcp-11-error-not-found.png`
-  - 내용: "찾을 수 없습니다" 오류 메시지
-  - 용도: 트러블슈팅 설명
+### 수동 캡처 필요 - MCP 설치 (4개)
+- [ ] Node.js 설치 확인 터미널 화면
+- [ ] MCP 서버 설치 완료 화면
+- [ ] Claude Desktop MCP 연결 확인
+- [ ] JSON 설정 파일 내용
 
-- [ ] `mcp-12-json-syntax-error.png`
-  - 내용: VS Code에서 JSON 문법 오류 (빨간 밑줄)
-  - 용도: 트러블슈팅 설명
+### 수동 캡처 필요 - SpecKit 워크플로우 (3개)
+- [ ] SpecKit 설치 완료
+- [ ] 7단계 워크플로우 실행
+- [ ] 생성된 문서 예시 (Constitution, Spec, Plan)
 
-## 📸 캡처 가이드라인
+### 수동 캡처 필요 - Copilot 워크북 (2개)
+- [ ] Exercise 3 코드 분석 화면
+- [ ] Exercise 4 논문 작성 결과
 
-### 기술 요구사항
-- **해상도**: 최소 1920x1080 (Retina/HiDPI 권장)
-- **포맷**: PNG (투명 배경 불필요)
-- **파일 크기**: 최대 2MB (압축 필요 시 TinyPNG)
-- **명명 규칙**: `mcp-[번호]-[설명].png`
+### 수동 캡처 필요 - 문제 해결 (2개)
+- [ ] 일반적 오류 상황 및 해결 방법
+- [ ] 설정 파일 검증 과정
 
-### 시각적 가이드라인
-- **강조**: 빨간 박스 또는 화살표로 중요 부분 표시
-- **민감정보**: 개인정보, API 키 등 모자이크 처리
-- **일관성**: 동일한 테마 (Dark/Light) 사용
-- **가독성**: 텍스트가 선명하게 보이도록
+## Part 3 체크리스트 (추정 20개)
+- [ ] Elicit 메인 인터페이스 (MCP 자동화 가능)
+- [ ] Perplexity 메인 인터페이스 (MCP 자동화 가능)
+- [ ] NotebookLM 메인 인터페이스 (MCP 자동화 가능)
+- [ ] Consensus 메인 인터페이스 (MCP 자동화 가능)
+- [ ] Scite 메인 인터페이스 (MCP 자동화 가능)
+- [ ] ResearchRabbit, Connected Papers, Semantic Scholar (MCP 자동화 가능)
+- [ ] 기타 수동 캡처 항목 (Part 3 작업 시 추가)
 
-### 캡처 도구
-- **macOS**: Cmd+Shift+4 (영역 선택)
-- **Windows**: Snipping Tool, Greenshot
-- **편집**: Skitch, Annotate, Photoshop
+## 📊 전체 진행 상황
 
-### 저장 위치
-```
-demo-files/backup/screenshots/mcp-installation/
-├── mcp-01-claude-desktop-main.png
-├── mcp-02-claude-new-chat.png
-├── mcp-03-claude-mcp-active.png
-├── mcp-04-config-file-location.png
-├── mcp-05-config-file-empty.png
-├── mcp-06-config-file-edited.png
-├── mcp-07-test-prompt.png
-├── mcp-08-test-response.png
-├── mcp-09-project-init-prompt.png
-├── mcp-10-project-init-response.png
-├── mcp-11-error-not-found.png
-└── mcp-12-json-syntax-error.png
-```
+- **전체**: 5/61 완료 (8.2%)
+- **Part 1**: 3/26 완료 (11.5%)
+- **Part 2**: 2/15 완료 (13.3%)
+- **Part 3**: 0/20 완료 (0%)
 
-## ✅ 캡처 진행 상황
+## 🤖 MCP 자동화 현황
 
-- [ ] **필수 스크린샷** (8개)
-- [ ] **선택적 스크린샷** (4개)
-- [ ] **모든 이미지 품질 확인**
-- [ ] **파일명 일관성 확인**
-- [ ] **백업 슬라이드에 삽입 테스트**
+- **완료**: 5/15 (33.3%)
+- **대기**: 10/15 (66.7%)
 
-### 우선순위
-1. 🔴 **필수** (Step 1-3): 8개
-2. 🟡 **중요** (Step 4): 2개
-3. 🟢 **선택** (트러블슈팅): 2개
+### 완료 내역
+- ✅ Part 1: 3/3 (100%)
+- ✅ Part 2: 2/2 (100%)
+- ⏳ Part 3: 0/10 (0%)
 
-## 🎯 각 스크린샷 상세 가이드
+## 👤 수동 캡처 현황
 
-### mcp-01-claude-desktop-main.png
-- **화면**: Claude Desktop 메인 화면
-- **강조**: 새 대화 버튼 (빨간 박스)
-- **캡처 시기**: 시연 시작 전
-- **용도**: "Claude Desktop이 이미 설치되어 있다고 가정" 설명
+- **완료**: 0/46 (0%)
+- **대기**: 46/46 (100%)
 
-### mcp-02-claude-new-chat.png
-- **화면**: 새 대화 창 열림
-- **강조**: 입력 필드 (빨간 박스)
-- **캡처 시기**: 새 대화 클릭 후
-- **용도**: "새 대화를 시작하겠습니다" 설명
+## 다음 단계
 
-### mcp-03-claude-mcp-active.png
-- **화면**: MCP 서버가 활성화된 상태
-- **강조**: 설정 메뉴나 서버 목록 (화살표)
-- **캡처 시기**: MCP 설치 완료 후
-- **용도**: "MCP가 정상 작동하는 것을 확인" 설명
+### 우선순위 1: Part 3 MCP 자동화 (10개)
+- Elicit, Perplexity, NotebookLM 등 연구 도구 웹페이지
+- 예상 소요 시간: 약 10분
 
-### mcp-04-config-file-location.png
-- **화면**: Finder에서 설정 파일 위치
-- **강조**: 파일 경로 (빨간 박스)
-- **캡처 시기**: 설정 파일 찾기 시
-- **용도**: "설정 파일은 여기 있습니다" 설명
+### 우선순위 2: Part 2 수동 캡처 (13개)
+- MCP 설치 과정, SpecKit 워크플로우, Copilot 워크북
+- 예상 소요 시간: 약 30-40분
 
-### mcp-05-config-file-empty.png
-- **화면**: 빈 설정 파일 내용
-- **강조**: JSON 구조 (빨간 박스)
-- **캡처 시기**: 편집 전
-- **용도**: "여기에 설정을 추가하겠습니다" 설명
+### 우선순위 3: Part 1 수동 캡처 (23개)
+- VS Code 설정, Copilot 기능, 실습 예시
+- 예상 소요 시간: 약 60-90분
 
-### mcp-06-config-file-edited.png
-- **화면**: task-master-ai 추가된 설정
-- **강조**: 추가된 부분 (빨간 박스)
-- **캡처 시기**: 편집 완료 후
-- **용도**: "설정을 추가했습니다" 설명
+## 참고 문서
 
-### mcp-07-test-prompt.png
-- **화면**: 테스트 프롬프트 입력 화면
-- **강조**: "task-master-ai를 사용할 수 있나요?" (빨간 박스)
-- **캡처 시기**: 프롬프트 입력 후
-- **용도**: "MCP가 작동하는지 확인하겠습니다" 설명
+- `v13.0_resources/11_screenshot_descriptions.md`: Part 1 상세 가이드
+- `v13.0_resources/part2/12_screenshot_descriptions.md`: Part 2 상세 가이드
+- `v13.0_resources/part3/24-37_screenshot_descriptions.md`: Part 3 상세 가이드
+## 📅 완료 로그
 
-### mcp-08-test-response.png
-- **화면**: AI의 긍정적 응답
-- **강조**: "사용할 수 있습니다" 부분 (빨간 박스)
-- **캡처 시기**: AI 응답 후
-- **용도**: "성공적으로 설치되었습니다" 설명
+### 2025-11-10 (Part 1)
+- ✅ Part 1 MCP 자동화 완료 (3개)
+  - GitHub Education Pack, Copilot Plans, VS Code 다운로드
 
-## 🚨 긴급 상황 스크린샷
+### 2025-11-12 (Part 2)
+- ✅ Part 2 MCP 자동화 완료 (2개)
+  - MCP 프로토콜 소개, SpecKit 리포지토리
 
-### 설치 실패 시 (mcp-11-error-not-found.png)
-- **화면**: "task-master-ai를 찾을 수 없습니다" 오류
-- **용도**: "기술적 문제가 발생할 수 있습니다" 설명
-- **대안**: "설치 가이드를 자료로 제공합니다"
+## 참고 문서
 
-### JSON 문법 오류 시 (mcp-12-json-syntax-error.png)
-- **화면**: VS Code에서 빨간 밑줄 표시
-- **용도**: "JSON 문법에 주의해야 합니다" 설명
-- **대안**: "복사-붙여넣기를 권장합니다"
-
-## 📊 품질 관리 체크리스트
-
-### 각 파일 생성 후
-- [ ] 해상도 1920x1080 이상 확인
-- [ ] 텍스트가 선명하게 보임
-- [ ] 강조 부분이 명확히 표시됨
-- [ ] 파일명 규칙 준수
-- [ ] 용도에 맞는 내용
-
-### 전체 배치 후
-- [ ] 백업 슬라이드에 삽입 확인
-- [ ] 프로젝트 공유 시 포함 확인
-- [ ] 로컬 백업과 동기화 확인
+- `v13.0_resources/11_screenshot_descriptions.md`: Part 1 상세 가이드
+- `v13.0_resources/part2/12_screenshot_descriptions.md`: Part 2 상세 가이드
+- `v13.0_resources/part3/24-37_screenshot_descriptions.md`: Part 3 상세 가이드
+- `Context_and_Planning/demo-files/06-mcp-installation/part1-screenshot-generation-prompts.md`: Part 1 MCP 프롬프트
+- `Context_and_Planning/demo-files/06-mcp-installation/part2-screenshot-generation-prompts.md`: Part 2 MCP 프롬프트

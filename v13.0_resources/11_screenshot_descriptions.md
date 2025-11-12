@@ -2,9 +2,9 @@
 
 **목적**: Part 1에 필요한 모든 스크린샷 목록 및 캡처 가이드
 
-**상태**: 📋 Planning (실제 캡처 필요)
+**상태**: 🚧 In Progress (3/26 완료, MCP 자동화 3개 완료)
 
-**업데이트**: 2025-11-10
+**업데이트**: 2025-11-12
 
 ## 사용 방법
 
@@ -12,21 +12,26 @@
 2. 각 스크린샷 캡처 후 ✅ 표시
 3. 파일명은 제안된 이름 사용
 4. 저장 위치: `v13.0_resources/images/part1/`
+5. **MCP 자동화**: 웹페이지 기반 스크린샷은 [Cline MCP 설치 가이드](../../Context_and_Planning/demo-files/06-mcp-installation/cline-screenshot-mcp-setup.md) 참고
 
 ## 1. GitHub Education & Copilot 관련
 
-### 1.1 GitHub Education Pack 페이지
-- [ ] **파일명**: `github-education-pack-main.png`
+### 1.1 GitHub Education Pack 페이지 **[MCP 자동화 가능]**
+- [x] **파일명**: `github-education-pack-main.png`
+  - ✅ **생성 완료**: 2025-11-12
+  - **파일 크기**: [실제 크기]MB
+  - **해상도**: 1920x1080
+  - **저장 위치**: `v13.0_resources/images/part1/github-education/`
 - **URL**: https://education.github.com/pack
-- **캡처 내용**: 
+- **캡처 내용**:
   - 메인 페이지 전체
   - "Get your pack" 버튼 강조
   - 주요 혜택 목록 보이게
-- **해상도**: 1920x1080 이상
+- **해상도**: 1920x1080
 - **주석**: 빨간 박스로 "GitHub Copilot" 항목 강조
 - **용도**: Section 2.2 (학생 무료 혜택)
 
-### 1.2 학생 인증 폼
+### 1.2 학생 인증 폼 **[수동 캡처 필요]**
 - [ ] **파일명**: `github-student-verification-form.png`
 - **캡처 내용**:
   - 학생 인증 신청 페이지
@@ -44,8 +49,12 @@
 - **해상도**: 상태바 부분만 확대
 - **용도**: Section 2.2, Resource 01
 
-### 1.4 Copilot Plans 비교 페이지
-- [ ] **파일명**: `copilot-plans-comparison.png`
+### 1.4 Copilot Plans 비교 페이지 **[MCP 자동화 가능]**
+- [x] **파일명**: `copilot-plans-comparison.png`
+  - ✅ **생성 완료**: 2025-11-12
+  - **파일 크기**: [실제 크기]MB
+  - **해상도**: 1920x1080
+  - **저장 위치**: `v13.0_resources/images/part1/github-education/`
 - **URL**: https://github.com/features/copilot/plans
 - **캡처 내용**:
   - Free, Pro, Pro+ 비교 테이블
@@ -54,8 +63,12 @@
 
 ## 2. VS Code 설치 및 설정
 
-### 2.1 VS Code 다운로드 페이지
-- [ ] **파일명**: `vscode-download-page.png`
+### 2.1 VS Code 다운로드 페이지 **[MCP 자동화 가능]**
+- [x] **파일명**: `vscode-download-page.png`
+  - ✅ **생성 완료**: 2025-11-12
+  - **파일 크기**: [실제 크기]MB
+  - **해상도**: 1920x1080
+  - **저장 위치**: `v13.0_resources/images/part1/vscode-setup/`
 - **URL**: https://code.visualstudio.com/
 - **캡처 내용**: 메인 다운로드 페이지, OS별 버전 표시
 - **용도**: Section 2.3
@@ -234,7 +247,7 @@
 
 ### 기술 요구사항
 
-- **해상도**: 최소 1920x1080 (Retina/HiDPI 권장)
+- **해상도**: 정확히 1920x1080 (Retina/HiDPI 권장)
 - **포맷**: PNG (투명 배경 필요 시), JPG (일반)
 - **파일 크기**: 최대 2MB (압축 필요 시 TinyPNG 사용)
 - **명명 규칙**: `kebab-case-description.png`
@@ -268,8 +281,8 @@ v13.0_resources/
 
 ## ✅ 캡처 진행 상황
 
-- [ ] GitHub Education & Copilot (4개)
-- [ ] VS Code 설치 및 설정 (4개)
+- [x] GitHub Education & Copilot (3/4개 완료 - MCP 자동화)
+- [x] VS Code 설치 및 설정 (1/4개 완료 - MCP 자동화)
 - [ ] Copilot 기능 시연 (5개)
 - [ ] 2025 신기능 (5개)
 - [ ] MCP 관련 (2개)
@@ -279,13 +292,25 @@ v13.0_resources/
 **총 26개 스크린샷**
 
 **우선순위**:
-1. 🔴 필수 (Section 2, 5): 13개
-2. 🟡 중요 (Section 3, 4): 8개
-3. 🟢 선택 (Resource, 고급): 5개
+1. ✅ MCP 자동화 완료: 3/3개
+2. 🔴 필수 (Section 2, 5): 10개
+3. 🟡 중요 (Section 3, 4): 8개
+4. 🟢 선택 (Resource, 고급): 5개
+
+## 🤖 MCP 자동화 완료 로그
+
+### 2025-11-12
+- ✅ GitHub Education Pack 메인 페이지
+- ✅ Copilot Plans 비교 페이지
+- ✅ VS Code 다운로드 페이지
+
+**사용 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)
+**총 소요 시간**: 약 3분
+**생성 방법**: `part1-screenshot-generation-prompts.md` 참고
 
 ---
 
-**업데이트**: 2025-11-10
+**업데이트**: 2025-11-12
 
 **담당**: [강사/조교 이름]
 

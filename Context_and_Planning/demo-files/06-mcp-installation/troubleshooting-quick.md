@@ -103,7 +103,7 @@ npm config set registry https://registry.npmjs.org/
 ### 고급 확인
 - [ ] npx 전역 설치 확인: `npx --version`
 - [ ] npm 캐시 정리: `npm cache clean --force`
-- [ ] 노드 버전 확인: `node --version` (v14 이상 권장)
+- [ ] 노드 버전 확인: `node --version` (v20+ 권장)
 - [ ] 백그라운드 프로세스 중지 후 재시작
 
 ## 🚀 빠른 해결 순서
@@ -146,6 +146,98 @@ MCP 설치가 어려운 경우:
 2. npx 버전 업그레이드: `npm update -g npx`
 3. OS별 권한 설정 재검토
 4. 백업 도구로 대체 고려
+
+## 📸 Cline MCP 스크린샷 서버 문제 해결
+
+### 6. Chromium 다운로드 실패
+
+**증상**:
+- 스크린샷 캡처 시 "Chromium download failed" 오류
+- 네트워크 타임아웃 메시지
+
+**해결 방법**:
+```bash
+# Chromium 캐시 정리
+rm -rf ~/.cache/puppeteer
+rm -rf ~/Library/Caches/puppeteer
+
+# 수동 Chromium 설치
+npm install puppeteer --save
+npx puppeteer browsers install chromium
+
+# 또는 환경 변수 설정
+export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+export PUPPETEER_EXECUTABLE_PATH=$(which chromium)
+```
+
+### 7. 타임아웃 오류
+
+**증상**:
+- 스크린샷 생성이 오래 걸리다가 타임아웃
+- "Navigation timeout" 또는 "Page load timeout" 메시지
+
+**해결 방법**:
+```bash
+# 타임아웃 설정 증가 (프롬프트에서 지정)
+스크린샷을 생성할 때 타임아웃을 30초로 설정해주세요.
+
+# 네트워크 속도 확인
+ping -c 4 google.com
+
+# 캐시 정리
+npm cache clean --force
+```
+
+### 8. 경로 권한 문제
+
+**증상**:
+- 스크린샷 저장 시 "permission denied" 오류
+- 지정된 폴더에 파일이 생성되지 않음
+
+**해결 방법**:
+```bash
+# 저장 경로 권한 확인
+ls -la v13.0_resources/images/
+
+# 권한 부여
+chmod 755 v13.0_resources/images/
+chmod 755 v13.0_resources/images/part1/
+
+# 절대 경로 사용
+mkdir -p /absolute/path/to/v13.0_resources/images/
+```
+
+### 9. MCP Inspector 실행 및 도구 테스트
+
+**MCP Inspector 실행**:
+```bash
+# MCP Inspector 설치 및 실행
+npx -y @modelcontextprotocol/inspector npx -y @srigi/mcp-webpage-screenshot
+```
+
+**도구 테스트 방법**:
+1. MCP Inspector 브라우저에서 열기
+2. "Tools" 탭에서 `capture_screenshot` 확인
+3. 테스트 입력:
+   ```json
+   {
+     "url": "https://example.com",
+     "outputPath": "test-screenshot.png"
+   }
+   ```
+4. "Run Tool" 클릭하여 결과 확인
+
+### 10. Cline 설정 파일 경로 (macOS)
+
+**설정 파일 위치**:
+```
+~/Library/Application Support/Code/User/globalStorage/saoudrizwan.cline/cline_mcp_settings.json
+```
+
+**편집 후 적용**:
+1. Cline 확장 재시작 (VS Code 재시작)
+2. Cline 패널에서 "MCP Servers" 탭 확인
+3. 서버 상태가 "Connected"인지 확인
 
 ---
 

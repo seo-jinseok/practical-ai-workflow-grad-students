@@ -17,7 +17,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 
 ### 1. 연구 도구 생태계 (25_2025_research_tools_ecosystem.md)
 
-#### 2025년 AI 연구 도구들
+#### 2025년 AI 연구 도구들 **[MCP 자동화 가능]**
 - **중요한 스크린샷**:
   - Elicit: 논문 검색 및 요약 화면
   - Perplexity: 웹 검색 및 인용 기능
@@ -28,7 +28,16 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
   - 각 도구의 핵심 기능 화면 캡처
   - 도구 간 비교가 명확하도록 동일한 연구 주제에서 실행
   - 무료/유료 기능 차이점 명시
-- **저장 경로**: `v13.0_resources/part3/images/tools-ecosystem-*.png`
+- **배치 스크린샷 생성 가이드**:
+  ```
+  다음 연구 도구들의 스크린샷을 배치로 생성해주세요:
+  1. https://elicit.org - v13.0_resources/part3/images/tools-ecosystem/elicit-main.png
+  2. https://perplexity.ai - v13.0_resources/part3/images/tools-ecosystem/perplexity-main.png
+  3. https://notebooklm.google.com - v13.0_resources/part3/images/tools-ecosystem/notebooklm-main.png
+  4. https://consensus.app - v13.0_resources/part3/images/tools-ecosystem/consensus-main.png
+  5. https://scite.ai - v13.0_resources/part3/images/tools-ecosystem/scite-main.png
+  ```
+- **저장 경로**: `v13.0_resources/part3/images/tools-ecosystem/[도구명]-[기능].png`
 
 ### 2. 교육학 시나리오 (26_education_complete_scenario.md)
 
@@ -154,7 +163,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 ## 🎨 캡처 지침
 
 ### 기술적 요구사항
-- **해상도**: 최소 1920x1080 (현재 디스플레이 해상도 이상)
+- **해상도**: 정확히 1920x1080 (현재 디스플레이 해상도 이상)
 - **파일 형식**: PNG (스크린샷), JPG (이미지/그래프)
 - **용량**: 1MB 이하 유지 (압축 필요시)
 - **명명 규칙**: `[연관파일명]-[주제]-[단계].png`
@@ -245,7 +254,7 @@ v13.0_resources/part3/
   - [ ] 품질 평가 및 개선 과정
 
 ### 품질 기준
-- [ ] **해상도**: 1920x1080 이상
+- [ ] **해상도**: 정확히 1920x1080
 - [ ] **명명 규칙**: 일관된 파일명 체계 사용
 - [ ] **설명 추가**: 각 스크린샷에 상세 설명문 추가
 - [ ] **워크플로우 연결성**: 도구 간 연결 및 데이터 흐름 명확화
