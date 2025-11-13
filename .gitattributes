@@ -1,0 +1,16 @@
+# Git Attributes for Better Rename Detection
+# Ensures markdown files are properly tracked for renames and diffs
+
+*.md diff=markdown
+*.md merge=union
+
+# Enable rename detection for all text files
+* text=auto
+
+# Ensure binary files are not diffed
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.pdf binary
