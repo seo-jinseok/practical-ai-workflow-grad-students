@@ -197,14 +197,14 @@ npm cache clean --force
 **해결 방법**:
 ```bash
 # 저장 경로 권한 확인
-ls -la v13.0_resources/images/
+ls -la resources/images/
 
 # 권한 부여
-chmod 755 v13.0_resources/images/
-chmod 755 v13.0_resources/images/part1/
+chmod 755 resources/images/
+chmod 755 resources/images/part1/
 
 # 절대 경로 사용
-mkdir -p /absolute/path/to/v13.0_resources/images/
+mkdir -p /absolute/path/to/resources/images/
 ```
 
 ### 9. MCP Inspector 실행 및 도구 테스트
@@ -266,7 +266,7 @@ npx -y @modelcontextprotocol/inspector npx -y @srigi/mcp-webpage-screenshot
    - 우클릭 → "Save as" 또는 "스크린샷 캡처"
    - PNG 형식으로 저장
    - 파일명: `mcp-protocol-intro.png`, `speckit-repository.png`
-   - 저장 경로: `v13.0_resources/part2/images/`
+   - 저장 경로: `resources/part2/images/`
 
 4. 품질 검증:
    - 파일 크기 2MB 이하 확인

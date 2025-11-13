@@ -53,7 +53,7 @@
 
 ### 📖 Part 1: 기초 편
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
 
 Context Engineering과 Markdown을 활용한 연구 기본기 다지기. GitHub Copilot 2025 신기능 완전 반영.
 
@@ -65,7 +65,7 @@ Context Engineering과 Markdown을 활용한 연구 기본기 다지기. GitHub 
 
 ### 📖 Part 2: 고급 도구 편
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
 
 Copilot Workbook 4개 실습, MCP 서버 통합, SpecKit 워크플로우 마스터.
 
@@ -77,7 +77,7 @@ Copilot Workbook 4개 실습, MCP 서버 통합, SpecKit 워크플로우 마스�
 
 ### 📖 Part 3: 통합 워크플로우 편
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
 
 실제 연구 프로젝트에 AI 워크플로우 완전 통합. 5개 전공별 완전 시나리오 제공.
 
@@ -109,7 +109,7 @@ Copilot Workbook 4개 실습, MCP 서버 통합, SpecKit 워크플로우 마스�
 4. 21번으로 SpecKit 실습 프로젝트 수행
 ```
 
-> **참고**: 위에서 언급된 번호(13번, 21번 등)는 [v13.0_resources/README.md](./v13.0_resources/README.md) 마스터 인덱스의 리소스 항목을 가리킵니다.
+> **참고**: 위에서 언급된 번호(13번, 21번 등)는 [resources/README.md](./resources/README.md) 마스터 인덱스의 리소스 항목을 가리킵니다.
 
 ### 🏆 고급자용 경로 (2-3시간)
 
@@ -162,13 +162,13 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 15분: 37번 Part 3 트러블슈팅
 ```
 
-**더 상세한 학습 경로는 [리소스 마스터 인덱스](./v13.0_resources/README.md)를 참조하세요.**
+**더 상세한 학습 경로는 [리소스 마스터 인덱스](./resources/README.md)를 참조하세요.**
 
 ---
 
 ## 📁 주요 리소스
 
-### 📚 v13.0_resources/ 폴더
+### 📚 resources/ 폴더
 
 30+ 번호가 매겨진 리소스 파일과 지원 자료 (템플릿, 가이드, 예시, 이미지 등)를 포함한 중앙 허브.
 
@@ -178,10 +178,10 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
   - 01-11: Part 1 기초 (Copilot, VS Code, 템플릿)
   - 13-23: 공유 리소스 및 Part 2 (MCP, SpecKit, 계획)
   - 38-43: 확장 템플릿 (워크플로우, 프롬프트)
-- **Part별 지원 문서**: README_v13_Part1-3.md
+- **Part별 지원 문서**: README_Part1-3.md
 - **시각 자료**: part2/, part3/, images/ 폴더 (다이어그램, 스크린샷)
 
-**[v13.0_resources/README.md](./v13.0_resources/README.md)** - 마스터 인덱스에서 전체 리소스 목록 및 퀵스타트 경로 확인
+**[resources/README.md](./resources/README.md)** - 마스터 인덱스에서 전체 리소스 목록 및 퀵스타트 경로 확인
 
 ### 🎭 데모 파일 (Context_and_Planning/demo-files/)
 

@@ -249,7 +249,7 @@ sudo apt update && sudo apt install code
 
 설치와 기본 설정이 완료되면:
 
-1. **Part 1 메인 문서로 이동**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md`
+1. **Part 1 메인 문서로 이동**: `../Practical_AI_Workflow_for_Grad_Students_Part1.md`
 2. **연구 폴더 구조 생성**: `03_folder_structure_templates.md` 참고
 3. **연구 컨텍스트 작성**: `04_context_template_2025.md` 템플릿 사용
 4. **Markdown 실습**: `05_markdown_quick_reference.md` 참조

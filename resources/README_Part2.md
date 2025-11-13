@@ -3,7 +3,7 @@
 **Version**: v13.0 Part 2  
 **Date**: 2025-11-10  
 **Target**: 대학원생 (코딩 지식 불필요, Part 1 완료)  
-**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md)
+**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md)
 
 ---
 
@@ -15,13 +15,13 @@
 ### 📁 파일 구조
 
 ```
-v13.0_resources/
+resources/
 ├── Part 1 관련 파일들 (01-11)
 ├── 📚 Part 2 전용 파일들
 │   ├── 12_copilot_workbook_exercises.md    (GitHub Copilot 워크북 4개 Exercise)
 │   ├── 15_mcp_installation_guide.md        (MCP 설치 및 설정 가이드)
 │   ├── 19_speckit_installation_guide.md    (SpecKit 설치 가이드)
-│   └── README_v13_Part2.md                 (이 파일 - Part 2 리소스 인덱스)
+│   └── README_Part2.md                 (이 파일 - Part 2 리소스 인덱스)
 ```
 
 ### 🗂️ Part 2 리소스 파일 상세 설명
@@ -110,7 +110,7 @@ v13.0_resources/
 | `12_copilot_workbook_exercises.md` | Section 2 끝부분 | 워크북 실습深化 |
 | `15_mcp_installation_guide.md` | Section 4 끝부분 | MCP 실용 가이드 |
 | `19_speckit_installation_guide.md` | Section 5 끝부분 | SpecKit 상세 가이드 |
-| `README_v13_Part2.md` | 문서 전체, Section 7 | Part 2 전체 인덱스 |
+| `README_Part2.md` | 문서 전체, Section 7 | Part 2 전체 인덱스 |
 
 ### 🔄 상호 참조 구조
 
@@ -178,8 +178,8 @@ v13.0_resources/
 - 개선사항이나 새로운 도구 발견 시 공유
 
 ### 🌐 관련 링크
-- **Part 1 리소스**: `README_v13_Part1.md`
-- **메인 Part 2 문서**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md`
+- **Part 1 리소스**: `README_Part1.md`
+- **메인 Part 2 문서**: `../Practical_AI_Workflow_for_Grad_Students_Part2.md`
 - **최신 업데이트**: [GitHub 저장소](링크)
 
 ---
@@ -199,5 +199,5 @@ v13.0_resources/
 
 **Version**: v13.0 Part 2 Resources  
 **Last Updated**: 2025-11-10  
-**Next**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md)  
-**Previous**: [Part 1 Resources](README_v13_Part1.md)
+**Next**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md)  
+**Previous**: [Part 1 Resources](README_Part1.md)

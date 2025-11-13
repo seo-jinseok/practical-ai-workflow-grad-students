@@ -62,7 +62,7 @@ macOS에서 Cline MCP 설정 파일은 다음 경로에 위치합니다:
 프롬프트에서 저장 경로를 지정할 때는 다음과 같이 사용합니다:
 
 ```
-스크린샷을 v13.0_resources/images/ 폴더에 저장해주세요.
+스크린샷을 resources/images/ 폴더에 저장해주세요.
 ```
 
 ## 설치 후 확인 절차
@@ -83,7 +83,7 @@ example.com 웹사이트의 스크린샷을 캡처해주세요.
 
 ### 고급 옵션 테스트
 ```
-https://github.com의 전체 페이지를 캡처하고 v13.0_resources/images/github-fullpage.png로 저장해주세요.
+https://github.com의 전체 페이지를 캡처하고 resources/images/github-fullpage.png로 저장해주세요.
 ```
 
 ## 관련 문서

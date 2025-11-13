@@ -27,13 +27,13 @@
 **Prompt 1**:
 ```
 https://modelcontextprotocol.io/의 스크린샷을 1920x1080 해상도로 캡처하고 
-v13.0_resources/part2/images/mcp-protocol-intro.png로 저장해주세요.
+resources/part2/images/mcp-protocol-intro.png로 저장해주세요.
 ```
 
 **Prompt 2**:
 ```
 https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡처하고 
-v13.0_resources/part2/images/speckit-repository.png로 저장해주세요.
+resources/part2/images/speckit-repository.png로 저장해주세요.
 ```
 
 ### Method 2: Manual Capture (Fallback)
@@ -72,7 +72,7 @@ After capture, verify:
 Once validated:
 
 ```bash
-git add v13.0_resources/part2/images/*.png
+git add resources/part2/images/*.png
 git commit -m "Add Part 2 MCP screenshots: protocol intro and SpecKit repo"
 git push
 ```
@@ -81,7 +81,7 @@ git push
 
 After successful capture, update:
 
-1. `v13.0_resources/part2/12_screenshot_descriptions.md` - Mark checklist items as [x]
+1. `resources/part2/12_screenshot_descriptions.md` - Mark checklist items as [x]
 2. `Context_and_Planning/demo-files/06-mcp-installation/screenshots-checklist.md` - Update Part 2 section
 3. Add generation date and commit hash for traceability
 

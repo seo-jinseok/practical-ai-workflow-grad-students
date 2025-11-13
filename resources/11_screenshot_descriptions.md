@@ -11,7 +11,7 @@
 1. 이 파일을 체크리스트로 사용
 2. 각 스크린샷 캡처 후 ✅ 표시
 3. 파일명은 제안된 이름 사용
-4. 저장 위치: `v13.0_resources/images/part1/`
+4. 저장 위치: `resources/images/part1/`
 5. **MCP 자동화**: 웹페이지 기반 스크린샷은 [Cline MCP 설치 가이드](../../Context_and_Planning/demo-files/06-mcp-installation/cline-screenshot-mcp-setup.md) 참고
 
 ## 1. GitHub Education & Copilot 관련
@@ -21,7 +21,7 @@
   - ✅ **생성 완료**: 2025-11-12
   - **파일 크기**: [실제 크기]MB
   - **해상도**: 1920x1080
-  - **저장 위치**: `v13.0_resources/images/part1/github-education/`
+  - **저장 위치**: `resources/images/part1/github-education/`
 - **URL**: https://education.github.com/pack
 - **캡처 내용**:
   - 메인 페이지 전체
@@ -54,7 +54,7 @@
   - ⏳ **상태**: 파일 미생성, MCP 재실행 필요
   - **예상 크기**: ~200KB
   - **해상도**: 1920x1080
-  - **저장 위치**: `v13.0_resources/images/part1/github-education/`
+  - **저장 위치**: `resources/images/part1/github-education/`
 - **URL**: https://github.com/features/copilot/plans
 - **캡처 내용**:
   - Free, Pro, Pro+ 비교 테이블
@@ -68,7 +68,7 @@
   - ⏳ **상태**: 파일 미생성, MCP 재실행 필요
   - **예상 크기**: ~150KB
   - **해상도**: 1920x1080
-  - **저장 위치**: `v13.0_resources/images/part1/vscode-setup/`
+  - **저장 위치**: `resources/images/part1/vscode-setup/`
 - **URL**: https://code.visualstudio.com/
 - **캡처 내용**: 메인 다운로드 페이지, OS별 버전 표시
 - **용도**: Section 2.3
@@ -185,7 +185,7 @@
   - ✅ **생성 완료**: 2025-11-13
   - **파일 크기**: [실제 크기]MB
   - **해상도**: 1920x1080
-  - **저장 위치**: `v13.0_resources/images/part1/mcp/`
+  - **저장 위치**: `resources/images/part1/mcp/`
   - **캡처 내용**:
   - 직접 제작: Host App ↔ MCP Servers 구조
   - 또는 Anthropic 공식 다이어그램 사용 (출처 표기)
@@ -207,7 +207,7 @@
   - ✅ **생성 완료**: 2025-11-13
   - **파일 크기**: [실제 크기]MB
   - **해상도**: 1920x1080
-  - **저장 위치**: `v13.0_resources/images/part1/troubleshooting/`
+  - **저장 위치**: `resources/images/part1/troubleshooting/`
 - **캡처 내용**:
   - 상태바에 Copilot 아이콘 (X 표시 또는 회색)
   - "Copilot is not active" 메시지
@@ -277,7 +277,7 @@
 ### 저장 위치
 
 ```
-v13.0_resources/
+resources/
 └── images/
     └── part1/
         ├── github-education/

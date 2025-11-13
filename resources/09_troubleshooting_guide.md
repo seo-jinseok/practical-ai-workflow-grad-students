@@ -135,7 +135,7 @@
 
 ---
 
-![Copilot Inactive Status](v13.0_resources/images/part1/troubleshooting/copilot-inactive-status.png)
+![Copilot Inactive Status](resources/images/part1/troubleshooting/copilot-inactive-status.png)
 
 ## 🔧 VS Code 및 환경 설정 문제
 

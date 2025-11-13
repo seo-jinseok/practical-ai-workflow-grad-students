@@ -3,7 +3,7 @@
 **Version**: v13.0 Part 2  
 **Date**: 2025-11-10  
 **Target**: 대학원생 (코딩 지식 불필요, Part 1 완료)  
-**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Part 2 리소스 인덱스](README_v13_Part2.md)
+**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [Part 2 리소스 인덱스](README_Part2.md)
 
 ---
 
@@ -846,8 +846,8 @@ Copilot에게 요청할 질문들:
 4. **지속적 개선**: 사용 경험을 바탕으로 템플릿 업데이트
 
 ### 🔗 관련 자료
-- **메인 Part 2 문서**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md)
-- **Part 2 리소스 인덱스**: [README_v13_Part2.md](README_v13_Part2.md)
+- **메인 Part 2 문서**: [Practical_AI_Workflow_for_Grad_Students_Part2.md](../Practical_AI_Workflow_for_Grad_Students_Part2.md)
+- **Part 2 리소스 인덱스**: [README_Part2.md](README_Part2.md)
 - **GitHub Copilot 공식 문서**: [docs.github.com/copilot](https://docs.github.com/copilot)
 
 ### 💬 피드백 및 개선 제안
@@ -860,4 +860,4 @@ Copilot에게 요청할 질문들:
 
 **Version**: v13.0 Copilot Workbook  
 **Last Updated**: 2025-11-10  
-**Related**: [Part 2 Resources](README_v13_Part2.md) | [Main Part 2 Document](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md)
+**Related**: [Part 2 Resources](README_Part2.md) | [Main Part 2 Document](../Practical_AI_Workflow_for_Grad_Students_Part2.md)

@@ -210,7 +210,7 @@
 🎓 학생 혜택: GitHub Student Developer Pack 신청 필수!
 ```
 
-![VS Code + GitHub Copilot 통합 환경](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
+![VS Code + GitHub Copilot 통합 환경](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 ### 2.2 GitHub Copilot 학생 무료 혜택 (2025-11-10 업데이트)
 
@@ -253,21 +253,21 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. 사용 목적 간단히 작성 (2-3문장)
    - 예: "I will use GitHub Copilot for my graduate research in education technology and data analysis."
 
-![GitHub Education Pack 신청 페이지](v13.0_resources/images/part1/github-education/github-education-pack-main.png)
+![GitHub Education Pack 신청 페이지](resources/images/part1/github-education/github-education-pack-main.png)
 
 **Step 3: 승인 대기 및 활성화**
 - 승인 시간: 보통 **1-3일** (빠르면 몇 시간)
 - 이메일 확인: 승인 알림 받기
 - VS Code에서 Copilot 로그인 → 자동으로 Pro 활성화!
 
-![Copilot Pro 활성화 확인 - 상태바](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
+![Copilot Pro 활성화 확인 - 상태바](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 **문제 해결**:
 - 학교 이메일 인식 안 됨 → 학생증 + 재학증명서 업로드
 - 승인 거부 → 서류 재제출 (3개월 이내 발급 서류 사용)
 - Pro 미적용 → VS Code 재로그인 또는 https://github.com/settings/copilot 확인
 
-> 📚 **상세 가이드**: `v13.0_resources/01_github_copilot_student_guide.md` 참조
+> 📚 **상세 가이드**: `resources/01_github_copilot_student_guide.md` 참조
 
 ### 2.3 Visual Studio Code 설치 및 설정
 
@@ -283,7 +283,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 💾 용량: 약 300MB
 ```
 
-![Extensions Marketplace - GitHub Copilot 검색](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
+![Extensions Marketplace - GitHub Copilot 검색](resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **설치 시 권장 옵션** (Windows):
 - ✅ "Add to PATH" 체크
@@ -302,7 +302,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. "Install" 버튼 클릭
 6. VS Code 재시작 (필요 시)
 
-![Extensions Marketplace - GitHub Copilot 검색](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
+![Extensions Marketplace - GitHub Copilot 검색](resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **방법 2: Command Palette로 설치**
 1. `Ctrl+Shift+P` (Windows) / `Cmd+Shift+P` (Mac)
@@ -317,13 +317,13 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 4. "Authorize GitHub Copilot" 승인
 5. VS Code로 돌아오면 자동 활성화
 
-![Copilot 로그인 프롬프트](v13.0_resources/images/part1/vscode-setup/copilot-login-prompt.png)
+![Copilot 로그인 프롬프트](resources/images/part1/vscode-setup/copilot-login-prompt.png)
 
 **활성화 확인**:
 - 하단 상태바에 **Copilot 아이콘** (✓ 표시)
 - 마우스 오버 시 "GitHub Copilot is active" 또는 "GitHub Copilot Pro" 표시
 
-![Copilot 활성화 상태 - Pro 표시](v13.0_resources/images/part1/vscode-setup/copilot-pro-status-active.png)
+![Copilot 활성화 상태 - Pro 표시](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 #### 🎨 Step 4: 기본 설정 (선택사항)
 
@@ -386,7 +386,7 @@ my-research/
 └── README.md
 ```
 
-![VS Code Explorer에서 본 연구 폴더 구조](v13.0_resources/images/part1/practice/vscode-folder-structure-example.png)
+![VS Code Explorer에서 본 연구 폴더 구조](resources/images/part1/practice/vscode-folder-structure-example.png)
 
 #### 🚀 VS Code에서 폴더 열기
 
@@ -417,7 +417,7 @@ code .
 
 다음 단계 준비
 □ Section 3으로 이동 (연구 컨텍스트 작성)
-□ `v13.0_resources/02_vscode_setup_checklist.md` 추가 참조
+□ `resources/02_vscode_setup_checklist.md` 추가 참조
 ```
 
 > 💡 **팁**: VS Code 단축키가 낯설다면 `Ctrl+K Ctrl+S`로 Keyboard Shortcuts 참조
@@ -752,8 +752,8 @@ code .
 - 연구가 진행되면서 지속 업데이트!
 
 **관련 파일**:
-- 상세 가이드: `v13.0_resources/04_context_template_2025.md`
-- 전공별 예시: `v13.0_resources/10_discipline_examples.md`
+- 상세 가이드: `resources/04_context_template_2025.md`
+- 전공별 예시: `resources/10_discipline_examples.md`
 ```
 
 #### 🎓 전공별 컨텍스트 작성 예시
@@ -893,7 +893,7 @@ code .
 - 추론 속도: Jetson Nano에서 35 FPS
 ```
 
-> 📚 **더 많은 예시**: `v13.0_resources/10_discipline_examples.md` 참조  
+> 📚 **더 많은 예시**: `resources/10_discipline_examples.md` 참조  
 > (인문학, 사회과학, 자연과학 등)
 
 ### 3.4 AI가 컨텍스트를 이해하는 방법 (간략)
@@ -1027,7 +1027,7 @@ code .
 | 내용 3   | 내용 4   |
 ```
 
-![VS Code에서 Markdown 작성하는 모습](v13.0_resources/images/part1/copilot-features/copilot-inline-completion.png)
+![VS Code에서 Markdown 작성하는 모습](resources/images/part1/copilot-features/copilot-inline-completion.png)
 
 #### 🎯 연구 문서에 특화된 활용법
 
@@ -1143,7 +1143,7 @@ code .
 3. [참고문헌 3]
 ```
 
-![연구 계획서 템플릿을 복사해서 사용하는 모습](v13.0_resources/images/part1/practice/practice-context-writing.png)
+![연구 계획서 템플릿을 복사해서 사용하는 모습](resources/images/part1/practice/practice-context-writing.png)
 
 #### 📊 주간 진행 보고서 템플릿
 
@@ -1208,7 +1208,7 @@ code .
 2. 或는 우측 클릭 → "Open Preview"
 3. 실시간 미리보기와 편집 가능
 
-![VS Code의 Markdown 미리보기 기능](v13.0_resources/images/part1/practice/copilot-markdown-editing-preview.png)
+![VS Code의 Markdown 미리보기 기능](resources/images/part1/practice/copilot-markdown-editing-preview.png)
 
 **권장 확장 프로그램** (Part 2에서 상세히 다룰 예정):
 - **Markdown All in One**: 완성도 높은 Markdown 에디팅
@@ -1229,7 +1229,7 @@ code .
 - `Enter`: 다음 줄
 - `Shift+Enter`: 단락 내 줄바꿈
 
-> 📚 **상세 가이드**: `v13.0_resources/05_markdown_quick_reference.md` 참조
+> 📚 **상세 가이드**: `resources/05_markdown_quick_reference.md` 참조
 
 ---
 
@@ -1390,7 +1390,7 @@ AI (Agent mode):
 
 #### 🎨 Multi-model 선택 전략
 
-**모델별 특화 작업** (자세한 비교는 `v13.0_resources/06_copilot_models_comparison.md` 참조):
+**모델별 특화 작업** (자세한 비교는 `resources/06_copilot_models_comparison.md` 참조):
 
 ```
 🎯 작업별 최적 모델 선택 가이드
@@ -1421,7 +1421,7 @@ AI (Agent mode):
 2. 원하는 모델 선택
 3. Chat 지속 시에도 언제든지 변경 가능
 
-![VS Code의 모델 선택 드롭다운](v13.0_resources/images/part1/copilot-features/copilot-model-picker.png)
+![VS Code의 모델 선택 드롭다운](resources/images/part1/copilot-features/copilot-model-picker.png)
 
 #### 👁️ Vision capabilities 활용
 
@@ -1455,7 +1455,7 @@ AI: "분석한 결과입니다:
 - 개선 방안 도출"
 ```
 
-![이미지를 Copilot에 첨부하여 분석하는 모습](v13.0_resources/images/part1/2025-features/copilot-vision-image-attach.png)
+![이미지를 Copilot에 첨부하여 분석하는 모습](resources/images/part1/2025-features/copilot-vision-image-attach.png)
 
 #### 🔮 Next Edit Suggestions
 
@@ -1812,7 +1812,7 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 **작성 기간**: 4-6주 예상"
 ```
 
-> 📚 **상세 가이드**: `v13.0_resources/07_copilot_chat_examples.md` 참조
+> 📚 **상세 가이드**: `resources/07_copilot_chat_examples.md` 참조
 
 ### 5.3 AI 활용 시 주의사항
 
@@ -1865,7 +1865,7 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 
 ---
 
-![Copilot Chat Panel - AI 연구 대화 인터페이스](v13.0_resources/images/part1/copilot-features/copilot-chat-panel.png)
+![Copilot Chat Panel - AI 연구 대화 인터페이스](resources/images/part1/copilot-features/copilot-chat-panel.png)
 
 ---
 
@@ -1927,7 +1927,7 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 | **task-master-mcp** | 작업 관리 | 연구 일정 추적 |
 | **notion-mcp** | 노트 연동 | Notion 데이터베이스 활용 |
 
-![MCP Architecture Diagram](v13.0_resources/images/part1/mcp/mcp-architecture-diagram.png)
+![MCP Architecture Diagram](resources/images/part1/mcp/mcp-architecture-diagram.png)
 
 ### 6.4 왜 MCP를 알아야 하나?
 
@@ -1996,7 +1996,7 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 MCP는 AI가 여러분의 연구 도구들과 
 직접 대화할 수 있게 해주는 다리입니다! 🌉
 
-> 📚 **상세 가이드**: `v13.0_resources/08_mcp_introduction_slides.md` 참조
+> 📚 **상세 가이드**: `resources/08_mcp_introduction_slides.md` 참조
 
 ---
 
@@ -2127,14 +2127,14 @@ MCP는 AI가 여러분의 연구 도구들과
 
 ### 📚 학습 자료 확인
 
-#### v13.0_resources 파일들 확인
-- [ ] **`v13.0_resources/` 폴더 확인**
+#### resources 파일들 확인
+- [ ] **`resources/` 폴더 확인**
 - [ ] **기존 파일들 확인**
   - [ ] `01_github_copilot_student_guide.md` 열기
   - [ ] `06_copilot_models_comparison.md` 열기
   - [ ] `08_mcp_introduction_slides.md` 열기
   - [ ] `11_screenshot_descriptions.md` 열기
-  - [ ] `README_v13_Part1.md` 열기
+  - [ ] `README_Part1.md` 열기
 
 #### 추가 예정 파일들 확인 (Todo)
 - [ ] **미생성 파일들 확인**
@@ -2180,15 +2180,15 @@ MCP는 AI가 여러분의 연구 도구들과
   - [ ] VS Code 재시작
   - [ ] Copilot 확장 재설치
 
-![Copilot 비활성 상태](v13.0_resources/images/part1/troubleshooting/copilot-inactive-status.png)
+![Copilot 비활성 상태](resources/images/part1/troubleshooting/copilot-inactive-status.png)
 
 - [ ] **Markdown 문법 문제**
-  - [ ] `v13.0_resources/05_markdown_quick_reference.md` 참조
+  - [ ] `resources/05_markdown_quick_reference.md` 참조
   - [ ] VS Code IntelliSense 활용
   - [ ] 미리보기 기능으로 확인
 
 #### 추가 지원 resources
-- [ ] **Troubleshooting Guide 확인** (`v13.0_resources/09_troubleshooting_guide.md` - 2주 내 생성 예정)
+- [ ] **Troubleshooting Guide 확인** (`resources/09_troubleshooting_guide.md` - 2주 내 생성 예정)
 - [ ] **GitHub Community 활용**: https://github.community/
 - [ ] **VS Code 공식 문서**: https://code.visualstudio.com/docs
 

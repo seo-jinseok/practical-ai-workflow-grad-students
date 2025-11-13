@@ -36,7 +36,7 @@
 -->
 
 ## 📚 관련 문서
-- **본문**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md`
+- **본문**: `../Practical_AI_Workflow_for_Grad_Students_Part1.md`
 - **헌장**: `../.specify/memory/constitution.md`
 - **Copilot 지침**: `../.github/copilot-instructions.md`
 - **Agent 지침**: `../AGENTS.md`

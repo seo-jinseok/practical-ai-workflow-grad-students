@@ -4,7 +4,7 @@
 **Date**: 2025-11-13
 **Purpose**: Part 3 관련 스크린샷 필요한 경우의 가이드 문서
 **Status**: 🚧 In Progress (8/20 완료, 40%, MCP 1 + manual 7)
-**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md) | [Part 3 리소스 인덱스](README_v13_Part3.md)
+**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md) | [Part 3 리소스 인덱스](README_Part3.md)
 
 ---
 
@@ -24,7 +24,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - [x] **Elicit**: 논문 검색 및 요약 화면
   - ✅ **생성 완료**: 2025-11-13
   - **파일명**: `elicit-main.png`
-  - **저장 위치**: `v13.0_resources/part3/images/tools-ecosystem/`
+  - **저장 위치**: `resources/part3/images/tools-ecosystem/`
   - **파일 크기**: ~50KB
   - **해상도**: 1920x1080
   - **용도**: Section 4.1 (AI 연구 도구 생태계)
@@ -77,7 +77,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 
 **사용 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)  
 **생성 방법**: `part3-screenshot-generation-prompts.md` 배치 프롬프트 실행 필요
-**저장 위치**: `v13.0_resources/part3/images/tools-ecosystem/`  
+**저장 위치**: `resources/part3/images/tools-ecosystem/`  
 **해상도**: 1920x1080 PNG
 
 **다음 단계**: 배치 프롬프트로 나머지 7개 도구 스크린샷 생성 (~7분 예상)
@@ -87,12 +87,12 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - [x] **연구 생애주기 다이어그램**
   - ✅ **생성 완료**: 2025-11-13
   - **파일명**: `research-8step-lifecycle.png`
-  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **저장 위치**: `resources/part3/images/`
   - **용도**: Section 1 (연구 프로세스 개요)
 - [x] **AI 도구 생태계 다이어그램**
   - ✅ **생성 완료**: 2025-11-13
   - **파일명**: `ai-tools-ecosystem.png`
-  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **저장 위치**: `resources/part3/images/`
   - **용도**: Section 1.3 (도구 통합)
 - [x] **전공별 폴더 구조** (5개):
   - [x] 교육학: `education-project-folders.png` - Section 2
@@ -101,7 +101,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
   - [x] 사회학: `sociology-project-folders.png` - Section 5
   - [x] 음악학: `music-project-folders.png` - Section 6
   - ✅ **생성 완료**: 2025-11-13
-  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **저장 위치**: `resources/part3/images/`
   - **방법**: Mockup/diagram generation
 
 ### 2. 교육학 시나리오 (26_education_complete_scenario.md)
@@ -117,7 +117,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
   - 시간 순서대로 워크플로우 진행 상황 캡처
   - 각 단계의 핵심 결과물과 문서 구조 강조
   - 전/후 비교로 개선점 명시
-- **저장 경로**: `v13.0_resources/part3/images/education-scenario-*.png`
+- **저장 경로**: `resources/part3/images/education-scenario-*.png`
 
 ### 3-6. 전공별 시나리오 (27-29번: 향후 추가 예정)
 
@@ -143,7 +143,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 새로운 AI 도구들을 활용한 최신 방법론 강조
   - 2025년 도구의 장점과 기존 방법 대비 개선점 명시
-- **저장 경로**: `v13.0_resources/part3/images/literature-review-*.png`
+- **저장 경로**: `resources/part3/images/literature-review-*.png`
 
 ### 8. 주간/월간 루틴 (31_weekly_monthly_routines.md)
 
@@ -156,7 +156,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 실제 연구자의 화면을 기반으로 한 현실적인 시나리오
   - 루틴의 지속 가능성과 효과성 강조
-- **저장 경로**: `v13.0_resources/part3/images/research-routines-*.png`
+- **저장 경로**: `resources/part3/images/research-routines-*.png`
 
 ### 9. 진행 상황 추적 (32_progress_tracking_methods.md)
 
@@ -169,7 +169,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 프로젝트 관리 도구와 AI 도구의 통합 강조
   - 데이터 시각화와 추적 지표 명확히 표시
-- **저장 경로**: `v13.0_resources/part3/images/progress-tracking-*.png`
+- **저장 경로**: `resources/part3/images/progress-tracking-*.png`
 
 ### 10. 문제 해결 프로토콜 (33_problem_solving_protocol.md)
 
@@ -182,7 +182,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 문제 해결의 체계적 접근법 시각화
   - AI 도구들의 역할과 한계 명확히 표시
-- **저장 경로**: `v13.0_resources/part3/images/problem-solving-*.png`
+- **저장 경로**: `resources/part3/images/problem-solving-*.png`
 
 ### 11. 품질 관리 체크리스트 (34_quality_checklist.md)
 
@@ -195,7 +195,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 품질 관리의 객관성과 체계성 강조
   - 자동화와 수동 검토의 균형점 명시
-- **저장 경로**: `v13.0_resources/part3/images/quality-checklist-*.png`
+- **저장 경로**: `resources/part3/images/quality-checklist-*.png`
 
 ### 12. 폴더 구조 예시 (35_folder_structure_examples.md)
 
@@ -208,7 +208,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 실제 연구 프로젝트의 폴더 구조 예시
   - 파일命名 규칙과 관리 시스템 명확히 표시
-- **저장 경로**: `v13.0_resources/part3/images/folder-structures-*.png`
+- **저장 경로**: `resources/part3/images/folder-structures-*.png`
 
 ### 13. 성공 사례 (36_success_stories.md)
 
@@ -221,7 +221,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
   - 실제 수치와 데이터를 기반으로 한 객관적 결과
   - 다양한 전공과 연구 분야 커버
-- **저장 경로**: `v13.0_resources/part3/images/success-stories-*.png`
+- **저장 경로**: `resources/part3/images/success-stories-*.png`
 
 ---
 
@@ -258,7 +258,7 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 ## 📁 저장 구조
 
 ```
-v13.0_resources/part3/
+resources/part3/
 ├── images/                                  # 스크린샷 저장 디렉토리
 │   ├── research-8step-lifecycle.png         # ✅ 생성 완료
 │   ├── ai-tools-ecosystem.png               # ✅ 생성 완료
@@ -352,8 +352,8 @@ v13.0_resources/part3/
 
 ### 내부 링크
 - **Part 3 스크린샷 생성 프롬프트**: [../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md](../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md)
-- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
-- **Part 3 리소스 인덱스**: [README_v13_Part3.md](README_v13_Part3.md)
+- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
+- **Part 3 리소스 인덱스**: [README_Part3.md](README_Part3.md)
 - **Part 1 스크린샷 가이드**: [../11_screenshot_descriptions.md](../11_screenshot_descriptions.md)
 - **Part 2 스크린샷 가이드**: [../part2/12_screenshot_descriptions.md](../part2/12_screenshot_descriptions.md)
 

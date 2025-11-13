@@ -3,7 +3,7 @@
 **Version**: v13.0 Part 2  
 **Date**: 2025-11-10  
 **Target**: 대학원생 (코딩 지식 중급, Part 1-2 완료)  
-**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Part 2 리소스 인덱스](README_v13_Part2.md) | [MCP 가이드](15_mcp_installation_guide.md)
+**Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [Part 2 리소스 인덱스](README_Part2.md) | [MCP 가이드](15_mcp_installation_guide.md)
 
 ---
 
@@ -1308,4 +1308,4 @@ SpecKit 가이드가 연구 생산성에 실질적으로 도움이 되었는지 
 
 **Version**: v13.0 SpecKit Installation Guide  
 **Last Updated**: 2025-11-10  
-**Related**: [Part 2 Resources](README_v13_Part2.md) | [Main Part 2 Document](../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [MCP Guide](15_mcp_installation_guide.md) | [Copilot Workbook](12_copilot_workbook_exercises.md)
+**Related**: [Part 2 Resources](README_Part2.md) | [Main Part 2 Document](../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [MCP Guide](15_mcp_installation_guide.md) | [Copilot Workbook](12_copilot_workbook_exercises.md)

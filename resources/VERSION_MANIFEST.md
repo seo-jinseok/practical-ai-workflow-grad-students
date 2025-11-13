@@ -12,9 +12,9 @@
 
 | 파일명 | 버전 | 날짜 | 라인 수 | 섹션 수 | 상태 |
 |--------|------|------|---------|---------|------|
-| Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md | v13.0 Part 1 | 2025-11-10 | 2,224 | 7 | ✅ Complete |
-| Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md | v13.0 Part 2 | 2025-11-10 | 1,845 | 7 | ✅ Complete |
-| Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md | v13.0 Part 3 | 2025-11-10 | 2,635+ | 11 | ✅ Complete |
+| Practical_AI_Workflow_for_Grad_Students_Part1.md | v13.0 Part 1 | 2025-11-10 | 2,224 | 7 | ✅ Complete |
+| Practical_AI_Workflow_for_Grad_Students_Part2.md | v13.0 Part 2 | 2025-11-10 | 1,845 | 7 | ✅ Complete |
+| Practical_AI_Workflow_for_Grad_Students_Part3.md | v13.0 Part 3 | 2025-11-10 | 2,635+ | 11 | ✅ Complete |
 
 **총 라인 수**: ~6,700 lines  
 **총 섹션 수**: 25 sections
@@ -85,10 +85,10 @@
 
 | 파일명 | 버전 | 날짜 | 상태 |
 |--------|------|------|------|
-| v13.0_resources/README.md | v13.0 Master Index | 2025-11-11 | ✅ |
-| v13.0_resources/README_v13_Part1.md | v13.0 Part 1 Resources | 2025-11-10 | ✅ |
-| v13.0_resources/README_v13_Part2.md | v13.0 Part 2 Resources | 2025-11-10 | ✅ |
-| v13.0_resources/README_v13_Part3.md | v13.0 Part 3 Resources | 2025-11-10 | ✅ |
+| resources/README.md | v13.0 Master Index | 2025-11-11 | ✅ |
+| resources/README_Part1.md | v13.0 Part 1 Resources | 2025-11-10 | ✅ |
+| resources/README_Part2.md | v13.0 Part 2 Resources | 2025-11-10 | ✅ |
+| resources/README_Part3.md | v13.0 Part 3 Resources | 2025-11-10 | ✅ |
 
 ---
 

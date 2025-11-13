@@ -66,7 +66,7 @@
 ## 📁 디렉토리 구조
 
 ```
-v13.0_resources/part3/
+resources/part3/
 ├── 24_integrated_workflow_overview.md
 ├── 25_2025_research_tools_ecosystem.md
 ├── 26_education_complete_scenario.md
@@ -122,9 +122,9 @@ v13.0_resources/part3/
 
 ## 🔗 관련 문서
 
-- **본문**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md`
-- **Part 1 리소스**: `./README_v13_Part1.md`
-- **Part 2 리소스**: `./README_v13_Part2.md`
+- **본문**: `../Practical_AI_Workflow_for_Grad_Students_Part3.md`
+- **Part 1 리소스**: `./README_Part1.md`
+- **Part 2 리소스**: `./README_Part2.md`
 - **헌장**: `../.specify/memory/constitution.md`
 - **Copilot 지침**: `../.github/copilot-instructions.md`
 - **Agent 지침**: `../AGENTS.md`

@@ -189,7 +189,7 @@ graph TD
 
     A1[folder 구조 생성] --> A
 
-![연구 전체 라이프사이클 8단계](v13.0_resources/part3/images/research-8step-lifecycle.png)
+![연구 전체 라이프사이클 8단계](resources/part3/images/research-8step-lifecycle.png)
     A2[연구컨텍스트.md] --> A
     A3[AI 초기 대화] --> A
     
@@ -379,9 +379,9 @@ graph TD
 | Notion | 데이터베이스 | Flexibility | Free/Pro | 해당없음 |
 | task-master-mcp | 프로젝트관리 | AI 매니저 | Free | 해당없음 |
 
-![Elicit 메인 인터페이스](v13.0_resources/part3/images/tools-ecosystem/elicit-main.png)
+![Elicit 메인 인터페이스](resources/part3/images/tools-ecosystem/elicit-main.png)
 
-![2025 AI 연구 도구 생태계 개요](v13.0_resources/part3/images/ai-tools-ecosystem.png)
+![2025 AI 연구 도구 생태계 개요](resources/part3/images/ai-tools-ecosystem.png)
 
 ### 1.4 Part 3 학습 목표 및 사용 가이드
 
@@ -563,7 +563,7 @@ touch 99_기타/{회의록.md,주간보고서.md}
 
 **✅ 교육학 연구 프로젝트 폴더 구조 완성 예시:**
 
-![교육학 연구 프로젝트 폴더 구조](v13.0_resources/part3/images/education-project-folders.png)
+![교육학 연구 프로젝트 폴더 구조](resources/part3/images/education-project-folders.png)
 
 #### 연구컨텍스트.md 작성
 
@@ -4030,7 +4030,7 @@ AI가 실무적이고 구체적인 2주 집중 전략을 제시해주시기 바�
 
 **✅ 생명과학 연구 프로젝트 폴더 구조 예시:**
 
-![생명과학 연구 프로젝트 폴더 구조](v13.0_resources/part3/images/life-science-project-folders.png)
+![생명과학 연구 프로젝트 폴더 구조](resources/part3/images/life-science-project-folders.png)
 
 **주요 특징:**
 - `01_실험설계/`: 실험 프로토콜, 시약 목록, 장비 사용 계획
@@ -4042,7 +4042,7 @@ AI가 실무적이고 구체적인 2주 집중 전략을 제시해주시기 바�
 
 **✅ 컴퓨터공학 시스템 개발 프로젝트 폴더 구조 예시:**
 
-![컴퓨터공학 시스템 개발 프로젝트 폴더 구조](v13.0_resources/part3/images/cs-project-folders.png)
+![컴퓨터공학 시스템 개발 프로젝트 폴더 구조](resources/part3/images/cs-project-folders.png)
 
 **주요 특징:**
 - `00_컨텍스트/`: 시스템 요구사항, 아키텍처 설계, 기술 스택 결정
@@ -4054,7 +4054,7 @@ AI가 실무적이고 구체적인 2주 집중 전략을 제시해주시기 바�
 
 **✅ 사회학 질적 연구 프로젝트 폴더 구조 예시:**
 
-![사회학 질적 연구 프로젝트 폴더 구조](v13.0_resources/part3/images/sociology-project-folders.png)
+![사회학 질적 연구 프로젝트 폴더 구조](resources/part3/images/sociology-project-folders.png)
 
 **주요 특징:**
 - `01_현장조사/`: 인터뷰 전사본, 현장 노트, 녹음 파일
@@ -4066,7 +4066,7 @@ AI가 실무적이고 구체적인 2주 집중 전략을 제시해주시기 바�
 
 **✅ 음악학 연구 프로젝트 폴더 구조 예시:**
 
-![음악학 연구 프로젝트 폴더 구조](v13.0_resources/part3/images/music-project-folders.png)
+![음악학 연구 프로젝트 폴더 구조](resources/part3/images/music-project-folders.png)
 
 **주요 특징:**
 - `01_악보분석/`: 악보 스캔, 분석 노트, 이론적 해석
@@ -4078,11 +4078,11 @@ AI가 실무적이고 구체적인 2주 집중 전략을 제시해주시기 바�
 
 **✅ 8단계 연구 라이프사이클:**
 
-![연구 프로젝트 8단계 라이프사이클](v13.0_resources/part3/images/research-8step-lifecycle.png)
+![연구 프로젝트 8단계 라이프사이클](resources/part3/images/research-8step-lifecycle.png)
 
 **✅ 2025년 AI 연구 도구 생태계:**
 
-![AI 연구 도구 생태계](v13.0_resources/part3/images/ai-tools-ecosystem.png)
+![AI 연구 도구 생태계](resources/part3/images/ai-tools-ecosystem.png)
 
 ---
 

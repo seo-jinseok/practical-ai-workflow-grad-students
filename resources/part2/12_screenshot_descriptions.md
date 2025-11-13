@@ -6,7 +6,7 @@
 **Status Detail**: 실제 웹사이트 2개 + Mockup 4개 생성 완료
 **Purpose**: Part 2 관련 스크린샷 필요한 경우의 가이드 문서
 **Related**:
-    [Part 2 메인 문서](../../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Copilot 워크북](12_copilot_workbook_exercises.md)
+    [Part 2 메인 문서](../../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [Copilot 워크북](12_copilot_workbook_exercises.md)
 
 ---
 
@@ -39,7 +39,7 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
     - 해상도: 1920x1080 이상
     - 주석 추가: 주요 부분을 화살표나 텍스트로 강조
-    - 저장 경로: `v13.0_resources/part2/images/exercise3-*.png`
+    - 저장 경로: `resources/part2/images/exercise3-*.png`
 
 #### Exercise 4: 논문 작성 지원
 
@@ -63,7 +63,7 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
     - 해상도: 1920x1080 이상
     - 오류가 있는 경우와 정상 작동하는 경우 모두 캡처
     - 단계별로 스크린샷 캡처 (설치 전 → 설치 중 → 설치 후)
-- **저장 경로**: `v13.0_resources/part2/images/mcp-installation-*.png`
+- **저장 경로**: `resources/part2/images/mcp-installation-*.png`
 
 #### MCP 테스트 및 문제 해결
 
@@ -86,7 +86,7 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 - **캡처 지침**:
     - 워크플로우의 각 단계를 순차적으로 캡처
     - 생성된 문서의 예시를 함께 캡처
-- **저장 경로**: `v13.0_resources/part2/images/speckit-*.png`
+- **저장 경로**: `resources/part2/images/speckit-*.png`
 
 ---
 
@@ -123,7 +123,7 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 ## 📁 저장 구조
 
 ```text
-v13.0_resources/part2/
+resources/part2/
 ├── images/                          # 스크린샷 저장 디렉토리
 │   ├── mcp-protocol-intro.png       # ✅ 1920x1080 PNG (수동 캡처 검증 완료)
 │   ├── speckit-repository.png       # ✅ 1920x1080 PNG (수동 캡처 검증 완료)
@@ -145,14 +145,14 @@ v13.0_resources/part2/
         - ✅ **검증 완료**: 2025-11-13 13:39
         - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처(1920x1080) → 2025-11-13 Python Playwright 재시도(`bootstrap_check_in Permission denied`) 후 자산 검증
         - **파일명**: `mcp-protocol-intro.png`
-        - **저장 위치**: `v13.0_resources/part2/images/`
+        - **저장 위치**: `resources/part2/images/`
         - **해상도**: 1920x1080
         - **파일 크기**: 182KB (`ls -lh` 기준)
     - [x] SpecKit GitHub 리포지토리
         - ✅ **검증 완료**: 2025-11-13 13:39
         - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처(1920x1080) → 2025-11-13 Python Playwright 재시도(WebKit `Abort trap: 6`) 후 자산 검증
         - **파일명**: `speckit-repository.png`
-        - **저장 위치**: `v13.0_resources/part2/images/`
+        - **저장 위치**: `resources/part2/images/`
         - **해상도**: 1920x1080
         - **파일 크기**: 263KB (`ls -lh` 기준)
 
@@ -160,25 +160,25 @@ v13.0_resources/part2/
     - ✅ **검증 완료**: 2025-11-13
     - **캡처 방법**: Manual diagram/mockup generation
     - **파일명**: `speckit-7step-workflow.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **용도**: Section 5 (SpecKit 워크플로우 설명)
 - [x] **MCP 터미널 설치 화면**
     - ✅ **검증 완료**: 2025-11-13
     - **캡처 방법**: Terminal screenshot manual capture
     - **파일명**: `mcp-terminal-install.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **용도**: Section 4 (MCP 설치 가이드)
 - [x] **Copilot Workbook 연습 화면**
     - ✅ **검증 완료**: 2025-11-13
     - **캡처 방법**: VS Code screenshot manual capture
     - **파일명**: `copilot-workbook-exercise.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **용도**: Section 2 (Copilot 워크북)
 - [x] **Claude Desktop 설정 파일**
     - ✅ **검증 완료**: 2025-11-13
     - **캡처 방법**: Settings file screenshot manual capture
     - **파일명**: `claude-desktop-config.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **용도**: Section 4 (MCP 설정)
 
 ### 수동 캡처 필요 항목
@@ -207,8 +207,8 @@ v13.0_resources/part2/
 
 ### 내부 링크
 
-- **Part 2 메인 문서**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md](../../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md)
-- **Part 2 리소스 인덱스**: [README_v13_Part2.md](README_v13_Part2.md)
+- **Part 2 메인 문서**: [Practical_AI_Workflow_for_Grad_Students_Part2.md](../../Practical_AI_Workflow_for_Grad_Students_Part2.md)
+- **Part 2 리소스 인덱스**: [README_Part2.md](README_Part2.md)
 - **Copilot 워크북**: [12_copilot_workbook_exercises.md](12_copilot_workbook_exercises.md)
 - **MCP 설치 가이드**: [15_mcp_installation_guide.md](15_mcp_installation_guide.md)
 - **Cline MCP 스크린샷 설치 가이드**: [../../Context_and_Planning/demo-files/06-mcp-installation/cline-screenshot-mcp-setup.md](../../Context_and_Planning/demo-files/06-mcp-installation/cline-screenshot-mcp-setup.md)

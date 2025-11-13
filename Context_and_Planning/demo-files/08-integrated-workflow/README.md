@@ -68,8 +68,8 @@
 ## 🔗 Connection to Part 3
 
 - **Reference**: Part 3 Section 2 (교육학 석사논문 완전 시나리오)
-- **Resource**: `v13.0_resources/part3/26_education_complete_scenario.md`
-- **Folder**: `v13.0_resources/part3/35_folder_structure_examples.md`
+- **Resource**: `resources/part3/26_education_complete_scenario.md`
+- **Folder**: `resources/part3/35_folder_structure_examples.md`
 
 ## 🔄 Integration Points
 

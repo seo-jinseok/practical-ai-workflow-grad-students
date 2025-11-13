@@ -198,9 +198,9 @@ Task Master 최종 상태:
 4. **지속적 학습**: 새로운 AI 도구 및 기능 지속적 업데이트
 
 ## 관련 리소스
-- **Part 1**: `README_v13_Part1.md` - 기초 도구 설정
-- **Part 2**: `README_v13_Part2.md` - 고급 도구 활용
-- **Part 3**: `README_v13_Part3.md` - 통합 워크플로우
+- **Part 1**: `README_Part1.md` - 기초 도구 설정
+- **Part 2**: `README_Part2.md` - 고급 도구 활용
+- **Part 3**: `README_Part3.md` - 통합 워크플로우
 - **공유 리소스**: `16_task_master_mcp_tutorial.md`, `20_speckit_research_workflow.md`
 - **데모 파일**: `../Context_and_Planning/demo-files/08-integrated-workflow/`
 

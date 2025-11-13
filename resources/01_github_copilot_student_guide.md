@@ -210,7 +210,7 @@ Copilot Pro 외에도 다음 도구들이 무료로 제공됩니다:
 
 **업데이트**: 2025-11-10 기준
 
-**다음 단계**: v13.0_resources/02_vscode_setup_checklist.md
+**다음 단계**: resources/02_vscode_setup_checklist.md
 
 ---
 

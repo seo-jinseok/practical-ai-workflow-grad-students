@@ -37,15 +37,15 @@ Generative AI Special Lecture - Graduate School/
 ├── README.md                                    # 🎯 시작 가이드 (여기부터 읽으세요!)
 ├── LICENSE                                      # 📄 라이선스 정보
 │
-├── Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md  # 📚 기초 편
-├── Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md  # 📚 고급 도구 편
-├── Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md  # 📚 통합 워크플로우 편
+├── Practical_AI_Workflow_for_Grad_Students_Part1.md  # 📚 기초 편
+├── Practical_AI_Workflow_for_Grad_Students_Part2.md  # 📚 고급 도구 편
+├── Practical_AI_Workflow_for_Grad_Students_Part3.md  # 📚 통합 워크플로우 편
 │
-├── v13.0_resources/                            # 📦 30+ 리소스 파일
+├── resources/                            # 📦 30+ 리소스 파일
 │   ├── README.md                               # 🗂️ 리소스 마스터 인덱스
-│   ├── README_v13_Part1.md                     # Part 1 가이드
-│   ├── README_v13_Part2.md                     # Part 2 가이드
-│   ├── README_v13_Part3.md                     # Part 3 가이드
+│   ├── README_Part1.md                     # Part 1 가이드
+│   ├── README_Part2.md                     # Part 2 가이드
+│   ├── README_Part3.md                     # Part 3 가이드
 │   │
 │   ├── 번호가 매겨진 리소스 (30+개)
 │   │   ├── 01-11: Part 1 기초 자료
@@ -96,7 +96,7 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 1: 기초 편 (2-3시간)
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
 
 - Context Engineering 기본
 - Markdown으로 연구 문서 작성
@@ -105,7 +105,7 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 2: 고급 도구 편 (3-4시간)
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
 
 - Copilot Workbook 4개 실습
 - MCP 서버 설치 및 통합
@@ -114,16 +114,16 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 3: 통합 워크플로우 편 (4-6시간)
 
-**[Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
 
 - 8단계 연구 라이프사이클
 - 5개 전공별 완전 시나리오 (교육학, 생명과학, 컴퓨터공학, 사회학, 음악학)
 - 2025년 AI 연구 도구 생태계
 - 실제 프로젝트 적용
 
-### 📦 v13.0_resources/ (43개 리소스 파일)
+### 📦 resources/ (43개 리소스 파일)
 
-**[v13.0_resources/README.md](./v13.0_resources/README.md)** - 마스터 인덱스 (필수 참조!)
+**[resources/README.md](./resources/README.md)** - 마스터 인덱스 (필수 참조!)
 
 **구성**:
 
@@ -180,7 +180,7 @@ Generative AI Special Lecture - Graduate School/
    - Markdown 문서화
    - GitHub Copilot 기본
    ↓
-3. v13.0_resources/README.md 마스터 인덱스 확인 (10분)
+3. resources/README.md 마스터 인덱스 확인 (10분)
    ↓
 4. 자신의 전공에 맞는 예시 참조 (1시간)
    - 인문/사회: 40번 전공별 템플릿
@@ -312,11 +312,11 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 | 디렉토리 | 파일 종류 | 개수 | 설명 |
 |---------|---------|------|------|
 | **루트** | 핵심 문서 | 5개 | README, LICENSE, Part 1-3 |
-| **v13.0_resources/** | 번호가 매겨진 리소스 | 31개 | 템플릿, 가이드, 예시 (01-43번 범위) |
-| **v13.0_resources/** | 지원 문서 | 4개 | README, README_v13_Part1-3 |
-| **v13.0_resources/part2/** | 이미지/다이어그램 | 16개 | Part 2 시각 자료 |
-| **v13.0_resources/part3/** | 이미지/다이어그램 | 27개 | Part 3 시각 자료 |
-| **v13.0_resources/images/** | 공통 이미지 | 34개 | 공유 시각 자료 |
+| **resources/** | 번호가 매겨진 리소스 | 31개 | 템플릿, 가이드, 예시 (01-43번 범위) |
+| **resources/** | 지원 문서 | 4개 | README, README_Part1-3 |
+| **resources/part2/** | 이미지/다이어그램 | 16개 | Part 2 시각 자료 |
+| **resources/part3/** | 이미지/다이어그램 | 27개 | Part 3 시각 자료 |
+| **resources/images/** | 공통 이미지 | 34개 | 공유 시각 자료 |
 | **demo-files/** | 데모 시나리오 | 8개 폴더 | 실습용 데모 + 가이드 |
 | **총계** | - | **110개 이상** | 전체 파일 |
 
@@ -361,13 +361,13 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 선택한 경로에 따라 Part 문서를 순서대로 학습하세요.
 
-- **Part 1**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)
-- **Part 2**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)
-- **Part 3**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
+- **Part 1**: [Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)
+- **Part 2**: [Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)
+- **Part 3**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
 
 ### 5단계: 리소스 활용
 
-학습 중 필요한 템플릿, 가이드, 예시는 **[v13.0_resources/README.md](./v13.0_resources/README.md)** 마스터 인덱스에서 찾으세요.
+학습 중 필요한 템플릿, 가이드, 예시는 **[resources/README.md](./resources/README.md)** 마스터 인덱스에서 찾으세요.
 
 ### 6단계: 데모 실습
 
@@ -389,7 +389,7 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 - **검색 활용**: VS Code에서 `Ctrl+P` (또는 `Cmd+P`)로 파일 이름 검색
 - **키워드 검색**: `Ctrl+Shift+F` (또는 `Cmd+Shift+F`)로 전체 텍스트 검색
-- **마스터 인덱스**: 리소스 찾을 때는 v13.0_resources/README.md 먼저 확인
+- **마스터 인덱스**: 리소스 찾을 때는 resources/README.md 먼저 확인
 - **링크 활용**: README.md의 모든 링크는 클릭 가능합니다 (VS Code 프리뷰 모드)
 
 ### 🚀 학습 가속화
@@ -450,7 +450,7 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 ### 자주 사용하는 파일
 
 - **[README.md](./README.md)** - 전체 개요
-- **[v13.0_resources/README.md](./v13.0_resources/README.md)** - 리소스 마스터 인덱스
+- **[resources/README.md](./resources/README.md)** - 리소스 마스터 인덱스
 - **[Context_and_Planning/demo-files/DEMO-QUICK-START.md](./Context_and_Planning/demo-files/DEMO-QUICK-START.md)** - 데모 가이드
 - **[Part 1](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)** - 기초 편
 - **[Part 2](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)** - 고급 도구 편

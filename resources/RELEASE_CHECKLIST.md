@@ -103,15 +103,15 @@
   - [ ] 6개 퀵스타트 경로 검증
   - [ ] 학습 경로 가이드 완성
   
-- [ ] **README_v13_Part1.md**: 완성
+- [ ] **README_Part1.md**: 완성
   - [ ] Part 1 관련 파일 11개 모두列出
   - [ ] 학습 순서 가이드 완성
   
-- [ ] **README_v13_Part2.md**: 완성
+- [ ] **README_Part2.md**: 완성
   - [ ] Part 2 관련 파일 모두列出
   - [ ] 실습 준비 체크리스트 완성
   
-- [ ] **README_v13_Part3.md**: 완성
+- [ ] **README_Part3.md**: 완성
   - [ ] Part 3 관련 파일 모두列出
   - [ ] 시나리오별 학습 가이드 완성
   
@@ -411,7 +411,7 @@
   
 - [ ] **교차 참조 일관성**
   - [ ] "Part 1 Section 3" 형식 일관
-  - [ ] "v13.0_resources/part2/12_..." 정확한 경로
+  - [ ] "resources/part2/12_..." 정확한 경로
   
 - [ ] **파일명 규칙 일관**
   - [ ] v13.0_ 패턴 유지
@@ -617,9 +617,9 @@
   - [ ] 데모 파일 개선
   
 - [ ] **학생 질문 FAQ 추가**
-  - [ ]v13.0_resources/09_troubleshooting_guide.md 업데이트
-  - [ ]v13.0_resources/23_part2_troubleshooting.md 업데이트
-  - [ ]v13.0_resources/37_part3_troubleshooting.md 업데이트
+  - [ ]resources/09_troubleshooting_guide.md 업데이트
+  - [ ]resources/23_part2_troubleshooting.md 업데이트
+  - [ ]resources/37_part3_troubleshooting.md 업데이트
   
 - [ ] **v13.1 계획 수립** (필요시)
   - [ ] 발견된 Issues 해결 계획
@@ -643,7 +643,7 @@
   - [ ] 구식 스크린샷 교체
   
 - [ ] **성공 사례 수집**
-  - [ ]v13.0_resources/36_success_stories.md 업데이트
+  - [ ]resources/36_success_stories.md 업데이트
   - [ ] 학생 연구 성과 사례 수집
   - [ ] 워크플로우 개선 사례 공유
 

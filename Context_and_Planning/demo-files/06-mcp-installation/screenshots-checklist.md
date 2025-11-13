@@ -3,7 +3,7 @@
 **MCP 자동화 + 수동 캡처 통합 관리**
 
 **목적**: v13.0 프로젝트 전체 스크린샷 생성 진행 상황 추적  
-**저장 위치**: `v13.0_resources/part{n}/images/` (Part별 하위 폴더)  
+**저장 위치**: `resources/part{n}/images/` (Part별 하위 폴더)  
 **해상도**: 1920x1080 이상  
 **형식**: PNG
 
@@ -91,13 +91,13 @@
 - [x] MCP 프로토콜 소개 페이지 (`mcp-protocol-intro.png`)
     - ✅ **검증 완료**: 2025-11-13 13:39
     - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **해상도**: 1920x1080
     - **파일 크기**: 182KB
 - [x] SpecKit 리포지토리 (`speckit-repository.png`)
     - ✅ **검증 완료**: 2025-11-13 13:39
     - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처
-    - **저장 위치**: `v13.0_resources/part2/images/`
+    - **저장 위치**: `resources/part2/images/`
     - **해상도**: 1920x1080
     - **파일 크기**: 263KB
 
@@ -126,7 +126,7 @@
 
 - [x] Elicit 메인 인터페이스 (`elicit-main.png`)
     - ✅ **검증 완료**: 2025-11-13
-    - **저장 위치**: `v13.0_resources/part3/images/tools-ecosystem/`
+    - **저장 위치**: `resources/part3/images/tools-ecosystem/`
 - [ ] Perplexity 메인 인터페이스 (`perplexity-main.png`)
     - ⏳ **MCP 배치 대기**: part3-screenshot-generation-prompts.md
 - [ ] NotebookLM 메인 인터페이스 (`notebooklm-main.png`)
@@ -295,9 +295,9 @@
 
 ### 스크린샷 요구사항
 
-- `v13.0_resources/11_screenshot_descriptions.md`: Part 1 상세 가이드
-- `v13.0_resources/part2/12_screenshot_descriptions.md`: Part 2 상세 가이드
-- `v13.0_resources/part3/24-37_screenshot_descriptions.md`: Part 3 상세 가이드
+- `resources/11_screenshot_descriptions.md`: Part 1 상세 가이드
+- `resources/part2/12_screenshot_descriptions.md`: Part 2 상세 가이드
+- `resources/part3/24-37_screenshot_descriptions.md`: Part 3 상세 가이드
 
 ## 🎉 MCP 자동화 현황 요약
 

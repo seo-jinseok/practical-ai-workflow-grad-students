@@ -4,9 +4,9 @@ Part 1의 3개 웹페이지 스크린샷을 생성하기 위한 Cline MCP 프롬
 
 ## 대상 URL 목록
 
-- https://education.github.com/pack → `github-education-pack-main.png` (v13.0_resources/images/part1/github-education/)
-- https://github.com/features/copilot/plans → `copilot-plans-comparison.png` (v13.0_resources/images/part1/github-education/)
-- https://code.visualstudio.com/ → `vscode-download-page.png` (v13.0_resources/images/part1/vscode-setup/)
+- https://education.github.com/pack → `github-education-pack-main.png` (resources/images/part1/github-education/)
+- https://github.com/features/copilot/plans → `copilot-plans-comparison.png` (resources/images/part1/github-education/)
+- https://code.visualstudio.com/ → `vscode-download-page.png` (resources/images/part1/vscode-setup/)
 
 ## 사전 확인 체크리스트
 
@@ -18,7 +18,7 @@ Part 1의 3개 웹페이지 스크린샷을 생성하기 위한 Cline MCP 프롬
 ### 디렉토리 생성 명령
 
 ```bash
-mkdir -p v13.0_resources/images/part1/github-education v13.0_resources/images/part1/vscode-setup
+mkdir -p resources/images/part1/github-education resources/images/part1/vscode-setup
 ```
 
 ## 스크린샷 생성 프롬프트 (3개)
@@ -30,28 +30,28 @@ mkdir -p v13.0_resources/images/part1/github-education v13.0_resources/images/pa
 
 ### 프롬프트 1: GitHub Education Pack
 ```
-https://education.github.com/pack의 스크린샷을 1920x1080 해상도로 캡처하고 v13.0_resources/images/part1/github-education/github-education-pack-main.png로 저장해주세요.
+https://education.github.com/pack의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/part1/github-education/github-education-pack-main.png로 저장해주세요.
 ```
 - URL: https://education.github.com/pack
-- 저장 경로: `v13.0_resources/images/part1/github-education/github-education-pack-main.png`
+- 저장 경로: `resources/images/part1/github-education/github-education-pack-main.png`
 - 캡처 옵션: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., 'Get your pack' button) are centered and fully visible within the viewport. 페이지 로드 완료 대기 후 쿠키 배너 수락
 - 예상 파일 크기: 1-2MB
 
 ### 프롬프트 2: Copilot Plans 비교
 ```
-https://github.com/features/copilot/plans의 스크린샷을 1920x1080 해상도로 캡처하고 v13.0_resources/images/part1/github-education/copilot-plans-comparison.png로 저장해주세요.
+https://github.com/features/copilot/plans의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/part1/github-education/copilot-plans-comparison.png로 저장해주세요.
 ```
 - URL: https://github.com/features/copilot/plans
-- 저장 경로: `v13.0_resources/images/part1/github-education/copilot-plans-comparison.png`
+- 저장 경로: `resources/images/part1/github-education/copilot-plans-comparison.png`
 - 캡처 옵션: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., comparison table) are centered and fully visible within the viewport. 페이지 로드 완료 대기 후 쿠키 배너 수락
 - 예상 파일 크기: 1-2MB
 
 ### 프롬프트 3: VS Code 다운로드 페이지
 ```
-https://code.visualstudio.com/의 스크린샷을 1920x1080 해상도로 캡처하고 v13.0_resources/images/part1/vscode-setup/vscode-download-page.png로 저장해주세요.
+https://code.visualstudio.com/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/part1/vscode-setup/vscode-download-page.png로 저장해주세요.
 ```
 - URL: https://code.visualstudio.com/
-- 저장 경로: `v13.0_resources/images/part1/vscode-setup/vscode-download-page.png`
+- 저장 경로: `resources/images/part1/vscode-setup/vscode-download-page.png`
 - 캡처 옵션: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., download section) are centered and fully visible within the viewport. 페이지 로드 완료 대기 후 메인 다운로드 페이지, OS별 버전 표시 부분 포함
 - 예상 파일 크기: 1-2MB
 
@@ -76,16 +76,16 @@ https://code.visualstudio.com/의 스크린샷을 1920x1080 해상도로 캡처�
 - **타임아웃 오류**: 네트워크 연결 확인, URL 유효성 확인
 - **저장 경로 오류**: 디렉토리가 존재하는지 확인, 절대 경로 대신 상대 경로 사용
 - **Chromium 오류**: `pnpm playwright install --with-deps --only-shell chromium` 실행
-- **권한 오류**: macOS에서 `chmod -R 755 v13.0_resources/images/` 실행
+- **권한 오류**: macOS에서 `chmod -R 755 resources/images/` 실행
 
 ## 배치 실행 옵션 (선택사항)
 
 단일 프롬프트로 3개 스크린샷을 한 번에 생성하는 방법:
 ```
 다음 3개 URL의 스크린샷을 1920x1080 해상도로 캡처해주세요:
-1. https://education.github.com/pack → v13.0_resources/images/part1/github-education/github-education-pack-main.png
-2. https://github.com/features/copilot/plans → v13.0_resources/images/part1/github-education/copilot-plans-comparison.png
-3. https://code.visualstudio.com/ → v13.0_resources/images/part1/vscode-setup/vscode-download-page.png
+1. https://education.github.com/pack → resources/images/part1/github-education/github-education-pack-main.png
+2. https://github.com/features/copilot/plans → resources/images/part1/github-education/copilot-plans-comparison.png
+3. https://code.visualstudio.com/ → resources/images/part1/vscode-setup/vscode-download-page.png
 ```
 
 ## 참고 문서

@@ -280,9 +280,9 @@ Constitution → Spec → Plan → Tasks → Execute → Verify → Learn
 ## 🔗 섹션 6: 링크 모음
 
 ### 📖 메인 강의 자료
-- **Part 1**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part1.md`
-- **Part 2**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md`  
-- **Part 3**: `../Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md`
+- **Part 1**: `../Practical_AI_Workflow_for_Grad_Students_Part1.md`
+- **Part 2**: `../Practical_AI_Workflow_for_Grad_Students_Part2.md`  
+- **Part 3**: `../Practical_AI_Workflow_for_Grad_Students_Part3.md`
 
 ### 🎯 실습 및 데모
 - **데모 파일**: `../Context_and_Planning/demo-files/README.md`
@@ -329,11 +329,11 @@ Constitution → Spec → Plan → Tasks → Execute → Verify → Learn
 
 ### 📁 디렉토리 구조 규칙
 ```
-v13.0_resources/
+resources/
 ├── README.md (이 파일 - 마스터 인덱스)
-├── README_v13_Part1.md
-├── README_v13_Part2.md  
-├── README_v13_Part3.md
+├── README_Part1.md
+├── README_Part2.md  
+├── README_Part3.md
 ├── xx_파일명.md (공유 리소스)
 ├── part2/
 │   └── xx_파일명.md

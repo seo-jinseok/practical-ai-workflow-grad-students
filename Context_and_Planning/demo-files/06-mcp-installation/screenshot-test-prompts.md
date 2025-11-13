@@ -2,12 +2,12 @@
 
 ## 저장 경로 구조
 
-**기본 저장 경로**: `v13.0_resources/images/`
+**기본 저장 경로**: `resources/images/`
 
 ### Part별 폴더 구조
-- **Part 1**: `v13.0_resources/images/part1/[category]/[filename].png`
-- **Part 2**: `v13.0_resources/images/part2/[filename].png`
-- **Part 3**: `v13.0_resources/images/part3/tools-ecosystem/[filename].png`
+- **Part 1**: `resources/images/part1/[category]/[filename].png`
+- **Part 2**: `resources/images/part2/[filename].png`
+- **Part 3**: `resources/images/part3/tools-ecosystem/[filename].png`
 
 ### 파일명 규칙
 - `[도구명]-[기능]-[단계].png`
@@ -25,76 +25,76 @@
   ```
   example.com 웹사이트의 스크린샷을 캡처해주세요.
   ```
-  - 예상 결과: v13.0_resources/images/example-com-screenshot.png
-  - 저장 경로: v13.0_resources/images/
+  - 예상 결과: resources/images/example-com-screenshot.png
+  - 저장 경로: resources/images/
 
 - [ ] **특정 URL 캡처**
   ```
   https://github.com/microsoft/vscode의 스크린샷을 찍어주세요.
   ```
-  - 예상 결과: v13.0_resources/images/github-vscode-screenshot.png
-  - 저장 경로: v13.0_resources/images/
+  - 예상 결과: resources/images/github-vscode-screenshot.png
+  - 저장 경로: resources/images/
 
 ## 프로젝트 특화 테스트
 
 ### Part 1 대상
 - [ ] **GitHub Copilot 기능**
   ```
-  https://github.com/features/copilot의 전체 페이지를 캡처하고 v13.0_resources/images/part1/copilot-features/fullpage.png로 저장해주세요.
+  https://github.com/features/copilot의 전체 페이지를 캡처하고 resources/images/part1/copilot-features/fullpage.png로 저장해주세요.
   ```
   - 예상 결과: 전체 페이지 스크린샷
-  - 저장 경로: v13.0_resources/images/part1/copilot-features/
+  - 저장 경로: resources/images/part1/copilot-features/
 
 - [ ] **VS Code 설정**
   ```
-  https://code.visualstudio.com/docs의 뷰포트 스크린샷을 v13.0_resources/images/part1/vscode-setup/viewport.png로 저장해주세요.
+  https://code.visualstudio.com/docs의 뷰포트 스크린샷을 resources/images/part1/vscode-setup/viewport.png로 저장해주세요.
   ```
   - 예상 결과: 현재 보이는 영역만 캡처
-  - 저장 경로: v13.0_resources/images/part1/vscode-setup/
+  - 저장 경로: resources/images/part1/vscode-setup/
 
 ### Part 2 대상
 - [ ] **GitHub Projects**
   ```
-  https://github.com/features/issues의 스크린샷을 v13.0_resources/images/part2/github-projects/issues.png로 저장해주세요.
+  https://github.com/features/issues의 스크린샷을 resources/images/part2/github-projects/issues.png로 저장해주세요.
   ```
   - 예상 결과: 표준 스크린샷
-  - 저장 경로: v13.0_resources/images/part2/
+  - 저장 경로: resources/images/part2/
 
 ### Part 3 대상
 - [ ] **연구 도구**
   ```
-  https://scholar.google.com의 스크린샷을 v13.0_resources/images/part3/tools-ecosystem/google-scholar.png로 저장해주세요.
+  https://scholar.google.com의 스크린샷을 resources/images/part3/tools-ecosystem/google-scholar.png로 저장해주세요.
   ```
   - 예상 결과: 스크린샷
-  - 저장 경로: v13.0_resources/images/part3/tools-ecosystem/
+  - 저장 경로: resources/images/part3/tools-ecosystem/
 
 ## 고급 옵션
 
 - [ ] **풀페이지 캡처**
   ```
-  https://www.npmjs.com의 전체 페이지를 캡처하고 v13.0_resources/images/advanced/fullpage.png로 저장해주세요.
+  https://www.npmjs.com의 전체 페이지를 캡처하고 resources/images/advanced/fullpage.png로 저장해주세요.
   ```
   - 예상 결과: 스크롤된 전체 페이지
-  - 저장 경로: v13.0_resources/images/advanced/
+  - 저장 경로: resources/images/advanced/
 
 - [ ] **뷰포트 지정**
   ```
-  https://reactjs.org의 1920x1080 뷰포트 스크린샷을 v13.0_resources/images/advanced/viewport-1920.png로 저장해주세요.
+  https://reactjs.org의 1920x1080 뷰포트 스크린샷을 resources/images/advanced/viewport-1920.png로 저장해주세요.
   ```
   - 예상 결과: 지정된 해상도의 스크린샷
-  - 저장 경로: v13.0_resources/images/advanced/
+  - 저장 경로: resources/images/advanced/
 
 ## 배치 생성 예시
 
 - [ ] **다중 URL 배치**
   ```
   다음 URL들의 스크린샷을 배치로 생성해주세요:
-  1. https://github.com - v13.0_resources/images/batch/github.png
-  2. https://stackoverflow.com - v13.0_resources/images/batch/stackoverflow.png
-  3. https://developer.mozilla.org - v13.0_resources/images/batch/mdn.png
+  1. https://github.com - resources/images/batch/github.png
+  2. https://stackoverflow.com - resources/images/batch/stackoverflow.png
+  3. https://developer.mozilla.org - resources/images/batch/mdn.png
   ```
   - 예상 결과: 3개의 스크린샷 파일
-  - 저장 경로: v13.0_resources/images/batch/
+  - 저장 경로: resources/images/batch/
 
 ## 오류 재시도 지침
 
