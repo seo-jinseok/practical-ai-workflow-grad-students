@@ -23,9 +23,9 @@
 ### 📊 저장소 규모
 
 - **핵심 문서**: 5개 (README, LICENSE, Part 1-3)
-- **리소스 파일**: 43개 (템플릿, 가이드, 예시, 비교표)
-- **데모 시나리오**: 8개 폴더 + 다수의 실습 파일
-- **총 파일 개수**: 약 100개 이상
+- **리소스 파일**: 30+ 번호가 매겨진 리소스 + 지원 자료 (템플릿, 가이드, 이미지 등)
+- **데모 시나리오**: 8개 폴더 + DEMO-QUICK-START.md
+- **총 파일 개수**: 약 110개 이상
 - **학습 시간**: 17-25시간 (4-6주 과정)
 
 ---
@@ -41,61 +41,24 @@ Generative AI Special Lecture - Graduate School/
 ├── Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md  # 📚 고급 도구 편
 ├── Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md  # 📚 통합 워크플로우 편
 │
-├── v13.0_resources/                            # 📦 43개 리소스 파일
+├── v13.0_resources/                            # 📦 30+ 리소스 파일
 │   ├── README.md                               # 🗂️ 리소스 마스터 인덱스
+│   ├── README_v13_Part1.md                     # Part 1 가이드
+│   ├── README_v13_Part2.md                     # Part 2 가이드
+│   ├── README_v13_Part3.md                     # Part 3 가이드
 │   │
-│   ├── 01-11: Part 1 기초 자료
-│   │   ├── 01-copilot-2025-feature-guide.md
-│   │   ├── 02-copilot-model-comparison-2025.md
-│   │   ├── 03-vscode-setup-guide.md
-│   │   ├── 04-markdown-research-template.md
-│   │   ├── 05-context-engineering-examples.md
-│   │   ├── 06-copilot-chat-prompts.md
-│   │   ├── 07-inline-chat-workflow.md
-│   │   ├── 08-markdown-to-latex-guide.md
-│   │   ├── 09-part1-troubleshooting.md
-│   │   ├── 10-copilot-extensions-2025.md
-│   │   └── 11-research-documentation-examples.md
+│   ├── 번호가 매겨진 리소스 (30+개)
+│   │   ├── 01-11: Part 1 기초 자료
+│   │   │   (Copilot 가이드, VS Code 설정, 템플릿 등)
+│   │   ├── 13-23: 공유 리소스 및 Part 2 자료
+│   │   │   (MCP, SpecKit, 연구 계획 등)
+│   │   └── 38-43: 확장 템플릿
+│   │       (워크플로우 자동화, 프롬프트 라이브러리 등)
 │   │
-│   ├── 12-23: 공유 리소스 및 Part 2 자료
-│   │   ├── 12-copilot-workbooks-overview.md
-│   │   ├── 13-research-planning-workflow.md
-│   │   ├── 14-research-proposal-template.md
-│   │   ├── 15-mcp-installation-guide.md
-│   │   ├── 16-task-master-mcp-guide.md
-│   │   ├── 17-mcp-server-catalog.md
-│   │   ├── 18-mcp-practical-combinations.md
-│   │   ├── 19-speckit-installation-guide.md
-│   │   ├── 20-speckit-workflow-guide.md
-│   │   ├── 21-speckit-research-project-template.md
-│   │   ├── 22-advanced-ai-tools-comparison.md
-│   │   └── 23-part2-troubleshooting.md
-│   │
-│   ├── 24-37: Part 3 통합 워크플로우 자료
-│   │   ├── 24-research-lifecycle-guide.md
-│   │   ├── 25-ai-research-tools-ecosystem-2025.md
-│   │   ├── 26-education-research-scenario.md
-│   │   ├── 27-life-science-research-scenario.md
-│   │   ├── 28-computer-science-research-scenario.md
-│   │   ├── 29-sociology-research-scenario.md
-│   │   ├── 30-literature-review-workflow.md
-│   │   ├── 31-experiment-design-workflow.md
-│   │   ├── 32-progress-tracking-workflow.md
-│   │   ├── 33-collaboration-workflow.md
-│   │   ├── 34-paper-writing-workflow.md
-│   │   ├── 35-presentation-workflow.md
-│   │   ├── 36-success-stories.md
-│   │   └── 37-part3-troubleshooting.md
-│   │
-│   ├── 38-43: 확장 템플릿
-│   │   ├── 38-workflow-automation-templates.md
-│   │   ├── 39-prompt-library.md
-│   │   ├── 40-discipline-specific-templates.md
-│   │   ├── 41-ai-tool-integration-patterns.md
-│   │   ├── 42-collaborative-research-templates.md
-│   │   └── 43-advanced-troubleshooting.md
-│   │
-│   └── part2/, part3/ 하위 폴더 (이미지, 다이어그램 등)
+│   └── 시각 자료 폴더
+│       ├── part2/                              # Part 2 이미지 (16개)
+│       ├── part3/                              # Part 3 이미지 (27개)
+│       └── images/                             # 공통 이미지 (34개)
 │
 └── Context_and_Planning/
     └── demo-files/                             # 🎭 8개 실습 데모
@@ -349,18 +312,20 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 | 디렉토리 | 파일 종류 | 개수 | 설명 |
 |---------|---------|------|------|
 | **루트** | 핵심 문서 | 5개 | README, LICENSE, Part 1-3 |
-| **v13.0_resources/** | 리소스 파일 | 43개 | 템플릿, 가이드, 예시, 비교표 |
-| **v13.0_resources/part2/** | 이미지/다이어그램 | 다수 | Part 2 관련 시각 자료 |
-| **v13.0_resources/part3/** | 이미지/다이어그램 | 다수 | Part 3 관련 시각 자료 |
+| **v13.0_resources/** | 번호가 매겨진 리소스 | 31개 | 템플릿, 가이드, 예시 (01-43번 범위) |
+| **v13.0_resources/** | 지원 문서 | 4개 | README, README_v13_Part1-3 |
+| **v13.0_resources/part2/** | 이미지/다이어그램 | 16개 | Part 2 시각 자료 |
+| **v13.0_resources/part3/** | 이미지/다이어그램 | 27개 | Part 3 시각 자료 |
+| **v13.0_resources/images/** | 공통 이미지 | 34개 | 공유 시각 자료 |
 | **demo-files/** | 데모 시나리오 | 8개 폴더 | 실습용 데모 + 가이드 |
-| **총계** | - | **100개 이상** | 전체 파일 |
+| **총계** | - | **110개 이상** | 전체 파일 |
 
 ### 파일 유형별 분류
 
-- **Markdown 문서**: 약 60개 (Part 문서, 리소스, 데모 가이드)
-- **이미지/다이어그램**: 약 30개 (SVG, PNG, 스크린샷)
-- **템플릿 파일**: 약 10개 (연구 계획서, 프롬프트, 워크플로우)
-- **기타**: LICENSE, JSON 설정 예시 등
+- **Markdown 문서**: 약 40개 (Part 문서, 번호가 매겨진 리소스, 데모 가이드)
+- **이미지/다이어그램**: 약 77개 (SVG, PNG - part2, part3, images 폴더)
+- **설정/예시 파일**: JSON 설정, CSV 데이터, Python 스크립트 예시 등
+- **기타**: LICENSE, .gitkeep 등
 
 ---
 
