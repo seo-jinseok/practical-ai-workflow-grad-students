@@ -71,6 +71,9 @@ https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡
 - **저장 경로 오류**: 디렉토리가 존재하는지 확인
 - **Chromium 오류**: `pnpm playwright install --with-deps --only-shell chromium` 실행
 - **권한 오류**: macOS에서 `chmod -R 755 v13.0_resources/part2/images/` 실행
+- **macOS `bootstrap_check_in` 오류**: CLI에서 Playwright 브라우저가 실행되지 않으면
+  `xattr -dr com.apple.quarantine ~/Library/Caches/ms-playwright` 시도 후에도 실패할 경우
+  GUI 환경에서 실행하거나 Chrome DevTools 수동 캡처 절차로 전환
 
 ## 배치 실행 옵션 (선택사항)
 

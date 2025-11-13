@@ -65,20 +65,22 @@
 
 ## Part 2 체크리스트 (추정 15개)
 
-### Playwright 자동화 완료 (2개)
+### 공식 문서 페이지 (수동 캡처 검증, Playwright 재시도 필요)
 
 - [x] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
-    - ✅ **생성 완료**: 2025-11-13 12:18
+    - ✅ **검증 완료**: 2025-11-13 13:39
+    - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처 → 2025-11-13 Python Playwright 재시도 시 `bootstrap_check_in Permission denied`
     - **파일명**: `mcp-protocol-intro.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
     - **해상도**: 1920x1080
-    - **파일 크기**: 182KB
+    - **파일 크기**: 182KB (`ls -lh`)
 - [x] [SpecKit 리포지토리](https://github.com/github/spec-kit)
-    - ✅ **생성 완료**: 2025-11-13 12:18
+    - ✅ **검증 완료**: 2025-11-13 13:39
+    - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처 → 2025-11-13 Python Playwright 재시도 시 WebKit `Abort trap: 6`
     - **파일명**: `speckit-repository.png`
     - **저장 위치**: `v13.0_resources/part2/images/`
     - **해상도**: 1920x1080
-    - **파일 크기**: 263KB
+    - **파일 크기**: 263KB (`ls -lh`)
 
 ### 수동 캡처 필요 - MCP 설치 (4개)
 

@@ -274,15 +274,45 @@ npx -y @modelcontextprotocol/inspector npx -y @srigi/mcp-webpage-screenshot
    - 콘텐츠 선명도 및 완전성 확인
 
 **결과**:
-- 2025-11-12에 수동 캡처로 2개 PNG 파일 생성 완료
-- 파일 크기: mcp-protocol-intro.png (196KB), speckit-repository.png (256KB)
+- 2025-11-12 Chrome DevTools 수동 캡처로 2개 PNG 파일 생성
+- 파일 크기: mcp-protocol-intro.png (182KB), speckit-repository.png (263KB)
 - 해상도: 1920x1080, PNG 형식 확인
-- Git 커밋 및 문서 업데이트 완료
+- 2025-11-13 검증 결과에 따라 문서 및 체크리스트 갱신
 
 **예방 조치**:
 - 향후 MCP 자동화 재시도 시 설정 파일 우선 확인
 - 수동 캡처를 백업 방법으로 유지
 - 문서에 자동화/수동 방법 모두 명시
+
+### 12. Python Playwright 실행 시 macOS `bootstrap_check_in` 오류 (2025-11-13)
+
+**증상**:
+- `python3 capture_screenshots.py` 실행 즉시 Chromium/Chrome 프로세스가 종료되며
+  `bootstrap_check_in ... Permission denied (1100)` 로그 출력
+- WebKit 백엔드 사용 시 `Abort trap: 6`로 종료
+
+**원인**:
+- macOS 보안 정책(TCC/Quarantine)으로 CLI에서 실행된 Playwright 브라우저가
+  Mach 포트 등록에 실패
+
+**시도한 해결**:
+1. Playwright 런타임 설치
+   - `python3 -m pip install --user playwright`
+   - `python3 -m playwright install chromium`
+   - `python3 -m playwright install webkit`
+2. 실행 권한 해제
+   - `xattr -dr com.apple.quarantine /Users/truestone/Library/Caches/ms-playwright`
+   - `xattr -dr com.apple.quarantine /Users/truestone/Library/Caches/ms-playwright/webkit-2215`
+3. 런처 옵션 변경
+   - `channel="chrome"` 및 WebKit 백엔드 시도
+
+**결과**:
+- 모든 런처에서 동일 오류 발생 → 자동화 캡처 미완료
+- 기존 수동 캡처(2025-11-12) PNG 자산을 검증 후 유지
+
+**대안**:
+- macOS GUI 세션 또는 Codesigned 환경에서 Playwright 실행
+- Chrome DevTools 수동 캡처 절차 문서화 및 백업 유지
 
 ---
 

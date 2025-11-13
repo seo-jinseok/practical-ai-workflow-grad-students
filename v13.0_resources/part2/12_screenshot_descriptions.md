@@ -125,8 +125,8 @@ Part 2에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 ```text
 v13.0_resources/part2/
 ├── images/                          # 스크린샷 저장 디렉토리
-│   ├── mcp-protocol-intro.png       # ✅ MCP 자동화 완료
-│   ├── speckit-repository.png       # ✅ MCP 자동화 완료
+│   ├── mcp-protocol-intro.png       # ✅ 1920x1080 PNG (수동 캡처 검증 완료)
+│   ├── speckit-repository.png       # ✅ 1920x1080 PNG (수동 캡처 검증 완료)
 │   ├── mcp-installation-1-setup.png # 수동 캡처 대기
 │   ├── mcp-installation-2-config.png
 │   ├── speckit-workflow-1-install.png
@@ -138,21 +138,23 @@ v13.0_resources/part2/
 
 ## ✅ 캡처 체크리스트
 
-### 자동화 완료 항목 (Playwright 사용)
+### 검증 완료 항목 (수동 캡처 + 자동화 재시도 기록)
 
-- [x] **공식 문서 페이지** (2개) ✅ [Playwright script 자동화 완료]:
+- [x] **공식 문서 페이지** (2개) — 수동 캡처 자산 검증 & Playwright 재시도 추적:
     - [x] MCP 프로토콜 소개 페이지
-        - ✅ **생성 완료**: 2025-11-13 12:18
+        - ✅ **검증 완료**: 2025-11-13 13:39
+        - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처(1920x1080) → 2025-11-13 Python Playwright 재시도(`bootstrap_check_in Permission denied`) 후 자산 검증
         - **파일명**: `mcp-protocol-intro.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
         - **해상도**: 1920x1080
-        - **파일 크기**: 182KB
+        - **파일 크기**: 182KB (`ls -lh` 기준)
     - [x] SpecKit GitHub 리포지토리
-        - ✅ **생성 완료**: 2025-11-13 12:18
+        - ✅ **검증 완료**: 2025-11-13 13:39
+        - **캡처 방법**: 2025-11-12 Chrome DevTools 수동 캡처(1920x1080) → 2025-11-13 Python Playwright 재시도(WebKit `Abort trap: 6`) 후 자산 검증
         - **파일명**: `speckit-repository.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
         - **해상도**: 1920x1080
-        - **파일 크기**: 263KB
+        - **파일 크기**: 263KB (`ls -lh` 기준)
 
 ### 수동 캡처 필요 항목
 
@@ -169,10 +171,10 @@ v13.0_resources/part2/
 
 ### 품질 기준
 
-- [ ] **해상도**: 정확히 1920x1080
-- [ ] **명명 규칙**: 일관된 파일명 체계 사용
+- [x] **해상도**: 정확히 1920x1080 (`file` 검사 완료)
+- [x] **명명 규칙**: 일관된 파일명 체계 사용
 - [ ] **설명 추가**: 각 스크린샷에 설명문 추가
-- [ ] **검증**: 원본 화면과 스크린샷 일치성 확인
+- [x] **검증**: 원본 화면과 스크린샷 일치성 확인(시각적 점검 및 메타데이터 확인)
 
 ---
 
@@ -193,9 +195,9 @@ v13.0_resources/part2/
 - **VS Code 공식 문서**: [VS Code 공식 문서](https://code.visualstudio.com/docs)
 - **GitHub Copilot 문서**: [GitHub Copilot 문서](https://docs.github.com/copilot)
 - **MCP 프로토콜**: [MCP Protocol](https://modelcontextprotocol.io/)
-    🤖 [MCP 자동화 완료]
+    🛠️ [Playwright 재시도 필요]
 - **SpecKit 리포지토리**: [SpecKit Repository](https://github.com/github/spec-kit)
-    🤖 [MCP 자동화 완료]
+    🛠️ [Playwright 재시도 필요]
 
 ---
 
@@ -203,20 +205,24 @@ v13.0_resources/part2/
 
 ### 2025-11-13
 
-- ✅ **디렉토리 확인 완료**: `v13.0_resources/part2/images/` 존재 및
-    쓰기 가능
-- ✅ **스크린샷 생성 완료**: Playwright script를 사용한
-    자동화 캡처
-    - [MCP Protocol](https://modelcontextprotocol.io/) →
-    `mcp-protocol-intro.png` (182KB, 1920x1080)
-    - [SpecKit Repository](https://github.com/github/spec-kit) →
-    `speckit-repository.png` (263KB, 1920x1080)
-
-**사용 도구**: Playwright script (헤드리스 브라우저)
-**총 소요 시간**: 약 3분
-**생성 방법**: MCP 서버를 통한 자동화 캡처 (뷰포트 1920x1080, 중앙 스크롤)
-**저장 위치**: `v13.0_resources/part2/images/`
-**품질 검증**: PNG 형식, 1920x1080 해상도, 2MB 이하 확인 완료
+- 🔄 **Playwright 재시도**: `python3 capture_screenshots.py`
+    실행 시 macOS 보안 정책으로 Chromium/Chrome
+    `bootstrap_check_in Permission denied (1100)` →
+    WebKit `Abort trap: 6` (자동화 미완료)
+- 🧰 **적용 조치**:
+    - `python3 -m pip install --user playwright`
+    - `python3 -m playwright install chromium`
+    - `python3 -m playwright install webkit`
+    - `xattr -dr com.apple.quarantine /Users/truestone/Library/Caches/ms-playwright`
+    - `xattr -dr com.apple.quarantine /Users/truestone/Library/Caches/ms-playwright/webkit-2215`
+- ✅ **자산 검증 완료**:
+    - `file v13.0_resources/part2/images/mcp-protocol-intro.png`
+      → 1920x1080 PNG, 182KB
+    - `file v13.0_resources/part2/images/speckit-repository.png`
+      → 1920x1080 PNG, 263KB
+    - `ls -lh` 로 용량 확인, 수동 캡처(2025-11-12) 자산 유지
+- 📝 **문서 정비**: 체크리스트/프롬프트/트러블슈팅 문서에
+    macOS Playwright 제한 및 수동 검증 결과 반영
 
 ---
 
@@ -224,7 +230,7 @@ v13.0_resources/part2/
 
 ### 캡처 우선순위
 
-1. ✅ **완료**: 공식 문서 페이지 (Playwright 자동화)
+1. ✅ **완료**: 공식 문서 페이지 (수동 캡처 검증 / Playwright 재시도 필요)
 2. **1순위**: MCP 설치 및 설정 과정 (수동 캡처)
 3. **2순위**: SpecKit 워크플로우 실행 (수동 캡처)
 4. **3순위**: Copilot 워크북 예시 결과 (수동 캡처)
