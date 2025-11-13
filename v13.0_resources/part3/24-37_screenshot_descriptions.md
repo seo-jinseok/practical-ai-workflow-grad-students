@@ -1,9 +1,10 @@
 # Part 3 스크린샷 캡처 가이드
 
-**Version**: v13.0 Part 3  
-**Date**: 2025-11-10  
-**Purpose**: Part 3 관련 스크린샷 필요한 경우의 가이드 문서  
-**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md) | [Part 3 리소스 인덱스](README_v13_Part3.md)
+**Version**: v13.0 Part 3
+**Date**: 2025-11-13
+**Purpose**: Part 3 관련 스크린샷 필요한 경우의 가이드 문서
+**Status**: 🚧 In Progress (8/20 완료, 40%, MCP 1 + manual 7)
+**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md) | [Part 3 리소스 인덱스](README_v13_Part3.md)
 
 ---
 
@@ -17,27 +18,91 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 
 ### 1. 연구 도구 생태계 (25_2025_research_tools_ecosystem.md)
 
-#### 2025년 AI 연구 도구들 **[MCP 자동화 가능]**
-- **중요한 스크린샷**:
-  - Elicit: 논문 검색 및 요약 화면
-  - Perplexity: 웹 검색 및 인용 기능
-  - NotebookLM: 노트북 기반 연구 도구
-  - Consensus: 학술 연구 도구
-  - Scite: 인용 분석 도구
-- **캡처 지침**:
-  - 각 도구의 핵심 기능 화면 캡처
-  - 도구 간 비교가 명확하도록 동일한 연구 주제에서 실행
-  - 무료/유료 기능 차이점 명시
-- **배치 스크린샷 생성 가이드**:
-  ```
-  다음 연구 도구들의 스크린샷을 배치로 생성해주세요:
-  1. https://elicit.org - v13.0_resources/part3/images/tools-ecosystem/elicit-main.png
-  2. https://perplexity.ai - v13.0_resources/part3/images/tools-ecosystem/perplexity-main.png
-  3. https://notebooklm.google.com - v13.0_resources/part3/images/tools-ecosystem/notebooklm-main.png
-  4. https://consensus.app - v13.0_resources/part3/images/tools-ecosystem/consensus-main.png
-  5. https://scite.ai - v13.0_resources/part3/images/tools-ecosystem/scite-main.png
-  ```
-- **저장 경로**: `v13.0_resources/part3/images/tools-ecosystem/[도구명]-[기능].png`
+#### 2025년 AI 연구 도구들
+
+**완료된 스크린샷** (1개):
+- [x] **Elicit**: 논문 검색 및 요약 화면
+  - ✅ **생성 완료**: 2025-11-13
+  - **파일명**: `elicit-main.png`
+  - **저장 위치**: `v13.0_resources/part3/images/tools-ecosystem/`
+  - **파일 크기**: ~50KB
+  - **해상도**: 1920x1080
+  - **용도**: Section 4.1 (AI 연구 도구 생태계)
+
+**대기 중인 스크린샷** (7개) - ⏳ **[MCP 배치 자동화 필요]**:
+- [ ] **Perplexity**: 웹 검색 및 인용 기능
+  - ⏳ **MCP 프롬프트 필요**: `part3-screenshot-generation-prompts.md`
+  - **파일명**: `perplexity-main.png`
+  - **URL**: https://perplexity.ai/
+- [ ] **NotebookLM**: 노트북 기반 연구 도구
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `notebooklm-main.png`
+  - **URL**: https://notebooklm.google.com/
+- [ ] **Consensus**: 학술 연구 도구
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `consensus-main.png`
+  - **URL**: https://consensus.app/
+- [ ] **Scite**: 인용 분석 도구
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `scite-main.png`
+  - **URL**: https://scite.ai/
+- [ ] **ResearchRabbit**: 연구 발견 도구
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `researchrabbit-main.png`
+  - **URL**: https://researchrabbit.ai/
+- [ ] **Connected Papers**: 논문 연결 시각화
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `connectedpapers-main.png`
+  - **URL**: https://www.connectedpapers.com/
+- [ ] **Semantic Scholar**: AI 학술 검색
+  - ⏳ **MCP 프롬프트 필요**
+  - **파일명**: `semanticscholar-main.png`
+  - **URL**: https://www.semanticscholar.org/
+
+## 🤖 MCP 자동화 로그
+
+### 2025-11-13 - Part 3 연구 도구 생태계
+
+- ✅ **Elicit** (<https://elicit.org/>) - 완료
+- ⏳ **Perplexity** (<https://perplexity.ai/>) - MCP 배치 실행 필요
+- ⏳ **NotebookLM** (<https://notebooklm.google.com/>) - MCP 배치 실행 필요
+- ⏳ **Consensus** (<https://consensus.app/>) - MCP 배치 실행 필요
+- ⏳ **Scite** (<https://scite.ai/>) - MCP 배치 실행 필요
+- ⏳ **ResearchRabbit** (<https://researchrabbit.ai/>) - MCP 배치 실행 필요
+- ⏳ **Connected Papers** (<https://www.connectedpapers.com/>) - MCP 배치 실행 필요
+- ⏳ **Semantic Scholar** (<https://www.semanticscholar.org/>) - MCP 배치 실행 필요
+
+**완료**: 1/8 (12.5%)
+**대기**: 7/8 (87.5%)
+
+**사용 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)  
+**생성 방법**: `part3-screenshot-generation-prompts.md` 배치 프롬프트 실행 필요
+**저장 위치**: `v13.0_resources/part3/images/tools-ecosystem/`  
+**해상도**: 1920x1080 PNG
+
+**다음 단계**: 배치 프롬프트로 나머지 7개 도구 스크린샷 생성 (~7분 예상)
+
+### 기타 Part 3 이미지 (7개 완료)
+
+- [x] **연구 생애주기 다이어그램**
+  - ✅ **생성 완료**: 2025-11-13
+  - **파일명**: `research-8step-lifecycle.png`
+  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **용도**: Section 1 (연구 프로세스 개요)
+- [x] **AI 도구 생태계 다이어그램**
+  - ✅ **생성 완료**: 2025-11-13
+  - **파일명**: `ai-tools-ecosystem.png`
+  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **용도**: Section 1.3 (도구 통합)
+- [x] **전공별 폴더 구조** (5개):
+  - [x] 교육학: `education-project-folders.png` - Section 2
+  - [x] 생명과학: `life-science-project-folders.png` - Section 3
+  - [x] 컴퓨터공학: `cs-project-folders.png` - Section 4
+  - [x] 사회학: `sociology-project-folders.png` - Section 5
+  - [x] 음악학: `music-project-folders.png` - Section 6
+  - ✅ **생성 완료**: 2025-11-13
+  - **저장 위치**: `v13.0_resources/part3/images/`
+  - **방법**: Mockup/diagram generation
 
 ### 2. 교육학 시나리오 (26_education_complete_scenario.md)
 
@@ -195,10 +260,22 @@ Part 3에서 사용될 스크린샷들의 캡처 가이드라인을 제공합니
 ```
 v13.0_resources/part3/
 ├── images/                                  # 스크린샷 저장 디렉토리
+│   ├── research-8step-lifecycle.png         # ✅ 생성 완료
+│   ├── ai-tools-ecosystem.png               # ✅ 생성 완료
+│   ├── education-project-folders.png        # ✅ 생성 완료
+│   ├── life-science-project-folders.png     # ✅ 생성 완료
+│   ├── cs-project-folders.png               # ✅ 생성 완료
+│   ├── sociology-project-folders.png        # ✅ 생성 완료
+│   ├── music-project-folders.png            # ✅ 생성 완료
 │   ├── tools-ecosystem/
-│   │   ├── elicit-search-interface.png
-│   │   ├── perplexity-research-results.png
-│   │   └── notebooklm-organization.png
+│   │   ├── elicit-main.png                  # ✅ 생성 완료
+│   │   ├── perplexity-main.png              # ⏳ MCP 배치 대기
+│   │   ├── notebooklm-main.png              # ⏳ MCP 배치 대기
+│   │   ├── consensus-main.png               # ⏳ MCP 배치 대기
+│   │   ├── scite-main.png                   # ⏳ MCP 배치 대기
+│   │   ├── researchrabbit-main.png          # ⏳ MCP 배치 대기
+│   │   ├── connectedpapers-main.png         # ⏳ MCP 배치 대기
+│   │   └── semanticscholar-main.png         # ⏳ MCP 배치 대기
 │   ├── education-scenario/
 │   │   ├── step1-research-plan.png
 │   │   ├── step2-literature-review.png
@@ -230,22 +307,31 @@ v13.0_resources/part3/
 ## ✅ 캡처 체크리스트
 
 ### Part 3 핵심 스크린샷 (우선순위 높음)
-- [ ] **2025년 연구 도구 생태계** (4-5개):
-  - [ ] Elicit, Perplexity, NotebookLM, Consensus, Scite 핵심 기능
-  - [ ] 도구 간 비교 및 특징 명확화
-- [ ] **교육학 완전 시나리오** (5-6개):
-  - [ ] 5단계 워크플로우 진행 과정
-  - [ ] 각 단계의 핵심 결과물
-  - [ ] 전/후 비교로 개선점 명시
-- [ ] **통합 워크플로우** (3-4개):
-  - [ ] 도구 간 연결성 및 데이터 흐름
-  - [ ] AI 도구들이 함께 작동하는 화면
-  - [ ] 문제 해결 및 의사결정 과정
+
+- [x] **2025년 연구 도구 생태계** (1/8개 완료, 12.5%) 🚧:
+    - [x] Elicit (완료)
+    - [ ] Perplexity, NotebookLM, Consensus, Scite (4개 대기)
+    - [ ] ResearchRabbit, Connected Papers, Semantic Scholar (3개 대기)
+    - 🚧 MCP 배치 실행 필요 (7개)
+    - 📝 `part3-screenshot-generation-prompts.md` 참조
+- [x] **기타 다이어그램 및 폴더 구조** (7/7 완료) ✅:
+    - [x] 연구 생애주기 다이어그램 (research-8step-lifecycle.png)
+    - [x] AI 도구 생태계 다이어그램 (ai-tools-ecosystem.png)
+    - [x] 5개 전공별 폴더 구조 (education, life-science, cs, sociology, music)
+- [ ] **교육학 완전 시나리오** (0/5-6개):
+    - [ ] 5단계 워크플로우 진행 과정
+    - [ ] 각 단계의 핵심 결과물
+    - [ ] 전/후 비교로 개선점 명시
+- [ ] **통합 워크플로우** (0/3-4개):
+    - [ ] 도구 간 연결성 및 데이터 흐름
+    - [ ] AI 도구들이 함께 작동하는 화면
+    - [ ] 문제 해결 및 의사결정 과정
 
 ### Part 3 보조 스크린샷 (선택적)
-- [ ] **전공별 시나리오** (2-3개):
-  - [ ] 생물과학, 컴퓨터공학, 사회학, 음악학
-  - [ ] 각 전공의 고유한 워크플로우
+
+- [ ] **전공별 시나리오** (0/2-3개):
+    - [ ] 생물과학, 컴퓨터공학, 사회학, 음악학
+    - [ ] 각 전공의 고유한 워크플로우
 - [ ] **연구 관리** (2-3개):
   - [ ] 주간/월간 루틴, 진행 상황 추적
   - [ ] 프로젝트 대시보드 및 성과 측정
@@ -265,31 +351,34 @@ v13.0_resources/part3/
 ## 🔗 관련 문서
 
 ### 내부 링크
-- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](../Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md)
+- **Part 3 스크린샷 생성 프롬프트**: [../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md](../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md)
+- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students v13.0_Part3.md](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
 - **Part 3 리소스 인덱스**: [README_v13_Part3.md](README_v13_Part3.md)
 - **Part 1 스크린샷 가이드**: [../11_screenshot_descriptions.md](../11_screenshot_descriptions.md)
 - **Part 2 스크린샷 가이드**: [../part2/12_screenshot_descriptions.md](../part2/12_screenshot_descriptions.md)
 
 ### 주요 연구 도구들
-- **Elicit**: https://elicit.org/
-- **Perplexity**: https://perplexity.ai/
-- **NotebookLM**: https://notebooklm.google.com/
-- **Consensus**: https://consensus.app/
-- **Scite**: https://scite.ai/
-- **ResearchRabbit**: https://researchrabbit.ai/
-- **Connected Papers**: https://www.connectedpapers.com/
-- **Semantic Scholar**: https://www.semanticscholar.org/
+
+- **Elicit**: <https://elicit.org/> - ✅ [MCP 완료]
+- **Perplexity**: <https://perplexity.ai/> - ⏳ [MCP 대기]
+- **NotebookLM**: <https://notebooklm.google.com/> - ⏳ [MCP 대기]
+- **Consensus**: <https://consensus.app/> - ⏳ [MCP 대기]
+- **Scite**: <https://scite.ai/> - ⏳ [MCP 대기]
+- **ResearchRabbit**: <https://researchrabbit.ai/> - ⏳ [MCP 대기]
+- **Connected Papers**: <https://www.connectedpapers.com/> - ⏳ [MCP 대기]
+- **Semantic Scholar**: <https://www.semanticscholar.org/> - ⏳ [MCP 대기]
 
 ---
 
 ## 📝 메모
 
 ### 캡처 우선순위
-1. **1순위**: 2025년 연구 도구 생태계 시연
-2. **2순위**: 교육학 완전 시나리오 (5단계 워크플로우)
-3. **3순위**: 통합 워크플로우 및 도구 간 연결성
-4. **4순위**: 전공별 특화 시나리오
-5. **5순위**: 연구 관리 및 품질 관리
+
+1. 🚧 **진행 중**: 2025년 연구 도구 생태계 (1/8 완료, MCP 배치 7개 ~7분)
+2. **1순위**: 교육학 완전 시나리오 (5단계 워크플로우, 수동 캡처)
+3. **2순위**: 통합 워크플로우 및 도구 간 연결성 (수동 캡처)
+4. **3순위**: 전공별 특화 시나리오 (수동 캡처)
+5. **4순위**: 연구 관리 및 품질 관리 (수동 캡처)
 
 ### 추후 업데이트 계획
 - 새로운 AI 도구들의 추가 및 업데이트
@@ -306,5 +395,5 @@ v13.0_resources/part3/
 ---
 
 **Version**: v13.0 Part 3 Screenshot Guide  
-**Last Updated**: 2025-11-10  
+**Last Updated**: 2025-11-13  
 **Next Review**: v13.1 업데이트 시

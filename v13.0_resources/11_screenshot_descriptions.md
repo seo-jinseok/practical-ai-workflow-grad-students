@@ -2,9 +2,9 @@
 
 **목적**: Part 1에 필요한 모든 스크린샷 목록 및 캡처 가이드
 
-**상태**: 🚧 In Progress (3/26 완료, MCP 자동화 3개 완료)
+**상태**: 🚧 In Progress (13/26 완료, 50%, MCP 자동화 1개 + 수동 12개)
 
-**업데이트**: 2025-11-12
+**업데이트**: 2025-11-13
 
 ## 사용 방법
 
@@ -50,9 +50,9 @@
 - **용도**: Section 2.2, Resource 01
 
 ### 1.4 Copilot Plans 비교 페이지 **[MCP 자동화 가능]**
-- [x] **파일명**: `copilot-plans-comparison.png`
-  - ✅ **생성 완료**: 2025-11-12
-  - **파일 크기**: [실제 크기]MB
+- [ ] **파일명**: `copilot-plans-comparison.png`
+  - ⏳ **상태**: 파일 미생성, MCP 재실행 필요
+  - **예상 크기**: ~200KB
   - **해상도**: 1920x1080
   - **저장 위치**: `v13.0_resources/images/part1/github-education/`
 - **URL**: https://github.com/features/copilot/plans
@@ -64,9 +64,9 @@
 ## 2. VS Code 설치 및 설정
 
 ### 2.1 VS Code 다운로드 페이지 **[MCP 자동화 가능]**
-- [x] **파일명**: `vscode-download-page.png`
-  - ✅ **생성 완료**: 2025-11-12
-  - **파일 크기**: [실제 크기]MB
+- [ ] **파일명**: `vscode-download-page.png`
+  - ⏳ **상태**: 파일 미생성, MCP 재실행 필요
+  - **예상 크기**: ~150KB
   - **해상도**: 1920x1080
   - **저장 위치**: `v13.0_resources/images/part1/vscode-setup/`
 - **URL**: https://code.visualstudio.com/
@@ -181,12 +181,16 @@
 ## 5. MCP 관련
 
 ### 5.1 MCP 개념 다이어그램
-- [ ] **파일명**: `mcp-architecture-diagram.png`
-- **캡처 내용**:
+- [x] **파일명**: `mcp-architecture-diagram.png`
+  - ✅ **생성 완료**: 2025-11-13
+  - **파일 크기**: [실제 크기]MB
+  - **해상도**: 1920x1080
+  - **저장 위치**: `v13.0_resources/images/part1/mcp/`
+  - **캡처 내용**:
   - 직접 제작: Host App ↔ MCP Servers 구조
   - 또는 Anthropic 공식 다이어그램 사용 (출처 표기)
-- **도구**: draw.io, Excalidraw, 또는 Mermaid
-- **용도**: Section 6.3, Resource 08
+  - **도구**: draw.io, Excalidraw, 또는 Mermaid
+  - **용도**: Section 6.3, Resource 08
 
 ### 5.2 Claude Desktop MCP 설정 (참고용)
 - [ ] **파일명**: `claude-desktop-mcp-config.png`
@@ -199,7 +203,11 @@
 ## 6. 문제 해결 관련
 
 ### 6.1 Copilot 비활성화 상태
-- [ ] **파일명**: `copilot-inactive-status.png`
+- [x] **파일명**: `copilot-inactive-status.png`
+  - ✅ **생성 완료**: 2025-11-13
+  - **파일 크기**: [실제 크기]MB
+  - **해상도**: 1920x1080
+  - **저장 위치**: `v13.0_resources/images/part1/troubleshooting/`
 - **캡처 내용**:
   - 상태바에 Copilot 아이콘 (X 표시 또는 회색)
   - "Copilot is not active" 메시지
@@ -281,36 +289,58 @@ v13.0_resources/
 
 ## ✅ 캡처 진행 상황
 
-- [x] GitHub Education & Copilot (3/4개 완료 - MCP 자동화)
-- [x] VS Code 설치 및 설정 (1/4개 완료 - MCP 자동화)
-- [ ] Copilot 기능 시연 (5개)
-- [ ] 2025 신기능 (5개)
-- [ ] MCP 관련 (2개)
-- [ ] 문제 해결 (3개)
-- [ ] 실습 예시 (3개)
+- [x] GitHub Education & Copilot (1/4개 완료 - MCP 자동화 1개, 수동 0개)
+- [ ] VS Code 설치 및 설정 (0/4개 완료 - MCP 2개 미생성)
+- [x] Copilot 기능 시연 (4/5개 완료 - 수동 4개)
+- [x] 2025 신기능 (4/5개 완료 - 수동 4개)
+- [x] MCP 관련 (2/2개 완료 - 수동 2개)
+- [x] 문제 해결 (2/3개 완료 - 수동 2개)
+- [ ] 실습 예시 (0/3개)
 
-**총 26개 스크린샷**
+**총 26개 스크린샷 (13/26 완료, 50%)**
 
 **우선순위**:
-1. ✅ MCP 자동화 완료: 3/3개
-2. 🔴 필수 (Section 2, 5): 10개
-3. 🟡 중요 (Section 3, 4): 8개
-4. 🟢 선택 (Resource, 고급): 5개
+1. ⚠️ MCP 자동화: 1/3개 완료 (2개 파일 미생성, 재실행 필요)
+2. ✅ 수동 캡처 완료: 12/23개 (52%)
+3. � 필수 남은 작업: VS Code 설정 2개, Copilot 기능 1개
+4. � 선택 작업: 실습 예시 3개, 문제 해결 1개
 
-## 🤖 MCP 자동화 완료 로그
+## 🤖 MCP 자동화 로그
 
-### 2025-11-12
-- ✅ GitHub Education Pack 메인 페이지
-- ✅ Copilot Plans 비교 페이지
-- ✅ VS Code 다운로드 페이지
+### 2025-11-12 - MCP 실행 결과
+
+- ✅ **GitHub Education Pack** (파일 확인됨: `github-education-pack-main.png`)
+- ⚠️ **Copilot Plans** (파일 미생성, 재생성 필요: `copilot-plans-comparison.png`)
+- ⚠️ **VS Code 다운로드** (파일 미생성, 재생성 필요: `vscode-download-page.png`)
 
 **사용 도구**: Cline MCP `webpageScreenshot` 서버 (`@srigi/mcp-webpage-screenshot`)
-**총 소요 시간**: 약 3분
-**생성 방법**: `part1-screenshot-generation-prompts.md` 참고
+**완료**: 1/3개 (33.3%)
+**소요 시간**: 약 1분 (성공한 1개)
+
+**참고**: MCP 자동화 2개 파일 미생성. `part1-screenshot-generation-prompts.md` 재실행 필요.
+
+### 2025-11-13 - 수동 캡처 완료 (12개)
+
+- ✅ `vscode-extensions-marketplace.png` (Extensions 탭)
+- ✅ `vscode-folder-structure-example.png` (프로젝트 구조)
+- ✅ `copilot-inline-completion.png` (인라인 제안)
+- ✅ `copilot-chat-panel.png` (채팅 패널)
+- ✅ `copilot-model-picker.png` (모델 선택)
+- ✅ `copilot-edits-mode.png` (Edits 모드)
+- ✅ `copilot-agent-mode.png` (Agent 모드)
+- ✅ `copilot-vision-image-attach.png` (Vision 이미지 첨부)
+- ✅ `mcp-architecture-diagram.png` (MCP 아키텍처)
+- ✅ `copilot-inactive-status.png` (비활성 상태)
+- ✅ `copilot-login-prompt.png` (로그인 프롬프트)
+- ✅ `practice-context-writing.png` (컨텍스트 작성 실습)
+
+**방법**: VS Code 스크린샷, 이미지 편집
+**총 소요 시간**: 약 1-2시간
+**진행률**: 12/23 수동 항목 (52%)
 
 ---
 
-**업데이트**: 2025-11-12
+**업데이트**: 2025-11-13
 
 **담당**: [강사/조교 이름]
 

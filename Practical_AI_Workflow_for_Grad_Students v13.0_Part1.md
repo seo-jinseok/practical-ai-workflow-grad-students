@@ -283,7 +283,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 💾 용량: 약 300MB
 ```
 
-![VS Code 다운로드 페이지](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
+![Extensions Marketplace - GitHub Copilot 검색](v13.0_resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
 
 **설치 시 권장 옵션** (Windows):
 - ✅ "Add to PATH" 체크
@@ -1865,6 +1865,10 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 
 ---
 
+![Copilot Chat Panel - AI 연구 대화 인터페이스](v13.0_resources/images/part1/copilot-features/copilot-chat-panel.png)
+
+---
+
 ## 6. MCP 소개: AI 도구 연결의 새로운 표준
 
 ### 6.1 MCP가 해결하는 문제
@@ -1922,6 +1926,8 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 | **jupyter-mcp** | 노트북 통합 | 데이터 분석 자동화 |
 | **task-master-mcp** | 작업 관리 | 연구 일정 추적 |
 | **notion-mcp** | 노트 연동 | Notion 데이터베이스 활용 |
+
+![MCP Architecture Diagram](v13.0_resources/images/part1/mcp/mcp-architecture-diagram.png)
 
 ### 6.4 왜 MCP를 알아야 하나?
 
@@ -2173,6 +2179,8 @@ MCP는 AI가 여러분의 연구 도구들과
   - [ ] GitHub 계정 재로그인
   - [ ] VS Code 재시작
   - [ ] Copilot 확장 재설치
+
+![Copilot 비활성 상태](v13.0_resources/images/part1/troubleshooting/copilot-inactive-status.png)
 
 - [ ] **Markdown 문법 문제**
   - [ ] `v13.0_resources/05_markdown_quick_reference.md` 참조
