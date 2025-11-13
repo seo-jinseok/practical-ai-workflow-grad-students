@@ -72,6 +72,7 @@ https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡
 - **권한 오류**: macOS에서 `chmod -R 755 v13.0_resources/part2/images/` 실행
 
 ## 배치 실행 옵션 (선택사항)
+
 단일 프롬프트로 2개 스크린샷을 한 번에 생성:
 
 ```text

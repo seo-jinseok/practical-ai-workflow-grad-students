@@ -1,7 +1,7 @@
 # Part 2 스크린샷 캡처 가이드
 
 **Version**: v13.0 Part 2
-**Date**: 2025-11-12
+**Date**: 2025-11-13
 **Status**: ✅ 완료 (2/15 완료 - MCP 웹페이지 스크린샷 생성 완료)
 **Purpose**: Part 2 관련 스크린샷 필요한 경우의 가이드 문서
 **Related**: [Part 2 메인 문서](../../Practical_AI_Workflow_for_Grad_Students v13.0_Part2.md) | [Copilot 워크북](12_copilot_workbook_exercises.md)
@@ -138,19 +138,19 @@ v13.0_resources/part2/
 
 ### 자동화 완료 항목 (Playwright 사용)
 
-- [x] **공식 문서 페이지** (2개) ✅ [Playwright 자동화 완료]:
+- [x] **공식 문서 페이지** (2개) ✅ [Chrome DevTools MCP 자동화 완료]:
     - [x] MCP 프로토콜 소개 페이지
-        - ✅ **생성 완료**: 2025-11-12 15:58
+        - ✅ **생성 완료**: 2025-11-13 09:31
         - **파일명**: `mcp-protocol-intro.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
         - **해상도**: 1920x1080
-        - **파일 크기**: 182KB
+        - **파일 크기**: 240KB
     - [x] SpecKit GitHub 리포지토리
-        - ✅ **생성 완료**: 2025-11-12 15:58
+        - ✅ **생성 완료**: 2025-11-13 09:31
         - **파일명**: `speckit-repository.png`
         - **저장 위치**: `v13.0_resources/part2/images/`
         - **해상도**: 1920x1080
-        - **파일 크기**: 262KB
+        - **파일 크기**: 184KB
 
 ### 수동 캡처 필요 항목
 
@@ -197,16 +197,16 @@ v13.0_resources/part2/
 
 ## 🤖 자동화 완료 로그
 
-### 2025-11-12
+### 2025-11-13
 
-- ✅ **디렉토리 생성 완료**: `v13.0_resources/part2/images/` 생성
-- ✅ **스크린샷 생성 완료**: Playwright를 사용한 자동화 캡처
-    - MCP Protocol (https://modelcontextprotocol.io/) → `mcp-protocol-intro.png` (182KB, 1920x1080)
-    - SpecKit Repository (https://github.com/github/spec-kit) → `speckit-repository.png` (262KB, 1920x1080)
+- ✅ **디렉토리 확인 완료**: `v13.0_resources/part2/images/` 존재 및 쓰기 가능
+- ✅ **스크린샷 생성 완료**: Chrome DevTools MCP를 사용한 자동화 캡처
+    - [MCP Protocol](https://modelcontextprotocol.io/) → `mcp-protocol-intro.png` (240KB, 1920x1080)
+    - [SpecKit Repository](https://github.com/github/spec-kit) → `speckit-repository.png` (184KB, 1920x1080)
 
-**사용 도구**: Python + Playwright (Chromium)
-**총 소요 시간**: 약 5분 (설치 포함)
-**생성 방법**: `capture_screenshots.py` 스크립트 실행
+**사용 도구**: Chrome DevTools MCP (헤드리스 브라우저)
+**총 소요 시간**: 약 3분
+**생성 방법**: MCP 서버를 통한 자동화 캡처 (뷰포트 1920x1080, 중앙 스크롤)
 **저장 위치**: `v13.0_resources/part2/images/`
 **품질 검증**: PNG 형식, 1920x1080 해상도, 2MB 이하 확인 완료
 
@@ -231,5 +231,5 @@ v13.0_resources/part2/
 ---
 
 **Version**: v13.0 Part 2 Screenshot Guide
-**Last Updated**: 2025-11-12
+**Last Updated**: 2025-11-13
 **Next Review**: v13.1 업데이트 시

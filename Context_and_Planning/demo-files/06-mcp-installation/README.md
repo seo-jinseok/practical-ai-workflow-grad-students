@@ -47,6 +47,7 @@
 - 대안 도구 언급 (ChatGPT, Claude Projects)
 
 ### Optional: Part 2 Screenshot Generation (3분)
+
 - Part 2 스크린샷 생성 실습
 - MCP 프로토콜 및 SpecKit 페이지 캡처
 - 체크리스트 업데이트
@@ -58,19 +59,23 @@
 **목표**: MCP 서버를 사용하여 Part 1에 필요한 3개 웹페이지 스크린샷 자동 생성
 
 **Step 1**: 디렉토리 구조 확인 (30초)
+
 - `v13.0_resources/images/part1/` 폴더 구조 확인
 - 카테고리별 하위 폴더 존재 확인
 
 **Step 2**: 프롬프트 스크립트 열기 (30초)
+
 - `part1-screenshot-generation-prompts.md` 파일 열기
 - 3개 프롬프트 확인
 
 **Step 3**: Cline에서 스크린샷 생성 (3분)
+
 - 각 프롬프트를 Cline 대화창에 입력
 - MCP 서버가 스크린샷 생성하는 과정 관찰
 - 생성된 파일 확인
 
 **Step 4**: 결과 검증 (1분)
+
 - 3개 PNG 파일이 올바른 경로에 생성되었는지 확인
 - 이미지 미리보기로 품질 확인
 - `11_screenshot_descriptions.md`의 체크리스트 업데이트
