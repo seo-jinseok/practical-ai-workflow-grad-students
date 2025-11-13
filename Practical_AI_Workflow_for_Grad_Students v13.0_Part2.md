@@ -519,6 +519,8 @@ target journal: [목표 저널명]
 
 ### 3.1 Spec-driven Planning이란?
 
+![MCP Protocol Introduction](v13.0_resources/part2/images/mcp-protocol-intro.png)
+
 #### 🤔 배경: 왜 Spec-driven Planning인가?
 
 연구 프로젝트를 시작할 때 많은 대학원생들이 경험하는 문제들:
@@ -588,6 +590,8 @@ target journal: [목표 저널명]
 ```
 
 ### 3.3 AI와 함께 Spec 정교화하기
+
+![SpecKit Repository](v13.0_resources/part2/images/speckit-repository.png)
 
 #### 🤖 왜 AI와 함께 Spec을 정교화하는가?
 
