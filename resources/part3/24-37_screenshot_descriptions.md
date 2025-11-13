@@ -1,10 +1,10 @@
 # Part 3 스크린샷 캡처 가이드
 
-**Version**: v13.0 Part 3
+**Version**: Part 3
 **Date**: 2025-11-13
 **Purpose**: Part 3 관련 스크린샷 필요한 경우의 가이드 문서
 **Status**: 🚧 In Progress (8/20 완료, 40%, MCP 1 + manual 7)
-**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md) | [Part 3 리소스 인덱스](README_Part3.md)
+**Related**: [Part 3 메인 문서](../Practical_AI_Workflow_for_Grad_Students_Part3.md) | [Part 3 리소스 인덱스](README_Part3.md)
 
 ---
 
@@ -352,7 +352,7 @@ resources/part3/
 
 ### 내부 링크
 - **Part 3 스크린샷 생성 프롬프트**: [../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md](../../Context_and_Planning/demo-files/06-mcp-installation/part3-screenshot-generation-prompts.md)
-- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](../Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
+- **Part 3 메인 문서**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](../Practical_AI_Workflow_for_Grad_Students_Part3.md)
 - **Part 3 리소스 인덱스**: [README_Part3.md](README_Part3.md)
 - **Part 1 스크린샷 가이드**: [../11_screenshot_descriptions.md](../11_screenshot_descriptions.md)
 - **Part 2 스크린샷 가이드**: [../part2/12_screenshot_descriptions.md](../part2/12_screenshot_descriptions.md)
@@ -394,6 +394,6 @@ resources/part3/
 
 ---
 
-**Version**: v13.0 Part 3 Screenshot Guide  
+**Version**: Part 3 Screenshot Guide  
 **Last Updated**: 2025-11-13  
 **Next Review**: v13.1 업데이트 시

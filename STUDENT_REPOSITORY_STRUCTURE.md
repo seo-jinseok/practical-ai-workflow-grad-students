@@ -2,14 +2,14 @@
 
 > **목적**: 학생들이 저장소를 처음 클론했을 때 전체 구조를 이해하고 효과적으로 탐색할 수 있도록 안내합니다.  
 > **대상**: 모든 학생 (공개 문서)  
-> **버전**: v13.0  
+> **버전**: 
 > **최종 업데이트**: 2025-11-13
 
 ---
 
 ## 📖 저장소 개요
 
-**대학원생을 위한 실용적 AI 워크플로우 v13.0** 저장소에 오신 것을 환영합니다!
+**대학원생을 위한 실용적 AI 워크플로우** 저장소에 오신 것을 환영합니다!
 
 이 저장소는 대학원생들이 생성형 AI를 연구 파트너로 활용하여 연구 생산성을 10배 향상시키는 방법을 학습하도록 설계되었습니다.
 
@@ -96,7 +96,7 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 1: 기초 편 (2-3시간)
 
-**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students_Part1.md)**
 
 - Context Engineering 기본
 - Markdown으로 연구 문서 작성
@@ -105,7 +105,7 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 2: 고급 도구 편 (3-4시간)
 
-**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students_Part2.md)**
 
 - Copilot Workbook 4개 실습
 - MCP 서버 설치 및 통합
@@ -114,7 +114,7 @@ Generative AI Special Lecture - Graduate School/
 
 #### Part 3: 통합 워크플로우 편 (4-6시간)
 
-**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students_Part3.md)**
 
 - 8단계 연구 라이프사이클
 - 5개 전공별 완전 시나리오 (교육학, 생명과학, 컴퓨터공학, 사회학, 음악학)
@@ -361,9 +361,9 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 선택한 경로에 따라 Part 문서를 순서대로 학습하세요.
 
-- **Part 1**: [Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)
-- **Part 2**: [Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)
-- **Part 3**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)
+- **Part 1**: [Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students_Part1.md)
+- **Part 2**: [Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students_Part2.md)
+- **Part 3**: [Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students_Part3.md)
 
 ### 5단계: 리소스 활용
 
@@ -452,9 +452,9 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 - **[README.md](./README.md)** - 전체 개요
 - **[resources/README.md](./resources/README.md)** - 리소스 마스터 인덱스
 - **[Context_and_Planning/demo-files/DEMO-QUICK-START.md](./Context_and_Planning/demo-files/DEMO-QUICK-START.md)** - 데모 가이드
-- **[Part 1](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)** - 기초 편
-- **[Part 2](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)** - 고급 도구 편
-- **[Part 3](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)** - 통합 워크플로우 편
+- **[Part 1](./Practical_AI_Workflow_for_Grad_Students_Part1.md)** - 기초 편
+- **[Part 2](./Practical_AI_Workflow_for_Grad_Students_Part2.md)** - 고급 도구 편
+- **[Part 3](./Practical_AI_Workflow_for_Grad_Students_Part3.md)** - 통합 워크플로우 편
 
 ### 자주 참조하는 리소스
 
@@ -467,5 +467,5 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 ---
 
-*대학원생을 위한 실용적 AI 워크플로우 v13.0 | 학생 공개용 문서*  
+*대학원생을 위한 실용적 AI 워크플로우 | 학생 공개용 문서*  
 *최종 업데이트: 2025-11-13*
