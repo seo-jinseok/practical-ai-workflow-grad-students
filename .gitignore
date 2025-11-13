@@ -60,3 +60,29 @@ Thumbs.db
 *-broken.md
 .venv/
 __pycache__/
+
+# Student Repository - Private Files
+# Python scripts (instructor tools)
+/*.py
+
+# Version management documents
+/v13.0_RELEASE_*.md
+/v13.0_QA_REPORT.md
+/v13.0_VERSION_MANIFEST.md
+
+# Package configuration
+/package.json
+
+# GitHub configuration
+/.github/
+
+# Context and Planning (except demo-files)
+/Context_and_Planning/*
+!/Context_and_Planning/demo-files/
+!/Context_and_Planning/demo-files/**
+
+# Git history cleanup guides (instructor only)
+/CLEANUP_COMMANDS.sh
+/GIT_HISTORY_CLEANUP_GUIDE.md
+/FORCE_PUSH_CHECKLIST.md
+/VERIFICATION_CHECKLIST.md

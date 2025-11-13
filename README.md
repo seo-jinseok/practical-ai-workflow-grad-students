@@ -182,18 +182,22 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 **[v13.0_resources/README.md](./v13.0_resources/README.md)** - 마스터 인덱스에서 6개 퀵스타트 경로 확인
 
-### 🎭 Context_and_Planning/ 폴더
+### 🎭 데모 파일 (Context_and_Planning/demo-files/)
 
-강의 자료 및 8개 데모 폴더 포함.
+**Context_and_Planning/demo-files/** 폴더에 8개 실습 데모 시나리오가 포함되어 있습니다.
 
-**데모 시나리오**:
+**데모 시나리오 목록**:
 
-- **01-04**: VS Code, Copilot, Projects, task-master-mcp
-- **05-08**: Copilot 워크북, MCP 설치, SpecKit, 통합 워크플로우
+1. **01-vscode-markdown**: VS Code와 Markdown 기본 실습
+2. **02-github-copilot**: GitHub Copilot 핵심 기능
+3. **03-github-projects**: GitHub Projects 프로젝트 관리
+4. **04-task-master-mcp**: Task Master MCP 서버 활용
+5. **05-copilot-workbook**: Copilot Workbook 실습
+6. **06-mcp-installation**: MCP 서버 설치 및 설정
+7. **07-speckit-practice**: SpecKit 워크플로우 실습
+8. **08-integrated-workflow**: 통합 워크플로우 완전 적용
 
 **[Context_and_Planning/demo-files/DEMO-QUICK-START.md](./Context_and_Planning/demo-files/DEMO-QUICK-START.md)** - 데모 퀵스타트 가이드
-
-**[Context_and_Planning/README.md](./Context_and_Planning/README.md)** - 강의 구조 및 콘텐츠 상세
 
 ---
 
@@ -285,10 +289,9 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 ## 📌 버전 정보
 
-- **현재 버전**: v13.0 (2025-11-15 릴리스 예정)
+- **현재 버전**: v13.0 (2025-11-15 릴리스)
 - **이전 버전**: v12.0 (2025-11-01)
 - **다음 업데이트**: v13.1 (2025-12월 예정)
-- **버전 히스토리**: [v13.0_RELEASE_NOTES.md](./v13.0_RELEASE_NOTES.md) 참조
 
 ---
 
@@ -301,4 +304,4 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 ---
 
 *대학원생을 위한 실용적 AI 워크플로우 v13.0 | 생성형 AI 특별강의*  
-*최종 업데이트: 2025-11-12*
+*최종 업데이트: 2025-11-13*
