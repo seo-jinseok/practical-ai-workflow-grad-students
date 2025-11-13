@@ -68,17 +68,17 @@
 ### Playwright 자동화 완료 (2개) ✅
 
 - [x] [MCP 프로토콜 소개 페이지](https://modelcontextprotocol.io/)
-    - ✅ **생성 완료**: 2025-11-13 09:31
-    - **파일명**: `mcp-protocol-intro.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
-    - **해상도**: 1920x1080
-    - **파일 크기**: 240KB
+  - ✅ **생성 완료**: 2025-11-13 09:31
+  - **파일명**: `mcp-protocol-intro.png`
+  - **저장 위치**: `v13.0_resources/part2/images/`
+  - **해상도**: 1920x1080
+  - **파일 크기**: 240KB
 - [x] [SpecKit 리포지토리](https://github.com/github/spec-kit)
-    - ✅ **생성 완료**: 2025-11-13 09:31
-    - **파일명**: `speckit-repository.png`
-    - **저장 위치**: `v13.0_resources/part2/images/`
-    - **해상도**: 1920x1080
-    - **파일 크기**: 184KB
+  - ✅ **생성 완료**: 2025-11-13 09:31
+  - **파일명**: `speckit-repository.png`
+  - **저장 위치**: `v13.0_resources/part2/images/`
+  - **해상도**: 1920x1080
+  - **파일 크기**: 184KB
 
 ### 수동 캡처 필요 - MCP 설치 (4개)
 
@@ -158,12 +158,12 @@
 ### 2025-11-10 (Part 1)
 
 - ✅ Part 1 MCP 자동화 완료 (3개)
-    - GitHub Education Pack, Copilot Plans, VS Code 다운로드
+  - GitHub Education Pack, Copilot Plans, VS Code 다운로드
 
 ### 2025-11-13 (Part 2)
 
 - ✅ Part 2 MCP 자동화 완료 (2개)
-    - MCP 프로토콜 소개, SpecKit 리포지토리 (Chrome DevTools MCP 사용)
+  - MCP 프로토콜 소개, SpecKit 리포지토리 (Chrome DevTools MCP 사용)
 
 ## 참고 문서
 
