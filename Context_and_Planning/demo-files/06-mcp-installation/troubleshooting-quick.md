@@ -266,7 +266,7 @@ npx -y @modelcontextprotocol/inspector npx -y @srigi/mcp-webpage-screenshot
    - 우클릭 → "Save as" 또는 "스크린샷 캡처"
    - PNG 형식으로 저장
    - 파일명: `mcp-protocol-intro.png`, `speckit-repository.png`
-   - 저장 경로: `resources/part2/images/`
+   - 저장 경로: `resources/images/`
 
 4. 품질 검증:
    - 파일 크기 2MB 이하 확인

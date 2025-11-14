@@ -63,7 +63,7 @@
 ## 🔗 Connection to Part 2
 
 - **Reference**: Part 2 Section 5.3 (SpecKit 실습)
-- **Resource**: `resources/part2/21_speckit_practice_project.md`
+- **Resource**: `resources/21_speckit_practice_project.md`
 - **Templates**: `.specify/templates/` (spec, plan, tasks)
 
 ## ⚠️ Important Notes

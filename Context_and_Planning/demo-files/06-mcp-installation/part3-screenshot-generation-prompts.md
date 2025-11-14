@@ -14,7 +14,7 @@
 7. Connected Papers: https://www.connectedpapers.com/ → `connectedpapers-main.png`
 8. Semantic Scholar: https://www.semanticscholar.org/ → `semanticscholar-main.png`
 
-**저장 위치**: `resources/part3/images/tools-ecosystem/`
+**저장 위치**: `resources/images/tools-ecosystem/`
 
 ## 사전 확인 체크리스트
 
@@ -26,7 +26,7 @@
 ## 디렉토리 생성 명령
 
 ```bash
-mkdir -p resources/part3/images/tools-ecosystem
+mkdir -p resources/images/tools-ecosystem
 ```
 
 ## 개별 스크린샷 생성 프롬프트 (8개)
@@ -34,11 +34,11 @@ mkdir -p resources/part3/images/tools-ecosystem
 ### 프롬프트 1: Elicit
 
 ```
-https://elicit.org/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/elicit-main.png로 저장해주세요.
+https://elicit.org/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/elicit-main.png로 저장해주세요.
 ```
 
 - **URL**: https://elicit.org/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/elicit-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/elicit-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., search interface, main features) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: AI 기반 논문 검색 및 요약 도구, 메인 인터페이스와 핵심 기능 표시
 - **예상 파일 크기**: 1-2MB
@@ -46,11 +46,11 @@ https://elicit.org/의 스크린샷을 1920x1080 해상도로 캡처하고 resou
 ### 프롬프트 2: Perplexity
 
 ```
-https://perplexity.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/perplexity-main.png로 저장해주세요.
+https://perplexity.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/perplexity-main.png로 저장해주세요.
 ```
 
 - **URL**: https://perplexity.ai/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/perplexity-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/perplexity-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., search bar, example queries) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: AI 검색 엔진, 웹 검색 및 인용 기능 강조
 - **예상 파일 크기**: 1-2MB
@@ -58,11 +58,11 @@ https://perplexity.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 re
 ### 프롬프트 3: NotebookLM
 
 ```
-https://notebooklm.google.com/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/notebooklm-main.png로 저장해주세요.
+https://notebooklm.google.com/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/notebooklm-main.png로 저장해주세요.
 ```
 
 - **URL**: https://notebooklm.google.com/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/notebooklm-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/notebooklm-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., main interface, feature highlights) are centered and fully visible within the viewport. 페이지 로드 완료 대기, Google 쿠키 배너 처리 필요 가능성
 - **설명**: Google의 노트북 기반 연구 도구, 메인 랜딩 페이지
 - **예상 파일 크기**: 1-2MB
@@ -70,11 +70,11 @@ https://notebooklm.google.com/의 스크린샷을 1920x1080 해상도로 캡처�
 ### 프롬프트 4: Consensus
 
 ```
-https://consensus.app/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/consensus-main.png로 저장해주세요.
+https://consensus.app/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/consensus-main.png로 저장해주세요.
 ```
 
 - **URL**: https://consensus.app/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/consensus-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/consensus-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., search interface, research features) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: 학술 연구 합의 도구, 메인 인터페이스와 검색 기능
 - **예상 파일 크기**: 1-2MB
@@ -82,11 +82,11 @@ https://consensus.app/의 스크린샷을 1920x1080 해상도로 캡처하고 re
 ### 프롬프트 5: Scite
 
 ```
-https://scite.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/scite-main.png로 저장해주세요.
+https://scite.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/scite-main.png로 저장해주세요.
 ```
 
 - **URL**: https://scite.ai/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/scite-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/scite-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., citation analysis features) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: 인용 분석 도구, 메인 인터페이스와 핵심 기능
 - **예상 파일 크기**: 1-2MB
@@ -94,11 +94,11 @@ https://scite.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resourc
 ### 프롬프트 6: ResearchRabbit
 
 ```
-https://researchrabbit.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/researchrabbit-main.png로 저장해주세요.
+https://researchrabbit.ai/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/researchrabbit-main.png로 저장해주세요.
 ```
 
 - **URL**: https://researchrabbit.ai/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/researchrabbit-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/researchrabbit-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., research discovery features) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: 연구 발견 및 추천 도구, 메인 랜딩 페이지
 - **예상 파일 크기**: 1-2MB
@@ -106,11 +106,11 @@ https://researchrabbit.ai/의 스크린샷을 1920x1080 해상도로 캡처하�
 ### 프롬프트 7: Connected Papers
 
 ```
-https://www.connectedpapers.com/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/connectedpapers-main.png로 저장해주세요.
+https://www.connectedpapers.com/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/connectedpapers-main.png로 저장해주세요.
 ```
 
 - **URL**: https://www.connectedpapers.com/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/connectedpapers-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/connectedpapers-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., graph visualization preview) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: 논문 연결 시각화 도구, 메인 인터페이스와 그래프 예시
 - **예상 파일 크기**: 1-2MB
@@ -118,11 +118,11 @@ https://www.connectedpapers.com/의 스크린샷을 1920x1080 해상도로 캡�
 ### 프롬프트 8: Semantic Scholar
 
 ```
-https://www.semanticscholar.org/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part3/images/tools-ecosystem/semanticscholar-main.png로 저장해주세요.
+https://www.semanticscholar.org/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/tools-ecosystem/semanticscholar-main.png로 저장해주세요.
 ```
 
 - **URL**: https://www.semanticscholar.org/
-- **저장 경로**: `resources/part3/images/tools-ecosystem/semanticscholar-main.png`
+- **저장 경로**: `resources/images/tools-ecosystem/semanticscholar-main.png`
 - **캡처 옵션**: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., search bar, featured papers) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - **설명**: AI 기반 학술 검색 엔진, 메인 인터페이스
 - **예상 파일 크기**: 1-2MB
@@ -150,7 +150,7 @@ https://www.semanticscholar.org/의 스크린샷을 1920x1080 해상도로 캡�
 - **타임아웃 오류**: 네트워크 연결 확인, URL 유효성 확인, 일부 도구는 로딩 시간이 길 수 있음
 - **저장 경로 오류**: 디렉토리가 존재하는지 확인
 - **Chromium 오류**: `pnpm playwright install --with-deps --only-shell chromium` 실행
-- **권한 오류**: macOS에서 `chmod -R 755 resources/part3/images/` 실행
+- **권한 오류**: macOS에서 `chmod -R 755 resources/images/` 실행
 - **로그인 필요 페이지**: 메인 랜딩 페이지만 캡처, 로그인 후 화면은 수동 캡처로 전환
 - **쿠키 배너**: Google 서비스(NotebookLM)는 쿠키 배너가 나타날 수 있으므로 재시도 필요 가능성
 
@@ -160,14 +160,14 @@ https://www.semanticscholar.org/의 스크린샷을 1920x1080 해상도로 캡�
 
 ```
 다음 8개 연구 도구의 스크린샷을 1920x1080 해상도로 캡처해주세요:
-1. https://elicit.org/ → resources/part3/images/tools-ecosystem/elicit-main.png
-2. https://perplexity.ai/ → resources/part3/images/tools-ecosystem/perplexity-main.png
-3. https://notebooklm.google.com/ → resources/part3/images/tools-ecosystem/notebooklm-main.png
-4. https://consensus.app/ → resources/part3/images/tools-ecosystem/consensus-main.png
-5. https://scite.ai/ → resources/part3/images/tools-ecosystem/scite-main.png
-6. https://researchrabbit.ai/ → resources/part3/images/tools-ecosystem/researchrabbit-main.png
-7. https://www.connectedpapers.com/ → resources/part3/images/tools-ecosystem/connectedpapers-main.png
-8. https://www.semanticscholar.org/ → resources/part3/images/tools-ecosystem/semanticscholar-main.png
+1. https://elicit.org/ → resources/images/tools-ecosystem/elicit-main.png
+2. https://perplexity.ai/ → resources/images/tools-ecosystem/perplexity-main.png
+3. https://notebooklm.google.com/ → resources/images/tools-ecosystem/notebooklm-main.png
+4. https://consensus.app/ → resources/images/tools-ecosystem/consensus-main.png
+5. https://scite.ai/ → resources/images/tools-ecosystem/scite-main.png
+6. https://researchrabbit.ai/ → resources/images/tools-ecosystem/researchrabbit-main.png
+7. https://www.connectedpapers.com/ → resources/images/tools-ecosystem/connectedpapers-main.png
+8. https://www.semanticscholar.org/ → resources/images/tools-ecosystem/semanticscholar-main.png
 ```
 
 ## 참고 문서

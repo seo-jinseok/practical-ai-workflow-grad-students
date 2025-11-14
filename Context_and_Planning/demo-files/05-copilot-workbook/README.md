@@ -51,7 +51,7 @@
 ## 🔗 Connection to Part 2
 
 - **Reference**: Part 2 Section 2.2 (Exercise 1: 문헌 조사 자동화)
-- **Resource**: `resources/part2/12_copilot_workbook_exercises.md`
+- **Resource**: `resources/12_copilot_workbook_exercises.md`
 - **Next**: Exercise 2-4는 자료로 제공, 학생 자율 실습
 
 ---

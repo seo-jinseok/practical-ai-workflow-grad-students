@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#f8f9fa" />
+  <text x="960" y="80" font-family="'SF Mono', 'Consolas', monospace" font-size="28px" fill="#1e1e1e" text-anchor="middle" font-weight="bold">교육학 석사논문 프로젝트 폴더 구조</text>
+  <text x="200" y="150" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="235" y="150" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="bold">ai-education-research/</text>
+  <text x="600" y="150" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 교육학 석사논문 프로젝트</text>
+  <text x="240" y="185" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="275" y="185" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">README.md</text>
+  <text x="640" y="185" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 프로젝트 개요</text>
+  <text x="240" y="220" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="275" y="220" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">연구컨텍스트.md</text>
+  <text x="640" y="220" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # AI용 컨텍스트</text>
+  <text x="240" y="255" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="275" y="255" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">.gitignore</text>
+  <text x="640" y="255" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 버전 관리 제외 파일</text>
+  <text x="240" y="290" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="290" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">01_계획/</text>
+  <text x="640" y="290" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 연구 계획 단계</text>
+  <text x="280" y="325" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="325" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">연구계획서.md</text>
+  <text x="280" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">일정표.md</text>
+  <text x="280" y="395" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="395" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">IRB신청서.md</text>
+  <text x="240" y="430" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="430" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">02_문헌조사/</text>
+  <text x="640" y="430" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 선행 연구 조사</text>
+  <text x="280" y="465" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="465" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">문헌목록.md</text>
+  <text x="280" y="500" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="500" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">키워드.md</text>
+  <text x="280" y="535" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="315" y="535" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">papers/</text>
+  <text x="320" y="570" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="355" y="570" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">paper001.pdf</text>
+  <text x="320" y="605" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="355" y="605" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">paper002.pdf</text>
+  <text x="240" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">03_데이터수집/</text>
+  <text x="640" y="640" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 설문 및 인터뷰</text>
+  <text x="280" y="675" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="675" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">설문지.md</text>
+  <text x="280" y="710" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="710" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">인터뷰가이드.md</text>
+  <text x="280" y="745" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="315" y="745" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">raw_data/</text>
+  <text x="240" y="780" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="780" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">04_분석/</text>
+  <text x="640" y="780" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 데이터 분석</text>
+  <text x="280" y="815" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="815" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">analysis_script.py</text>
+  <text x="280" y="850" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="850" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">results.md</text>
+  <text x="280" y="885" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="315" y="885" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">figures/</text>
+  <text x="240" y="920" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="920" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">05_논문작성/</text>
+  <text x="640" y="920" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 논문 초안</text>
+  <text x="280" y="955" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="955" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">chapter1_서론.md</text>
+  <text x="280" y="990" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="990" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">chapter2_이론적배경.md</text>
+  <text x="280" y="1025" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="1025" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">chapter3_연구방법.md</text>
+  <text x="280" y="1060" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="1060" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">chapter4_결과.md</text>
+  <text x="280" y="1095" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="1095" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">chapter5_논의.md</text>
+  <text x="240" y="1130" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📁</text>
+  <text x="275" y="1130" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">06_참고자료/</text>
+  <text x="640" y="1130" font-family="'SF Mono', 'Consolas', monospace" font-size="13px" fill="#666" font-style="italic">  # 기타 자료</text>
+  <text x="280" y="1165" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="1165" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">용어집.md</text>
+  <text x="280" y="1200" font-family="'SF Mono', 'Consolas', monospace" font-size="18px" fill="#d4d4d4">📄</text>
+  <text x="315" y="1200" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#1e1e1e" font-weight="normal">참고문헌.md</text>
+</svg>

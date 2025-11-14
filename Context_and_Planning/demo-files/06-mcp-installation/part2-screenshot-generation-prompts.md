@@ -7,20 +7,20 @@ MCP 관련 공식 문서 페이지를 대상으로 합니다.
 
 ## 대상 URL 목록
 
-- [MCP Protocol Introduction](https://modelcontextprotocol.io/) → `mcp-protocol-intro.png` (resources/part2/images/)
-- [SpecKit Repository](https://github.com/github/spec-kit) → `speckit-repository.png` (resources/part2/images/)
+- [MCP Protocol Introduction](https://modelcontextprotocol.io/) → `mcp-protocol-intro.png` (resources/images/)
+- [SpecKit Repository](https://github.com/github/spec-kit) → `speckit-repository.png` (resources/images/)
 
 ## 사전 확인 체크리스트
 
 - [x] Cline MCP `webpageScreenshot` 서버 활성화 확인
 - [x] Node.js 20+ 버전 확인
-- [x] 디렉토리 구조 생성 확인 (`resources/part2/images/`)
+- [x] 디렉토리 구조 생성 확인 (`resources/images/`)
 - [x] Playwright Chromium 다운로드 확인
 
 ## 디렉토리 생성 명령
 
 ```bash
-mkdir -p resources/part2/images
+mkdir -p resources/images
 ```
 
 ## 스크린샷 생성 프롬프트
@@ -28,11 +28,11 @@ mkdir -p resources/part2/images
 ### 프롬프트 1: MCP 프로토콜 소개 페이지
 
 ```text
-https://modelcontextprotocol.io/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part2/images/mcp-protocol-intro.png로 저장해주세요.
+https://modelcontextprotocol.io/의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/mcp-protocol-intro.png로 저장해주세요.
 ```
 
 - URL: [MCP Protocol](https://modelcontextprotocol.io/)
-- 저장 경로: `resources/part2/images/mcp-protocol-intro.png`
+- 저장 경로: `resources/images/mcp-protocol-intro.png`
 - 캡처 옵션: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., protocol overview, key features) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - 설명: MCP(Model Context Protocol) 공식 소개 페이지, 프로토콜 개요 및 주요 기능 표시
 - 예상 파일 크기: 1-2MB
@@ -40,11 +40,11 @@ https://modelcontextprotocol.io/의 스크린샷을 1920x1080 해상도로 캡�
 ### 프롬프트 2: SpecKit 리포지토리
 
 ```text
-https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡처하고 resources/part2/images/speckit-repository.png로 저장해주세요.
+https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡처하고 resources/images/speckit-repository.png로 저장해주세요.
 ```
 
 - URL: [SpecKit Repository](https://github.com/github/spec-kit)
-- 저장 경로: `resources/part2/images/speckit-repository.png`
+- 저장 경로: `resources/images/speckit-repository.png`
 - 캡처 옵션: Set viewport to 1920x1080 and capture the visible area after scrolling to ensure key elements (e.g., README content, repository description) are centered and fully visible within the viewport. 페이지 로드 완료 대기
 - 설명: GitHub SpecKit 리포지토리 메인 페이지, README 및 프로젝트 설명 표시
 - 예상 파일 크기: 1-2MB
@@ -70,7 +70,7 @@ https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡
 - **타임아웃 오류**: 네트워크 연결 확인, URL 유효성 확인
 - **저장 경로 오류**: 디렉토리가 존재하는지 확인
 - **Chromium 오류**: `pnpm playwright install --with-deps --only-shell chromium` 실행
-- **권한 오류**: macOS에서 `chmod -R 755 resources/part2/images/` 실행
+- **권한 오류**: macOS에서 `chmod -R 755 resources/images/` 실행
 - **macOS `bootstrap_check_in` 오류**: CLI에서 Playwright 브라우저가 실행되지 않으면
   `xattr -dr com.apple.quarantine ~/Library/Caches/ms-playwright` 시도 후에도 실패할 경우
   GUI 환경에서 실행하거나 Chrome DevTools 수동 캡처 절차로 전환
@@ -81,8 +81,8 @@ https://github.com/github/spec-kit의 스크린샷을 1920x1080 해상도로 캡
 
 ```text
 다음 2개 URL의 스크린샷을 1920x1080 해상도로 캡처해주세요:
-1. https://modelcontextprotocol.io/ → resources/part2/images/mcp-protocol-intro.png
-2. https://github.com/github/spec-kit → resources/part2/images/speckit-repository.png
+1. https://modelcontextprotocol.io/ → resources/images/mcp-protocol-intro.png
+2. https://github.com/github/spec-kit → resources/images/speckit-repository.png
 ```
 
 ## 참고 문서

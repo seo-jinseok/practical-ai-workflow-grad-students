@@ -172,7 +172,7 @@
 
 ### Exercise 2-4 진행
 **Exercise 2: 연구 계획서 작성**
-- 파일: `resources/part2/12_copilot_workbook_exercises.md`
+- 파일: `resources/12_copilot_workbook_exercises.md`
 - 내용: 연구 목표 설정, 방법론 선택, 일정 계획
 
 **Exercise 3: 데이터 분석**

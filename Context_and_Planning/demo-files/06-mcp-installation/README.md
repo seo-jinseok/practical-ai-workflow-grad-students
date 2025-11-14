@@ -82,7 +82,7 @@
 
 **Step 1**: 디렉토리 구조 확인 (30초)
 
-    - `resources/part2/images/` 폴더 생성 확인
+    - `resources/images/` 폴더 생성 확인
     - Part 1 패턴과 동일한 구조 유지
 
 **Step 2**: 프롬프트 스크립트 열기 (30초)
@@ -107,7 +107,7 @@
 **목표**: MCP 서버를 사용하여 Part 3에 필요한 8개 연구 도구 웹페이지 스크린샷 자동 생성 준비
 
 **Step 1**: 디렉토리 구조 확인 (30초)
-- `resources/part3/images/tools-ecosystem/` 폴더 생성 확인
+- `resources/images/tools-ecosystem/` 폴더 생성 확인
 - Part 1/Part 2 패턴과 동일한 구조 유지
 
 **Step 2**: 프롬프트 스크립트 열기 (30초)
@@ -227,7 +227,7 @@ MCP 자동화로 생성할 수 없는 데스크톱 애플리케이션 스크린�
 ### Part 3 MCP 배치 대기 (7개)
 
 - Perplexity, NotebookLM, Consensus, Scite, ResearchRabbit, Connected Papers, Semantic Scholar
-- 저장 위치: `resources/part3/images/tools-ecosystem/`
+- 저장 위치: `resources/images/tools-ecosystem/`
 - 파일명 규칙: kebab-case (예: `perplexity-main.png`)
 
 ### 일반 MCP 실패 시
@@ -302,9 +302,9 @@ MCP 자동화로 생성할 수 없는 데스크톱 애플리케이션 스크린�
 
 **관련 리소스**:
 
-    - `resources/part2/12_screenshot_descriptions.md`: Part 2 스크린샷 요구사항
+    - `resources/12_screenshot_descriptions.md`: Part 2 스크린샷 요구사항
     - `part2-screenshot-generation-prompts.md`: 생성 프롬프트
-    - `resources/part2/15_mcp_installation_guide.md`: MCP 설치 가이드
+    - `resources/15_mcp_installation_guide.md`: MCP 설치 가이드
     - **Next**: Section 4.2 (task-master-mcp 실습)
 
 ## ⚠️ Important Notes
@@ -340,7 +340,7 @@ MCP 자동화로 생성할 수 없는 데스크톱 애플리케이션 스크린�
 
 **관련 리소스**:
 
-- `resources/part3/24-37_screenshot_descriptions.md`: Part 3 스크린샷 요구사항
+- `resources/24-37_screenshot_descriptions.md`: Part 3 스크린샷 요구사항
 - `part3-screenshot-generation-prompts.md`: 생성 프롬프트
 - `screenshots-checklist.md`: 전체 진행 상황 (27/61 완료)
 

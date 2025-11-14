@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect x="0" y="0" width="1920" height="1080" fill="#1e1e1e" />
+  <text x="960" y="80" font-family="'SF Mono', 'Consolas', monospace" font-size="48px" fill="white" text-anchor="middle" font-weight="bold">생명과학 연구 프로젝트 구조</text>
+  <text x="960" y="140" font-family="'SF Mono', 'Consolas', monospace" font-size="28px" fill="#888" text-anchor="middle">세포 신호전달 경로 연구</text>
+  <rect x="200" y="220" width="1520" height="760" fill="#252526" stroke="#3e3e42" stroke-width="2" rx="8" />
+  <text x="240" y="260" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="275" y="260" font-family="Monaco" font-size="18px" fill="#4ec9b0">cell_signaling/</text>
+  <text x="280" y="310" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="315" y="310" font-family="Monaco" font-size="18px" fill="#4ec9b0">01_실험계획/</text>
+  <text x="320" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="355" y="360" font-family="Monaco" font-size="18px" fill="#ce9178">proposal.md</text>
+  <text x="465" y="360" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 제안서</text>
+  <text x="320" y="410" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="355" y="410" font-family="Monaco" font-size="18px" fill="#ce9178">protocol.md</text>
+  <text x="465" y="410" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 프로토콜</text>
+  <text x="280" y="460" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="315" y="460" font-family="Monaco" font-size="18px" fill="#4ec9b0">02_실험데이터/</text>
+  <text x="320" y="510" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="355" y="510" font-family="Monaco" font-size="18px" fill="#4ec9b0">raw_data/</text>
+  <text x="445" y="510" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 원시</text>
+  <text x="360" y="560" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="395" y="560" font-family="Monaco" font-size="18px" fill="#ce9178">western_blot.tif</text>
+  <text x="555" y="560" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 블롯</text>
+  <text x="280" y="610" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="315" y="610" font-family="Monaco" font-size="18px" fill="#4ec9b0">03_분석/</text>
+  <text x="320" y="660" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="355" y="660" font-family="Monaco" font-size="18px" fill="#ce9178">analysis.py</text>
+  <text x="465" y="660" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # Python</text>
+  <text x="280" y="710" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📁</text>
+  <text x="315" y="710" font-family="Monaco" font-size="18px" fill="#4ec9b0">04_논문/</text>
+  <text x="320" y="760" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="355" y="760" font-family="Monaco" font-size="18px" fill="#ce9178">manuscript.md</text>
+  <text x="485" y="760" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 초안</text>
+  <text x="280" y="810" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="white">📄</text>
+  <text x="315" y="810" font-family="Monaco" font-size="18px" fill="#ce9178">README.md</text>
+  <text x="405" y="810" font-family="'SF Mono', 'Consolas', monospace" font-size="16px" fill="#6a9955">  # 개요</text>
+  <text x="960" y="1010" font-family="'SF Mono', 'Consolas', monospace" font-size="20px" fill="#858585" text-anchor="middle">💡 생명과학: 실험 데이터 관리와 재현성이 핵심</text>
+</svg>
