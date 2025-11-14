@@ -1,8 +1,8 @@
-# 대학원생을 위한 실용적 AI 워크플로우 v13.0 Part 3: 통합 워크플로우 편
+# 대학원생을 위한 실용적 AI 워크플로우 Part 3: 통합 워크플로우 편
 
 ## 프로젝트 시작부터 논문 제출까지 전 과정
 
-**Version**: v13.0 Part 3  
+**Version**: Part 3  
 **Date**: 2025-11-10  
 **Target**: 다양한 전공의 대학원생 (코딩 지식 불필요)  
 **Prerequisites**: Part 1-2 완료 (Context Engineering, Markdown, Copilot, MCP, SpecKit)

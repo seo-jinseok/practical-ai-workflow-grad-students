@@ -1,6 +1,6 @@
 # Part 2 고급 도구 리소스 가이드
 
-**Version**: v13.0 Part 2  
+**Version**: Part 2  
 **Date**: 2025-11-10  
 **Target**: 대학원생 (코딩 지식 불필요, Part 1 완료)  
 **Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md)
@@ -197,7 +197,7 @@ resources/
 
 ---
 
-**Version**: v13.0 Part 2 Resources  
+**Version**: Part 2 Resources  
 **Last Updated**: 2025-11-10  
 **Next**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md)  
 **Previous**: [Part 1 Resources](README_Part1.md)

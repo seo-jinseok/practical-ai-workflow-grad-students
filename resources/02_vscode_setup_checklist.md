@@ -264,4 +264,4 @@ sudo apt update && sudo apt install code
 ---
 
 *마지막 업데이트: 2025-11-10*  
-*버전: v13.0 Part 1*
+*버전: Part 1*

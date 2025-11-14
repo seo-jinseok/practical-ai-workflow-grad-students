@@ -1,6 +1,6 @@
 # Part 2 스크린샷 캡처 가이드
 
-**Version**: v13.0 Part 2
+**Version**: Part 2
 **Date**: 2025-11-13
 **Status**: ✅ 완료 (6/15 완료)
 **Status Detail**: 실제 웹사이트 2개 + Mockup 4개 생성 완료
@@ -271,6 +271,6 @@ resources/part2/
 
 ---
 
-**Version**: v13.0 Part 2 Screenshot Guide
+**Version**: Part 2 Screenshot Guide
 **Last Updated**: 2025-11-13
 **Next Review**: v13.1 업데이트 시

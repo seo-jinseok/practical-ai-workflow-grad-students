@@ -1,10 +1,10 @@
-# 대학원생을 위한 실용적 AI 워크플로우 v13.0 Part 2: 고급 도구 편
+# 대학원생을 위한 실용적 AI 워크플로우 Part 2: 고급 도구 편
 
 ## GitHub Copilot 워크북 + MCP + SpecKit
 
 ---
 
-**Version**: v13.0 Part 2  
+**Version**: Part 2  
 **Date**: 2025-11-10  
 **Target**: 다양한 전공의 대학원생 (코딩 지식 불필요)  
 **Prerequisites**: Part 1 완료 (Context Engineering, Markdown, 기본 AI 사용)
@@ -1846,7 +1846,7 @@ Part 3에서는 Part 1과 Part 2의 모든 도구들을 **실제 연구 프로�
 
 ---
 
-**Version**: v13.0 Part 2  
+**Version**: Part 2  
 **Total Pages**: 본 문서  
 **Last Updated**: 2025-11-10  
 **Next**: Part 3 - 통합 워크플로우 편 (예정)

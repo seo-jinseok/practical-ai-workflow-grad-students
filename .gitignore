@@ -62,18 +62,24 @@ Thumbs.db
 __pycache__/
 
 # Student Repository - Private Files
-# Python scripts (instructor tools)
+# NOTE: These rules block root-level files to keep student repository clean
+# TODO: Review these rules if adding student-facing examples in the future:
+#   - /*.py: May need to allow specific Python examples (use !/*.py whitelist)
+#   - /package.json: May need for Node.js demos (remove or use specific path)
+#   - /.github/: May need for GitHub Actions tutorials (remove or use specific exclusions)
+
+# Python scripts (instructor tools only, not student demos)
 /*.py
 
-# Version management documents
+# Version management documents (legacy patterns, kept for reference)
 /v13.0_RELEASE_*.md
 /v13.0_QA_REPORT.md
 /v13.0_VERSION_MANIFEST.md
 
-# Package configuration
+# Package configuration (no Node.js dependencies currently)
 /package.json
 
-# GitHub configuration
+# GitHub configuration (no Actions/workflows for students currently)
 /.github/
 
 # Context and Planning (except demo-files)

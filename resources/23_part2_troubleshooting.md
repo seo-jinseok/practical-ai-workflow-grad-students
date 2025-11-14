@@ -190,4 +190,4 @@ Invalid API key or insufficient credits
 
 ---
 **마지막 업데이트**: 2025-11-11  
-**버전**: v13.0
+**버전**: Part 2

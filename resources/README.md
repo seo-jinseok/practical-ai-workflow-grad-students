@@ -1,8 +1,8 @@
-# v13.0 Resources 마스터 인덱스 | Master Index
+# Resources 마스터 인덱스 | Master Index
 
 ## 📋 헤더 정보
 
-**버전**: v13.0 Resources Master Index  
+**버전**: Resources Master Index  
 **목적**: 대학원생 AI 연구 워크플로우 중앙 허브 - Parts 1-3를 2025년 도구와 워크플로우로 연결  
 **대상**: 대학원생 (석/박사), 연구자, AI 도구 활용 연구자  
 **최종 업데이트**: 2025-11-11  
@@ -287,7 +287,7 @@ Constitution → Spec → Plan → Tasks → Execute → Verify → Learn
 ### 🎯 실습 및 데모
 - **데모 파일**: `../Context_and_Planning/demo-files/README.md`
 - **퀵스타트**: `../Context_and_Planning/demo-files/DEMO-QUICK-START.md`
-- **실습 시나리오**: `../Context_and_Planning/demo-files/v13.0-master-demo-script.md`
+- **실습 시나리오**: `../Context_and_Planning/demo-files/DEMO-QUICK-START.md`
 
 ### 🏛️ 헌장 및 지침
 - **AI 헌장**: `../.specify/memory/constitution.md`
@@ -351,12 +351,12 @@ resources/
 ## 🏁 푸터 정보
 
 ### 📊 버전 메타데이터
-- **버전**: v13.0 Master Index
+- **버전**: Master Index
 - **생성일**: 2025-11-11
 - **마지막 업데이트**: 2025-11-11  
-- **기반**: v13.0 Parts 1-3 + v5.0 템플릿
+- **기반**: Parts 1-3 템플릿
 - **다음 업데이트**: 2026년 1월 (연간 업데이트)
-- **호환성**: v13.0 전체 시리즈
+- **호환성**: 전체 시리즈
 - **언어**: 한국어 (주), English (보조)
 
 ### 👥 기여자 및 라이센스
@@ -365,15 +365,15 @@ resources/
 - **연락처**: [강의 페이지]() 또는 GitHub Issues
 
 ### 🔄 업데이트 로그
-- **v13.0 (2025-11-11)**: 마스터 인덱스 생성, 43개 파일 체계화
-- **v12.0 (2025-11-10)**: 기존 Part별 README 구성
-- **v5.0 (이전)**: 기본 템플릿 및 구조 확립
+- **2025-11-11**: 마스터 인덱스 생성, 43개 파일 체계화
+- **2025-11-10**: 기존 Part별 README 구성
+- **이전 버전**: 기본 템플릿 및 구조 확립
 
 ---
 
 ## 🎓 시작하기
 
-**이제 v13.0 Resources의 여정이 시작됩니다!**
+**이제 Resources의 여정이 시작됩니다!**
 
 1. **목표 설정**: 자신의 연구 단계와 레벨 파악
 2. **경로 선택**: 위의 6개 퀵스타트 중 선택

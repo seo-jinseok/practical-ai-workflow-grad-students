@@ -16,7 +16,7 @@
 |------|-------|-----------|-----------|
 | 1-2 | **착수** | Context Engineering, 폴더 구조 생성 | VS Code, Markdown, AI 프롬프트 |
 | 3-8 | **문헌 조사** | 체계적 문헌 검토, 키워드 생성 | Copilot 워크북, Elicit, NotebookLM |
-| 9-12 | **연구 설계** | Spec-driven Planning, IRB 신청 | SpecKit, v13.0 도구 |
+| 9-12 | **연구 설계** | Spec-driven Planning, IRB 신청 | SpecKit 도구 |
 | 13-16 | **데이터 수집** | 설문 배포, 인터뷰 진행 | MCP 서버, Zotero, Jupyter |
 | 17-20 | **데이터 분석** | 통계 분석, 질적 분석 | Python, R, NVivo |
 | 21-24 | **논문 작성** | 결과 해석, 논문 완성 | Copilot, 검증 프로세스 |

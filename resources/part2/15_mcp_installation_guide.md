@@ -1,6 +1,6 @@
 # MCP (Model Context Protocol) 설치 및 실용 가이드
 
-**Version**: v13.0 Part 2  
+**Version**: Part 2  
 **Date**: 2025-11-10  
 **Target**: 대학원생 (코딩 지식 불필요, Part 1 완료)  
 **Related**: [메인 Part 2 문서](../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [Part 2 리소스 인덱스](README_Part2.md)
@@ -1064,6 +1064,6 @@ MCP 가이드가 연구 생산성에 실질적으로 도움이 되었는지 피�
 
 ---
 
-**Version**: v13.0 MCP Installation Guide  
+**Version**: MCP Installation Guide  
 **Last Updated**: 2025-11-10  
 **Related**: [Part 2 Resources](README_Part2.md) | [Main Part 2 Document](../Practical_AI_Workflow_for_Grad_Students_Part2.md) | [SpecKit Guide](19_speckit_installation_guide.md)

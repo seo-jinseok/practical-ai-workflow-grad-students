@@ -1,11 +1,11 @@
-# 대학원생을 위한 실용적 AI 워크플로우 v13.0
+# 대학원생을 위한 실용적 AI 워크플로우
 
 [![License: Educational Use](https://img.shields.io/badge/License-Educational%20Use-blue.svg)](./LICENSE) [![Language: Korean](https://img.shields.io/badge/Language-Korean-red.svg)](https://img.shields.io/badge/Language-Korean-red.svg)
 
 **부제**: 2025년 최신 AI 도구로 연구 생산성 향상하기
 
 **🎓 대상**: 대학원생 (석사/박사), 연구자  
-**📅 릴리스**: v13.0 (2025-11-15 예정)  
+**📅 릴리스**: 2025-11-15 예정  
 **💰 비용**: 무료 (GitHub Student Developer Pack 활용)  
 **⏱️ 학습 시간**: 17-25시간 (4-6주 과정)
 
@@ -13,7 +13,7 @@
 
 ## 📖 프로젝트 소개
 
-대학원생을 위한 **실용적 AI 워크플로우 v13.0**은 생성형 AI를 연구 파트너로 활용하여 연구 생산성을 10배 향상시키는 체계적인 방법을 제공합니다.
+대학원생을 위한 **실용적 AI 워크플로우**는 생성형 AI를 연구 파트너로 활용하여 연구 생산성을 10배 향상시키는 체계적인 방법을 제공합니다.
 
 ### 🎯 주요 특징
 
@@ -36,7 +36,7 @@
 ## 📚 3부작 구조
 
 ```text
-대학원생을 위한 실용적 AI 워크플로우 v13.0
+대학원생을 위한 실용적 AI 워크플로우
 ├── Part 1: 기초 편 (2-3시간)
 │   ├── Context Engineering
 │   ├── Markdown 문서화
@@ -53,7 +53,7 @@
 
 ### 📖 Part 1: 기초 편
 
-**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part1.md](./Practical_AI_Workflow_for_Grad_Students_Part1.md)**
 
 Context Engineering과 Markdown을 활용한 연구 기본기 다지기. GitHub Copilot 2025 신기능 완전 반영.
 
@@ -65,7 +65,7 @@ Context Engineering과 Markdown을 활용한 연구 기본기 다지기. GitHub 
 
 ### 📖 Part 2: 고급 도구 편
 
-**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part2.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part2.md](./Practical_AI_Workflow_for_Grad_Students_Part2.md)**
 
 Copilot Workbook 4개 실습, MCP 서버 통합, SpecKit 워크플로우 마스터.
 
@@ -77,7 +77,7 @@ Copilot Workbook 4개 실습, MCP 서버 통합, SpecKit 워크플로우 마스�
 
 ### 📖 Part 3: 통합 워크플로우 편
 
-**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part3.md)**
+**[Practical_AI_Workflow_for_Grad_Students_Part3.md](./Practical_AI_Workflow_for_Grad_Students_Part3.md)**
 
 실제 연구 프로젝트에 AI 워크플로우 완전 통합. 5개 전공별 완전 시나리오 제공.
 
@@ -263,7 +263,7 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
    - 필요시 43개 리소스 파일 참조
    - 데모 시나리오로 추가 실습
 
-**첫 단계**: [Part 1부터 시작하기](./Practical_AI_Workflow_for_Grad_Students%20v13.0_Part1.md)
+**첫 단계**: [Part 1부터 시작하기](./Practical_AI_Workflow_for_Grad_Students_Part1.md)
 
 ---
 
@@ -290,7 +290,7 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 ## 📌 버전 정보
 
-- **현재 버전**: v13.0 (2025-11-15 릴리스)
+- **현재 버전**: 2025-11-15 릴리스
 - **이전 버전**: v12.0 (2025-11-01)
 - **다음 업데이트**: v13.1 (2025-12월 예정)
 
@@ -298,11 +298,11 @@ Part 3 (36번 성공 사례 + 42번 협업 워크플로우)
 
 ## 🎓 시작하세요!
 
-**대학원생을 위한 실용적 AI 워크플로우 v13.0**으로 연구의 새로운 지평을 열어보세요.
+**대학원생을 위한 실용적 AI 워크플로우**로 연구의 새로운 지평을 열어보세요.
 
 *2025년 최신 AI 도구로 연구 생산성을 혁신하는 여정이 시작됩니다!*
 
 ---
 
-*대학원생을 위한 실용적 AI 워크플로우 v13.0 | 생성형 AI 특별강의*  
+*대학원생을 위한 실용적 AI 워크플로우 | 생성형 AI 특별강의*  
 *최종 업데이트: 2025-11-13*

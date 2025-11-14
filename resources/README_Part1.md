@@ -1,4 +1,4 @@
-# v13.0 Part 1 리소스 모음 (기초 편)
+# Part 1 리소스 모음 (기초 편)
 
 **목적**
 - Part 1 강의에 바로 사용할 수 있는 실습/참고 자료 제공
@@ -42,7 +42,7 @@
 - **Agent 지침**: `../AGENTS.md`
 
 ## 📋 버전 정보
-- Version: v13.0 Part 1
+- Version: Part 1 Resources
 - Last Updated: 2025-11-10
 - Based on: v12.0 Sections 1-4 + 2025 updates
 - Next: Part 2 resources (고급 도구 편)
