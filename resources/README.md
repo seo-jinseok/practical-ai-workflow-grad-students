@@ -14,7 +14,7 @@
 
 전체 교육 내용을 5분으로 미리 확인하세요!
 
-https://github.com/user-attachments/assets/summary.mp4
+<video src="https://github.com/seo-jinseok/practical-ai-workflow-grad-students/raw/main/resources/summary.mp4" controls width="100%"></video>
 
 > 💡 **영상 내용**: Part 1 기초부터 Part 3 통합 워크플로우까지, AI 도구를 활용한 대학원 연구의 전체 과정을 한눈에 보여드립니다.
 
