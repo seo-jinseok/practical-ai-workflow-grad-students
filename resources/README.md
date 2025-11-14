@@ -8,6 +8,18 @@
 **최종 업데이트**: 2025-11-11  
 **라이센스**: 교육용 (Educational Use)  
 
+---
+
+## 🎬 요약 영상 (5분)
+
+전체 교육 내용을 5분으로 미리 확인하세요!
+
+https://github.com/user-attachments/assets/summary.mp4
+
+> 💡 **영상 내용**: Part 1 기초부터 Part 3 통합 워크플로우까지, AI 도구를 활용한 대학원 연구의 전체 과정을 한눈에 보여드립니다.
+
+---
+
 ## 🎯 전체 목적과 비전
 
 이 중앙 허브는 **Part 1(기초) → Part 2(고급) → Part 3(통합)**의 학습 여정을 한 곳에서 내비게이션하고, 2025년 최신 AI 도구(Copilot, MCP, SpecKit, Elicit, Perplexity 등)를 연구 워크플로우에 통합하는 방법을 제공합니다.
