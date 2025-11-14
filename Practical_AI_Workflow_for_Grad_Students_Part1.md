@@ -5,7 +5,7 @@
 <!-- 
 버전 관리 메타데이터:
 - 버전: Part 1
-- 최종 수정일: 2025-11-12
+- 최종 수정일: 2025-11-14
 - 기반: v12.0 Sections 1-4 + 2025 GitHub Copilot 신기능
 - 대상: 다양한 전공의 대학원생 (코딩 지식 불필요)
 - 목적: AI 시대의 연구 기본기 다지기
@@ -39,7 +39,7 @@
 이 문서를 마치면 다음을 할 수 있습니다:
 
 - ✅ AI 시대에 맞는 연구 문서 체계 구축
-- ✅ GitHub Copilot으로 연구 효율성 10배 향상
+- ✅ GitHub Copilot으로 연구 효율성 향상
 - ✅ Markdown으로 모든 연구 자료 일원화
 - ✅ 컨텍스트 엔지니어링으로 AI 활용 극대화
 - ✅ 2025년 최신 AI 모델 상황별 선택
@@ -95,17 +95,7 @@
     └── AI가 제대로 도와주지 못한다고 느낌
 ```
 
-#### 📊 실제 통계 (2025년 대학원생 설문 기준)
-
-| 문제 | 경험 비율 | 평균 손실 시간/주 |
-|------|-----------|-------------------|
-| 파일을 못 찾아 재작업 | 78% | 3.2시간 |
-| 연구 방향 재설정 | 64% | 5.1시간 |
-| 중복 작업 수행 | 82% | 4.7시간 |
-| AI 도구 비효율적 사용 | 91% | 2.8시간 |
-| **총 손실 시간** | - | **15.8시간/주** |
-
-> 💡 **핵심 통찰**: 체계적인 워크플로우만으로도 주당 15시간 이상을 절약할 수 있습니다!
+> 💡 **핵심 통찰**: 체계적인 워크플로우만으로도 많은 시간 절약할 수 있습니다!
 
 ### 1.2 체계적 관리의 힘
 
@@ -120,25 +110,14 @@
 | **AI 활용** | 막연한 질문 → 쓸모없는 답변 | 구체적 컨텍스트 → 정확한 도움 |
 | **협업** | 파일 주고받기 → 버전 충돌 | 통합 환경 → 원활한 소통 |
 
-#### 🚀 성공 사례
-
-**교육학 석사 A씨** (2025년 졸업):
-> "v12.0 워크플로우를 도입하고 논문 작성 기간이 6개월 → 3개월로 단축되었습니다. 
-> 특히 GitHub Copilot으로 문헌 요약과 설문 분석을 자동화한 것이 큰 도움이 되었어요. 
-> 이제 MCP까지 배워서 더 효율적으로 연구하고 있습니다!"
-
-**공학 박사 B씨** (연구 3년차):
-> "Markdown으로 모든 실험 노트를 정리하고, AI로 데이터 분석 코드를 자동 생성하니 
-> 연구 속도가 3배 빨라졌습니다. 이제 논문 실험 섹션 작성이 두렵지 않아요."
-
-### 1.3 이 가이드의 특별한 점
+### 1.3 이 가이드의 목표
 
 #### ✨ 핵심 철학: "단순하지만 강력하게"
 
 ```
 🎯 우리의 목표
 ├── 📝 Markdown 하나로 모든 것을 관리
-├── 🤖 AI를 연구 파트너로 활용 (2025년 최신 기능)
+├── 🤖 AI를 연구 파트너로 활용
 ├── 📁 VS Code로 통합 환경 구축
 ├── 🚀 30분 만에 시작 가능한 워크플로우
 └── 🔌 MCP로 도구 통합 (Part 2에서 실습)
@@ -156,7 +135,7 @@
 - 🆕 3-part 구조로 체계화 (기초 → 고급 → 통합)
 - 🆕 학생 무료 혜택 최신 정보 (Student Developer Pack)
 
-**핵심 원칙** (v12.0 계승):
+**핵심 원칙**:
 - ❌ 복잡한 도구 설치 NO
 - ❌ 어려운 기술 용어 NO  
 - ❌ 프로그래밍 지식 필요 NO
@@ -171,11 +150,6 @@
 1. 순서대로 Section 1-5까지 읽으며 실습
 2. Section 6 (MCP)는 개념만 이해 (Part 2에서 상세)
 3. Section 7 체크리스트로 준비 상태 확인
-
-**v12.0 사용자**:
-1. Section 2.2 (Copilot 학생 혜택) 필독
-2. Section 5.1 (2025 신기능) 집중
-3. Section 6 (MCP 소개) 신규 내용
 
 **바쁜 분**:
 1. Section 1.2 (Before/After 비교) + Section 2.2 (학생 혜택) 읽기
@@ -192,13 +166,13 @@
 
 ```
 □ Visual Studio Code (무료 텍스트 에디터)
-  ├── 최신 버전: v1.95+ (2025-11 기준)
+  ├── 최신 버전: v1.106 (2025-11 기준)
   ├── 모든 OS 지원: Windows, macOS, Linux
   └── 설치 시간: 약 5분
 
 □ GitHub Copilot (AI 코딩 어시스턴트)
   ├── Free tier: 월 2,000 completions + 50 premium requests
-  ├── 학생 Pro: 무제한 + 300 premium requests (완전 무료!)
+  ├── 학생 Pro: 무제한 completions + 300 premium requests (완전 무료!)
   └── 설치 시간: 약 5분
 
 □ 웹 브라우저 (Chrome, Safari, Edge, Firefox 등)
@@ -210,9 +184,7 @@
 🎓 학생 혜택: GitHub Student Developer Pack 신청 필수!
 ```
 
-![VS Code + GitHub Copilot 통합 환경](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
-
-### 2.2 GitHub Copilot 학생 무료 혜택 (2025-11-10 업데이트)
+### 2.2 GitHub Copilot 학생 무료 혜택 (2025-11-10 기준)
 
 #### 🎁 Student Developer Pack이란?
 
@@ -253,14 +225,10 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. 사용 목적 간단히 작성 (2-3문장)
    - 예: "I will use GitHub Copilot for my graduate research in education technology and data analysis."
 
-![GitHub Education Pack 신청 페이지](resources/images/part1/github-education/github-education-pack-main.png)
-
 **Step 3: 승인 대기 및 활성화**
 - 승인 시간: 보통 **1-3일** (빠르면 몇 시간)
 - 이메일 확인: 승인 알림 받기
 - VS Code에서 Copilot 로그인 → 자동으로 Pro 활성화!
-
-![Copilot Pro 활성화 확인 - 상태바](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
 
 **문제 해결**:
 - 학교 이메일 인식 안 됨 → 학생증 + 재학증명서 업로드
@@ -283,8 +251,6 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 💾 용량: 약 300MB
 ```
 
-![Extensions Marketplace - GitHub Copilot 검색](resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
-
 **설치 시 권장 옵션** (Windows):
 - ✅ "Add to PATH" 체크
 - ✅ "Create a desktop icon" 체크
@@ -302,8 +268,6 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 5. "Install" 버튼 클릭
 6. VS Code 재시작 (필요 시)
 
-![Extensions Marketplace - GitHub Copilot 검색](resources/images/part1/vscode-setup/extensions-marketplace-copilot.png)
-
 **방법 2: Command Palette로 설치**
 1. `Ctrl+Shift+P` (Windows) / `Cmd+Shift+P` (Mac)
 2. "Extensions: Install Extensions" 입력
@@ -317,13 +281,8 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 4. "Authorize GitHub Copilot" 승인
 5. VS Code로 돌아오면 자동 활성화
 
-![Copilot 로그인 프롬프트](resources/images/part1/vscode-setup/copilot-login-prompt.png)
-
 **활성화 확인**:
-- 하단 상태바에 **Copilot 아이콘** (✓ 표시)
-- 마우스 오버 시 "GitHub Copilot is active" 또는 "GitHub Copilot Pro" 표시
-
-![Copilot 활성화 상태 - Pro 표시](resources/images/part1/vscode-setup/copilot-pro-status-active.png)
+- 하단 상태바에 **Copilot 아이콘**
 
 #### 🎨 Step 4: 기본 설정 (선택사항)
 
@@ -336,15 +295,11 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 2. "Font Size" 검색
 3. 원하는 크기 입력 (기본 14, 권장 16-18)
 
-**한글 표시 개선**:
-1. Settings → "Font Family" 검색
-2. 맨 앞에 한글 폰트 추가: `'Malgun Gothic', 'Noto Sans KR', Consolas, ...`
-
 ### 2.4 작업 환경 구성
 
-#### 📁 연구 폴더 구조 만들기
+#### 📁 연구 폴더 구조 만들기(영문으로 추천함)
 
-**추천 구조 (한글)**:
+**구조 예(한글)**:
 ```
 내연구/
 ├── 00_컨텍스트/
@@ -365,7 +320,7 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 └── README.md (프로젝트 개요)
 ```
 
-**추천 구조 (영문)** - 국제 협업 시:
+**구조 예(영문)**:
 ```
 my-research/
 ├── 00_context/
@@ -386,8 +341,6 @@ my-research/
 └── README.md
 ```
 
-![VS Code Explorer에서 본 연구 폴더 구조](resources/images/part1/practice/vscode-folder-structure-example.png)
-
 #### 🚀 VS Code에서 폴더 열기
 
 **방법 1: File 메뉴**
@@ -398,11 +351,6 @@ my-research/
 **방법 2: 드래그 앤 드롭**
 - 폴더를 VS Code 아이콘이나 창으로 드래그
 
-**방법 3: 터미널에서**
-```bash
-cd /path/to/내연구
-code .
-```
 
 #### ✅ 환경 설정 완료 체크
 
@@ -530,37 +478,19 @@ code .
 
 #### 🔄 컨텍스트와 AI의 상호작용
 
-```
-┌─────────────────────────────────────┐
-│   1. 연구자: 컨텍스트 제공          │
-│      "내 연구는 이러이러합니다"     │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│   2. AI: 컨텍스트 이해 및 분석      │
-│      "당신의 상황을 이해했습니다"   │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│   3. 연구자: 구체적 질문/요청       │
-│      "이 부분을 도와주세요"         │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│   4. AI: 맞춤형 답변/제안           │
-│      "당신의 연구에 맞는 방법은..." │
-└───────────────┬─────────────────────┘
-                │
-                ▼
-┌─────────────────────────────────────┐
-│   5. 연구자: 피드백/수정            │
-│      "이 부분을 이렇게 바꿔주세요"  │
-└───────────────┬─────────────────────┘
-                │
-                └──→ 2번으로 반복 (iterative)
+```mermaid
+graph TD
+    A["1. 연구자: 컨텍스트 제공<br/>(내 연구는 이러이러합니다)"] --> B["2. AI: 컨텍스트 이해 및 분석<br/>(당신의 상황을 이해했습니다)"]
+    B --> C["3. 연구자: 구체적 질문/요청<br/>(이 부분을 도와주세요)"]
+    C --> D["4. AI: 맞춤형 답변/제안<br/>(당신의 연구에 맞는 방법은...)"]
+    D --> E["5. 연구자: 피드백/수정<br/>(이 부분을 이렇게 바꿔주세요)"]
+    E --> B
+    
+    style A fill:#e1f5ff
+    style C fill:#e1f5ff
+    style E fill:#e1f5ff
+    style B fill:#fff4e1
+    style D fill:#fff4e1
 ```
 
 > 💡 **핵심**: 컨텍스트는 한 번 작성으로 끝이 아닙니다!  
@@ -718,43 +648,17 @@ code .
 - ✅ [완료한 작업 1] - [날짜]
 - ✅ [완료한 작업 2] - [날짜]
 - ✅ [완료한 작업 3] - [날짜]
-
----
-
-## 📌 AI 활용 가이드 (이 컨텍스트 사용법)
-
-### GitHub Copilot과 함께 사용하기
-
-1. **Copilot Chat에 컨텍스트 제공**:
-   ```
-   [위 Background + Specification 섹션 복사]
-   
-   질문: [구체적인 질문]
-   ```
-
-2. **모델 선택 팁**:
-   - 긴 문헌 요약: Claude Sonnet 4.5 (200K context)
-   - 코드 생성: GPT-5-Codex
-   - 논문 작성: Claude Opus 4.1
-   - 빠른 질문: GPT-5 mini
-
-3. **정기 업데이트**:
-   - 연구 진행 시마다 Task 섹션 업데이트
-   - 주요 변경 시 Background/Specification 수정
-   - 버전 번호 올리기 (v1.0 → v1.1)
-
----
+```
 
 **작성 팁**:
 - 이 템플릿을 복사하여 실제 내용으로 채우세요
-- [ ] 부분은 실제 내용으로 대체
+- `[ ]` 부분은 실제 내용으로 대체
 - 불필요한 섹션은 삭제 가능
 - 연구가 진행되면서 지속 업데이트!
 
 **관련 파일**:
 - 상세 가이드: `resources/04_context_template_2025.md`
 - 전공별 예시: `resources/10_discipline_examples.md`
-```
 
 #### 🎓 전공별 컨텍스트 작성 예시
 
