@@ -81,8 +81,21 @@ __pycache__/
 !/Context_and_Planning/demo-files/
 !/Context_and_Planning/demo-files/**
 
-# Git history cleanup guides (instructor only)
+# Git management and verification (instructor only)
 /CLEANUP_COMMANDS.sh
 /GIT_HISTORY_CLEANUP_GUIDE.md
 /FORCE_PUSH_CHECKLIST.md
 /VERIFICATION_CHECKLIST.md
+/VERIFICATION_SUMMARY.txt
+/RENAME_VERIFICATION_REBUTTAL.md
+/GIT_RENAME_VERIFICATION_REPORT.md
+/GIT_RENAME_BEST_PRACTICES.md
+
+# AI tool configuration (instructor only)
+/AGENTS.md
+
+# Instructor-only documentation in resources
+/resources/RELEASE_NOTES.md
+/resources/RELEASE_CHECKLIST.md
+/resources/QA_REPORT.md
+/resources/VERSION_MANIFEST.md
