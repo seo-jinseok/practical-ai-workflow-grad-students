@@ -843,17 +843,6 @@ graph TD
 
 **결론**: Markdown = AI 시대 최적 문서 형식! (다음 Section에서 상세)
 
-#### 🔗 MCP와 컨텍스트 (예고편)
-
-**Model Context Protocol (MCP)**:
-- AI가 외부 도구/데이터에 접근하는 표준
-- 예: AI가 직접 Zotero에서 논문 가져오기, Notion 데이터베이스 읽기
-- **Part 2**에서 task-master-mcp 실습 예정
-- Section 6에서 개념 소개
-
-> 🎯 **현재 단계**: 우선 컨텍스트 파일 작성에 집중!  
-> MCP는 고급 기능이므로 Part 2로 미뤄도 됩니다.
-
 ---
 
 ## 4. Markdown으로 연구 문서 체계화하기
