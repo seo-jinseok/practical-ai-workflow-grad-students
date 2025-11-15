@@ -32,7 +32,7 @@
 ## 관련 리소스
 - MCP 서버: `17_researcher_mcp_servers.md`
 - SpecKit 워크플로우: `20_speckit_research_workflow.md`
-- 성공 사례: `part3/36_success_stories.md`
+- 성공 사례: `36_success_stories.md`
 
 ---
 **마지막 업데이트**: 2025-11-10  

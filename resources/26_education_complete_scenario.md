@@ -2042,6 +2042,6 @@ AI가 교육학 전문가 관점에서 상세하고 건설적인 피드백을 �
 **작성자**: 교육학 석사과정 2년차  
 **작성일**: 2025-11-10  
 **참고 문서**: 
-- resources/part3/25_2025_research_tools_ecosystem.md
-- resources/part3/30_literature_review_2025_workflow.md
-- resources/part3/31_weekly_monthly_routines.md
+- resources/25_2025_research_tools_ecosystem.md
+- resources/30_literature_review_2025_workflow.md
+- resources/31_weekly_monthly_routines.md

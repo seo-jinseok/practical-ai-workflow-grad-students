@@ -71,9 +71,9 @@
 - **책임**: 연구자의 최종 책임
 
 ## 관련 리소스
-- AI 생태계: `part3/25_2025_research_tools_ecosystem.md`
+- AI 생태계: `25_2025_research_tools_ecosystem.md`
 - 도구 비교: `40_research_methodology_comparison.md`
-- 성공 사례: `part3/36_success_stories.md`
+- 성공 사례: `36_success_stories.md`
 
 ---
 **마지막 업데이트**: 2025-11-10  

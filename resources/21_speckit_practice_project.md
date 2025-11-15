@@ -141,7 +141,7 @@ specify update
 - **시간 부족**: 핵심 개념만 시연
 
 ## 관련 리소스
-- **SpecKit 설치**: `part2/19_speckit_installation_guide.md`
+- **SpecKit 설치**: `19_speckit_installation_guide.md`
 - **연구 워크플로우**: `20_speckit_research_workflow.md`
 - **데모 파일**: `../Context_and_Planning/demo-files/07-speckit-practice/`
 - **터미널 가이드**: `../Context_and_Planning/demo-files/07-speckit-practice/terminal-commands.md`

@@ -113,10 +113,10 @@ AI 도구 활용으로 얻은 경험과 지식을
 
 ## 관련 리소스
 - Task Master 활용: `16_task_master_mcp_tutorial.md`
-- 주간 루틴 가이드: `part3/31_weekly_monthly_routines.md`
-- 진행 추적 방법: `part3/32_progress_tracking_methods.md`
-- 문제 해결 프로토콜: `part3/33_problem_solving_protocol.md`
-- 품질 체크리스트: `part3/34_quality_checklist.md`
+- 주간 루틴 가이드: `31_weekly_monthly_routines.md`
+- 진행 추적 방법: `32_progress_tracking_methods.md`
+- 문제 해결 프로토콜: `33_problem_solving_protocol.md`
+- 품질 체크리스트: `34_quality_checklist.md`
 
 ---
 **마지막 업데이트**: 2025-11-11  

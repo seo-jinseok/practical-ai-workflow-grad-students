@@ -116,9 +116,9 @@ AI 분석 프롬프트:
 ## 관련 리소스
 - 연구 설계 가이드: `13_spec_driven_planning_guide.md`
 - 연구 템플릿: `14_research_spec_template_2025.md`
-- 주간 루틴 관리: `part3/31_weekly_monthly_routines.md`
+- 주간 루틴 관리: `31_weekly_monthly_routines.md`
 - Task Master 연동: `16_task_master_mcp_tutorial.md`
-- 문헌 리뷰 워크플로우: `part3/30_literature_review_2025_workflow.md`
+- 문헌 리뷰 워크플로우: `30_literature_review_2025_workflow.md`
 
 ---
 **마지막 업데이트**: 2025-11-11  

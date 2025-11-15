@@ -21,7 +21,7 @@ node --version
 ```bash
 sudo npm install -g @modelcontextprotocol/mcp
 ```
-3. **대안 설치 방법**: `part2/15_mcp_installation_guide.md` 참조
+3. **대안 설치 방법**: `15_mcp_installation_guide.md` 참조
 
 **대안**: 도커 컨테이너 사용
 ```bash
@@ -182,9 +182,9 @@ Invalid API key or insufficient credits
 - **체크리스트**: 반복 작업용 체크리스트 작성
 
 ## 관련 리소스
-- **MCP 설치**: `part2/15_mcp_installation_guide.md`
+- **MCP 설치**: `15_mcp_installation_guide.md`
 - **Task Master**: `16_task_master_mcp_tutorial.md`
-- **SpecKit 설치**: `part2/19_speckit_installation_guide.md`
+- **SpecKit 설치**: `19_speckit_installation_guide.md`
 - **실습 프로젝트**: `21_speckit_practice_project.md`
 - **전체 튜토리얼**: `../Context_and_Planning/demo-files/`
 

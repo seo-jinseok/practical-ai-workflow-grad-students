@@ -287,10 +287,12 @@ AI 도구 활용:
 ## 관련 리소스
 - Copilot 사용 가이드: `07_copilot_chat_examples.md`
 - Task Master 연동: `16_task_master_mcp_tutorial.md`
+## 관련 문서
+
 - MCP 서버 활용: `17_researcher_mcp_servers.md`
 - AI 도구 비교: `42_tools_comparison_comprehensive.md`
 - 연구 워크플로우: `22_integrated_workflow_example.md`
-- v5.0 프롬프트: `../v5.0_resources/09_prompt_collection_v5.md`
+- Copilot 예시: `07_copilot_chat_examples.md`
 
 ---
 **마지막 업데이트**: 2025-11-11  
