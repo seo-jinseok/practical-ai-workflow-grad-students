@@ -5,7 +5,7 @@
 ---
 
 **Version**: Part 2  
-**Date**: 2025-11-10  
+**Date**: 2025-11-15
 **Target**: 다양한 전공의 대학원생 (코딩 지식 불필요)  
 **Prerequisites**: Part 1 완료 (Context Engineering, Markdown, 기본 AI 사용)
 
