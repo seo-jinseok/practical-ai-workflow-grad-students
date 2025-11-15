@@ -14,50 +14,11 @@
 ## 목차
 
 **Section 1: Part 2 개요 및 학습 목표**
-- 1.1 Part 1 복습: Context Engineering, Markdown, GitHub Copilot 기초, MCP 개념
-- 1.2 Part 2에서 배울 내용: 고급 도구 3가지 (Copilot 워크북, MCP 실습, SpecKit)
-- 1.3 연구 워크플로우 전체 그림: 문헌 조사 → 연구 계획 → 데이터 분석 → 논문 작성
-- 1.4 학습 목표 및 예상 시간 (총 8-10시간)
-- 1.5 Part 2 사용 가이드 (순차 학습 vs 선택 학습)
-
 **Section 2: GitHub Copilot 심화 워크북**
-- 2.1 워크북 소개 및 사용법
-- 2.2 Exercise 1: 문헌 조사 자동화
-- 2.3 Exercise 2: 연구 계획서 작성
-- 2.4 Exercise 3: 데이터 분석 스크립트 (비코더 친화적)
-- 2.5 Exercise 4: 논문 작성 지원
-- 2.6 워크북 완료 체크리스트
-
 **Section 3: Spec-driven Planning 소개**
-- 3.1 Spec-driven Planning이란?
-- 3.2 연구 Spec 문서 작성
-- 3.3 AI와 함께 Spec 정교화하기
-- 3.4 Spec에서 작업 분해로 (WBS)
-- 3.5 실습: 내 연구 프로젝트 Spec 작성
-
 **Section 4: MCP 실용 가이드**
-- 4.1 MCP 설치 및 설정 (초보자 친화적)
-- 4.2 task-master-mcp 실습
-- 4.3 연구자용 MCP 서버 소개
-- 4.4 전공별 MCP 조합 추천
-- 4.5 MCP 트러블슈팅 및 대안
-
 **Section 5: GitHub SpecKit 워크플로우**
-- 5.1 SpecKit 소개 및 설치
-- 5.2 SpecKit 7단계 워크플로우 (연구 맥락으로 번역)
-- 5.3 실습: 간단한 연구 프로젝트에 SpecKit 적용
-- 5.4 SpecKit vs 전통적 연구 계획 비교
-
 **Section 6: 통합 워크플로우 미리보기**
-- 6.1 Part 1 + Part 2 도구 통합 개념도
-- 6.2 실제 연구 프로젝트 예시 (교육학 석사논문)
-- 6.3 Part 3 예고 (전체 통합 워크플로우)
-
-**Section 7: 실습 완료 체크리스트 및 다음 단계**
-- 7.1 Part 2 학습 목표 달성 확인
-- 7.2 내 연구에 적용하기 로드맵
-- 7.3 추가 학습 리소스
-- 7.4 Part 3 준비사항
 
 ---
 
@@ -169,81 +130,8 @@ graph TD
     C --> C3[MCP<br/>task-master]
     G --> G3[MCP<br/>notion]
     
-    C2 --> C4[SpecKit<br/>7단계 워크플로우]
+    C2 --> C4[SpecKit<br/>8단계 워크플로우]
 ```
-
-### 1.4 학습 목표 및 예상 시간
-
-#### 🎯 Part 2 학습 목표
-
-Part 2를 완료하면 다음과 같은 능력을 갖출 수 있습니다:
-
-##### 🔥 즉시 활용 가능技能 (Completion 후 바로 사용)
-- [ ] **Copilot 워크북**: 연구 워크플로우 자동화 (문헌 조사, 계획서, 분석, 논문)
-- [ ] **MCP 설치**: Claude Desktop + 최소 1개 MCP 서버 설정
-- [ ] **task-master-mcp**: 프로젝트 관리, 작업 분해, 진행 추적
-- [ ] **Spec-driven Planning**: 체계적 연구 계획 수립
-
-##### 🚀 고급 활용 능력 (추가 연습 후)
-- [ ] **연구자용 MCP 서버 4종 활용**: arxiv, zotero, notion, jupyter
-- [ ] **SpecKit 워크플로우**: 선택적, 복잡한 프로젝트 관리
-- [ ] **전공별 도구 조합**: 각 전공에 최적화된 MCP 조합
-- [ ] **통합 워크플로우**: Part 1 + Part 2 도구 완전 통합
-
-#### ⏰ 예상 학습 시간 (총 8-10시간)
-
-각 섹션별 예상 소요 시간:
-
-| 섹션 | 내용 | 예상 시간 | 난이도 |
-|------|------|-----------|--------|
-| **Section 1** | Part 2 개요 | 30분 | ★☆☆☆☆ |
-| **Section 2** | Copilot 워크북 | 2-3시간 | ★★☆☆☆ |
-| **Section 3** | Spec-driven Planning | 1시간 | ★★☆☆☆ |
-| **Section 4** | MCP 실용 가이드 | 1-2시간 | ★★★☆☆ |
-| **Section 5** | SpecKit 워크플로우 | 1시간 | ★★★★☆ |
-| **Section 6** | 통합 워크플로우 | 30분 | ★★★☆☆ |
-| **Section 7** | 체크리스트 | 30분 | ★☆☆☆☆ |
-| **총합** |  | **6-8시간** |  |
-
-### 1.5 Part 2 사용 가이드
-
-#### 📖 학습 방식 선택
-
-Part 2는 다양한 학습 방식을 지원합니다:
-
-##### 🛤️ 순차 학습 (추천: 초보자)
-**특징**: 모든 섹션을 순서대로 학습
-**장점**: 개념 이해 → 실습 → 응용의 자연스러운 흐름
-**소요 시간**: 8-10시간
-**적합한 대상**: 
-- Part 1 내용을 다시 기억하고 싶은 분
-- 체계적 학습을 선호하는 분
-- 기초부터 차근차근 진행하고 싶은 분
-
-**📋 권장 학습 계획**:
-```
-1일차: Section 1-2 (Part 2 개요 + Copilot 워크북 시작)
-2일차: Copilot 워크북 완료 (Exercise 4까지)
-3일차: Section 3-4 (Spec-driven Planning + MCP 설치)
-4일차: Section 5-6 (SpecKit + 통합 워크플로우)
-5일차: Section 7 (체크리스트) + 실습 복습
-```
-
-##### 🎯 선택 학습 (중급자 이상)
-**특징**: 관심 있는 섹션만 선택적으로 학습
-**장점**: 시간 효율성, 개인 관심사 집중
-**소요 시간**: 3-6시간 (선택한 섹션에 따라)
-**적합한 대상**:
-- Part 1을 완전히 마스터한 분
-- 특정 도구에만 관심 있는 분
-- 시간 제약이 있는 분
-
-**🎯 관심사별 선택 가이드**:
-- **문서 작성이 편하고 연구 자동화 관심**: Section 2 (Copilot 워크북)
-- **체계적 계획 수립 관심**: Section 3 (Spec-driven Planning)
-- **도구 통합 및 효율성 관심**: Section 4 (MCP)
-- **프로젝트 관리 및 추적 관심**: Section 5 (SpecKit)
-- **전체 통합 워크플로우 이해**: Section 6
 
 ---
 
@@ -1090,33 +978,43 @@ AI가 연구의 전체 맥락을 이해할 수 있는 구조화된 문서
 
 #### 🏗️ SpecKit 아키텍처 이해
 
-```
-┌─────────────────────────────────────┐
-│        SpecKit Workflow             │
-│                                     │
-│  ┌──────────┐  ┌──────────┐        │
-│  │ Constitution│ Specification │  │
-│  │          │  │              │  │
-│  └────┬─────┘  └──────┬─────┘        │
-│       │               │                │
-│       ▼               ▼                │
-│  ┌──────────┐  ┌──────────┐        │
-│  │ Clarify  │  │ Plan     │        │
-│  │          │  │          │        │
-│  └────┬─────┘  └─────┬────┘        │
-│       │              │                │
-│       ▼              ▼                │
-│  ┌──────────┐  ┌──────────┐        │
-│  │ Tasks    │  │ Execute  │        │
-│  │          │  │          │        │
-│  └──────────┘  └──────────┘        │
-└─────────────────────────────────────┘
-         │                    │
-         ▼                    ▼
-    ┌──────────┐      ┌──────────┐
-    │ Research │      │ Results  │
-    │ Principles │      │ & Paper │
-    └──────────┘      └──────────┘
+```mermaid
+graph TD
+    Start([연구 프로젝트 시작]) --> Step1
+
+    Step1[1. Constitution<br/>연구 원칙 정의]
+    Step2[2. Specify<br/>연구 명세서 작성]
+    Step3[3. Clarify<br/>AI와 명확화<br/>선택사항]
+    Step4[4. Plan<br/>연구 계획 수립]
+    Step5[5. Tasks<br/>작업 목록 생성]
+    Step6[6. Analyze<br/>작업 목록 분석<br/>선택사항]
+    Step7[7. Implement<br/>작업 실행]
+    Step8[8. Checklist<br/>결과 검증 및 개선<br/>선택사항]
+
+    Step1 --> Step2
+    Step2 --> Step3
+    Step3 --> Step4
+    Step2 -.선택적 건너뛰기.-> Step4
+    Step4 --> Step5
+    Step5 --> Step6
+    Step6 --> Step7
+    Step5 -.선택적 건너뛰기.-> Step7
+    Step7 --> Step8
+    Step8 --> Output
+    Step7 -.선택적 건너뛰기.-> Output
+
+    Output[/연구 결과물<br/>• Research Principles<br/>• Results & Paper/]
+
+    style Step1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style Step2 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style Step3 fill:#fff3e0,stroke:#f57c00,stroke-width:2px,stroke-dasharray: 5 5
+    style Step4 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style Step5 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
+    style Step6 fill:#fff3e0,stroke:#f57c00,stroke-width:2px,stroke-dasharray: 5 5
+    style Step7 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style Step8 fill:#fff3e0,stroke:#f57c00,stroke-width:2px,stroke-dasharray: 5 5
+    style Output fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style Start fill:#fce4ec,stroke:#c2185b,stroke-width:2px
 ```
 
 **7단계 워크플로우**:
@@ -1220,7 +1118,7 @@ SpecKit의 7단계는 소프트웨어 세계에서 온 것이지만, **연구 �
 #### 🎯 실습 목표
 
 이 실습을 통해 다음을 달성합니다:
-- **SpecKit의 7단계 워크플로우 완전 경험**
+- **SpecKit의 8단계 워크플로우 완전 경험**
 - **실제 연구 주제 선정 및 적용**
 - **AI와의 협업을 통한 연구 진행**
 - **기존 방법과의 비교를 통한 장점 체감**
@@ -1281,55 +1179,154 @@ ls -la .specify/
 
 ##### Step 2: Constitution 작성 (15분)
 
-**🎯 목표**: 연구项目的 기본 원칙과 가치 정의
+**🎯 목표**: 연구의 기본 원칙과 가치 정의
 
 **📋 지침**:
-1. Constitution 파일 편집:
-```bash
-code .specify/memory/constitution.md
+1. Copilot Chat에서 `/speckit.constitution` 명령어 실행
+2. 연구 주제에 맞는 원칙을 AI와 대화하며 작성:
+
+```
+/speckit.constitution
+
+연구 주제: 온라인 학습 참여도 향상 연구
+핵심 가치:
+- 연구 윤리 및 참여자 보호
+- 데이터 품질 및 재현성
+- 학술적 엄격성
+- 실용적 가치
 ```
 
-2. 연구 주제에 맞게 내용 수정
+3. 생성된 `.specify/memory/constitution.md` 파일 검토 및 수정
 
 ##### Step 3: Spec 작성 (20분)
 
 **🎯 목표**: 연구의 핵심 목표, 범위, 방법 정의
 
 **📋 지침**:
-1. Spec 파일 편집:
-```bash
-code .specify/spec.md
+1. Copilot Chat에서 `/speckit.specify` 명령어 실행
+2. 구체적인 연구 요구사항 입력:
+
+```
+/speckit.specify
+
+연구 제목: 온라인 학습 참여도 향상 방안 연구
+연구 목적: 게이미피케이션 요소가 학습자 참여도에 미치는 영향 분석
+연구 범위:
+- 대상: 대학생 150명
+- 기간: 1학기 (16주)
+- 방법: 준실험설계
+예상 결과물: 석사논문, 학술지 논문
 ```
 
-2. 템플릿을 연구 주제에 맞게 작성
+3. 생성된 `spec.md` 파일 확인 및 상세화
 
-##### Step 4: Clarify 세션 (10분)
+##### Step 4: Clarify 세션 (10분) - 선택사항
 
 **🎯 목표**: AI와 대화하여 Spec의 불명확한 부분 명확화
 
 **📋 지침**:
-1. Clarify 명령어 실행:
-```bash
-specify clarify
+1. Copilot Chat에서 `/speckit.clarify` 명령어 실행:
+
+```
+/speckit.clarify
 ```
 
-2. AI의 질문에 답변하고 Spec 업데이트
+2. AI가 제시하는 질문에 답변:
+   - "참여도 측정 방법은?"
+   - "게이미피케이션 요소의 구체적 종류는?"
+   - "통제집단은 어떻게 구성하나요?"
+
+3. 답변 내용이 자동으로 Spec에 반영됨
 
 ##### Step 5: Plan 작성 (15분)
 
 **🎯 목표**: Spec을 구체적인 일정과 마일스톤으로 변환
 
-##### Step 6: Tasks 생성 (15분)
+**📋 지침**:
+1. Copilot Chat에서 `/speckit.plan` 명령어 실행:
+
+```
+/speckit.plan
+
+일정: 6개월
+주요 마일스톤:
+- 1개월: 문헌 조사 및 IRB 승인
+- 2-3개월: 실험 설계 및 도구 개발
+- 4-5개월: 데이터 수집 및 분석
+- 6개월: 논문 작성
+```
+
+2. 생성된 `plan.md` 파일 검토
+
+##### Step 6: Tasks 생성 (10분)
 
 **🎯 목표**: Plan을 실행 가능한 세부 작업으로 분해
 
-##### Step 7: 실행 및 검증 (20분)
+**📋 지침**:
+1. Copilot Chat에서 `/speckit.tasks` 명령어 실행:
 
-**🎯 목표**: 생성된 Plan과 Tasks에 따라 실제 연구 실행
+```
+/speckit.tasks
+```
 
-##### Step 8: 결과 검토 및 개선 (10분)
+2. AI가 자동으로 작업 목록 생성:
+   - Task 1: 문헌 조사 키워드 선정
+   - Task 2: IRB 신청서 작성
+   - Task 3: 설문지 개발
+   - [... 추가 작업들]
 
-**🎯 목표**: 연구 결과 검증 및 향후 개선 방안 도출
+3. 생성된 `tasks.md` 파일 확인
+
+##### Step 7: Analyze 분석 (5분) - 선택사항
+
+**🎯 목표**: 작업 목록의 우선순위 및 의존성 분석
+
+**📋 지침**:
+1. Copilot Chat에서 `/speckit.analyze` 명령어 실행:
+
+```
+/speckit.analyze
+```
+
+2. AI의 분석 결과 확인:
+   - 작업 간 의존성
+   - 예상 소요 시간
+   - 리스크 요소
+   - 우선순위 제안
+
+##### Step 8: Implement 실행 (20분)
+
+**🎯 목표**: 작업 목록에 따라 실제 연구 실행
+
+**📋 지침**:
+1. Copilot Chat에서 `/speckit.implement` 명령어 실행:
+
+```
+/speckit.implement
+```
+
+2. AI가 각 작업을 단계별로 안내
+3. 작업 완료 시 자동으로 체크리스트 업데이트
+
+##### Step 9: Checklist 검증 (10분) - 선택사항
+
+**🎯 목표**: 연구 결과 검증 및 품질 확인
+
+**📋 지침**:
+1. Copilot Chat에서 `/speckit.checklist` 명령어 실행:
+
+```
+/speckit.checklist
+```
+
+2. AI가 생성한 검증 항목 확인:
+   - [ ] 연구 윤리 준수 여부
+   - [ ] 데이터 품질 검증
+   - [ ] 분석 방법 적절성
+   - [ ] 결과 해석의 타당성
+   - [ ] 문서 완성도
+
+3. 각 항목을 점검하고 개선사항 도출
 
 ### 5.4 SpecKit vs 전통적 연구 계획 비교
 
@@ -1384,28 +1381,32 @@ SpecKit 워크플로우:
 
 Part 1과 Part 2의 모든 도구들이 유기적으로 연결되어 연구 생산성을 극대화합니다:
 
-```
-📊 전체 통합 워크플로우
-┌─────────────────────────────────────────────────────────────┐
-│                    Part 1: 기초 도구                     │
-├─────────────────────────────────────────────────────────────┤
-│  🎯 Context Engineering  →  📝 Markdown  →  🚀 Copilot  →  🔌 MCP  │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                  Part 2: 고급 도구                     │
-├─────────────────────────────────────────────────────────────┤
-│  📋 Copilot 워크북  →  📄 Spec-driven  →  🔧 MCP 실용  →  ⚙️ SpecKit  │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│                Part 3: 통합 워크플로우 (예고)            │
-├─────────────────────────────────────────────────────────────┤
-│      🎯 실제 연구 프로젝트에 완전 적용        │
-│  → 연구 전 과정 자동화 및 최적화  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph Part1["📊 Part 1: 기초 도구"]
+        A1["🎯 Context Engineering"] --> A2["📝 Markdown"]
+        A2 --> A3["🚀 Copilot"]
+        A3 --> A4["🔌 MCP"]
+    end
+    
+    subgraph Part2["📊 Part 2: 고급 도구"]
+        B1["📋 Copilot 워크북"] --> B2["📄 Spec-driven"]
+        B2 --> B3["🔧 MCP 실용"]
+        B3 --> B4["⚙️ SpecKit"]
+    end
+    
+    subgraph Part3["📊 Part 3: 통합 워크플로우"]
+        C1["🎯 실제 연구 프로젝트에 완전 적용"]
+        C2["연구 전 과정 자동화 및 최적화"]
+        C1 --> C2
+    end
+    
+    Part1 --> Part2
+    Part2 --> Part3
+    
+    style Part1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style Part2 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style Part3 fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
 ```
 
 #### 🔄 도구별 역할 및 연결점
@@ -1544,305 +1545,9 @@ Context Engineering → Spec-driven Planning → AI 검증 → 품질 보장
 [...8편 더]
 ```
 
-### 6.3 Part 3 예고 (전체 통합 워크플로우)
-
-#### 🎯 Part 3: 통합 워크플로우 편
-
-Part 3에서는 Part 1과 Part 2의 모든 도구들을 **실제 연구 프로젝트에 완전 통합**하여 적용하는 방법을 배웁니다.
-
-##### 📋 Part 3 주요 내용
-
-**Section 1: 통합 워크플로우 설계**
-- 연구 프로젝트별 맞춤 워크플로우 설계
-- 개인 연구 vs 팀 연구의 차이점
-- 전공별 최적화 전략
-
-**Section 2: 실제 프로젝트 적용 사례**
-- 교육학 석사논문 전체 과정 (위 예시 확장)
-- 공학 연구실 팀 프로젝트
-- 인문학 박사논문 프로젝트
-- 사회과학 융합 연구
-
-**Section 3: 고급 활용법**
-- AI 워크플로우 자동화
-- 팀 기반 연구 관리
-- 다학제 융합 연구
-- 연구실 전체 AI 도입 전략
-
-**Section 4: 2025년 연구 트렌드**
-- Elicit, Perplexity Research 등 최신 AI 도구
-- NotebookLM과 같은 AI 연구 보조 도구
-- AI와 인간 연구자의 미래 협력
-- 연구 생산성 혁신 사례
-
-**Section 5: 개인 맞춤화**
-- 자신의 연구 분야에 최적화된 도구 조합
-- 연구 성향에 맞는 워크플로우
-- 성장 단계별 단계적 도입
-- 지속적 개선 및 적응
-
-#### 🚀 Part 3 학습 목표
-
-**즉시 활용 가능技能**:
-- [ ] 실제 연구 프로젝트에 Part 1-2 도구 완전 적용
-- [ ] 개인 맞춤형 연구 워크플로우 구축
-- [ ] 팀 기반 연구 관리 및 협업
-- [ ] AI 도구 선택 및 최적화
-
-**장기적 발전 목표**:
-- [ ] 연구 생산성 3-5배 향상
-- [ ] AI 연구 전문가로 성장
-- [ ] 연구 방법론 리더십 개발
-- [ ] 조직 내 AI 도입 주도
-
 ---
 
-## Section 7: 실습 완료 체크리스트 및 다음 단계
-
-### 7.1 Part 2 학습 목표 달성 확인
-
-#### ✅ 전체 Part 2 완료 체크리스트
-
-##### Section 1: Part 2 개요 및 학습 목표
-- [ ] **Part 1 복습**: Context Engineering, Markdown, Copilot 기초, MCP 개념 이해
-- [ ] **Part 2 도구 3가지 이해**: Copilot 워크북, MCP, SpecKit의 역할과 특징
-- [ ] **연구 워크플로우 그림**: 문헌 조사 → 연구 계획 → 데이터 분석 → 논문 작성 과정 이해
-- [ ] **학습 목표 및 시간 계획**: 개인 수준에 맞는 학습 경로 설정
-- [ ] **사용 가이드 이해**: 순차 학습 vs 선택 학습 방법 결정
-
-##### Section 2: GitHub Copilot 심화 워크북
-- [ ] **워크북 구조 이해**: Exercise 1-4의 구성과 학습 방법
-- [ ] **Exercise 1 완료**: 문헌 조사 자동화 (키워드 생성, 템플릿 작성, 논문 요약)
-- [ ] **Exercise 2 완료**: 연구 계획서 작성 (목차, 서론, 문헌 고찰, 방법론)
-- [ ] **Exercise 3 완료**: 데이터 분석 스크립트 (Python 코드, 시각화, 결과 해석)
-- [ ] **Exercise 4 완료**: 논문 작성 지원 (Methods, Results, 표/그래프 설명)
-- [ ] **워크북 완료**: 4개 Exercise 모두 완료 및 체크리스트 확인
-
-##### Section 3: Spec-driven Planning 소개
-- [ ] **개념 이해**: Spec-driven Planning의 정의와 전통적 연구 계획과의 차이점
-- [ ] **Spec 문서 작성**: 7개 섹션 구조와 작성 가이드 마스터
-- [ ] **AI 협업**: AI를 통한 Spec 검토 및 정교화 기법 습득
-- [ ] **WBS 작성**: 작업 분해 구조와 의존성 관리 이해
-- [ ] **실습 완료**: 내 연구 프로젝트 Spec 작성 및 WBS 완성
-
-##### Section 4: MCP 실용 가이드
-- [ ] **MCP 설치**: Claude Desktop 설치 및 기본 설정 완료
-- [ ] **task-master-mcp**: 4개 실습 모두 완료 (프로젝트 초기화, 작업 분해, 진행 업데이트, 통합 워크플로우)
-- [ ] **연구자용 서버**: arxiv, zotero, notion, jupyter-mcp의 기능과 활용법 이해
-- [ ] **전공별 조합**: 자신의 전공에 최적화된 MCP 서버 조합 선택
-- [ ] **트러블슈팅**: 일반적인 문제 해결 방법과 대안 도구 이해
-
-##### Section 5: GitHub SpecKit 워크플로우
-- [ ] **SpecKit 이해**: Spec-driven Development 개념과 연구 적용 방법
-- [ ] **설치 완료**: Python 3.11+, uv, specify CLI 설치 및 테스트
-- [ ] **7단계 워크플로우**: Constitution → Specify → Clarify → Plan → Tasks → Execute → Verify
-- [ ] **실습 완료**: 간단한 연구 프로젝트에 SpecKit 완전 적용
-- [ ] **비교 분석**: SpecKit vs 전통적 방법의 장단점 이해
-
-##### Section 6: 통합 워크플로우 미리보기
-- [ ] **도구 통합 이해**: Part 1-2 도구들의 역할과 연결점 파악
-- [ ] **실제 사례**: 교육학 석사논문 예시를 통한 통합 워크플로우 이해
-- [ ] **Part 3 예고**: 통합 워크플로우 학습 내용 미리보기
-
-#### 🎓 개인별 성취도 평가
-
-##### 🌟 초보자 레벨 (필수 달성)
-- [ ] **Copilot 워크북 2개 Exercise 이상 완료**
-- [ ] **Spec-driven Planning 기본 개념 이해**
-- [ ] **MCP 설치 및 task-master-mcp 테스트 성공**
-- [ ] **AI 도구 활용의 기본 역량 확보**
-
-##### 🏆 중급자 레벨 (권장 달성)
-- [ ] **Copilot 워크북 4개 Exercise 모두 완료**
-- [ ] **Spec 문서 작성 및 WBS 완성**
-- [ ] **MCP 연구자용 서버 2개 이상 설치 및 활용**
-- [ ] **AI와 체계적 협업 역량 습득**
-
-##### 🚀 고급자 레벨 (선택 달성)
-- [ ] **SpecKit 설치 및 7단계 워크플로우 완주**
-- [ ] **실제 연구 프로젝트에 Part 2 도구 완전 적용**
-- [ ] **전공별 최적화된 도구 조합 구축**
-- [ ] **다른 연구자에게 도구 사용법 설명 가능**
-
-### 7.2 내 연구에 적용하기 로드맵
-
-#### 📅 30일 로드맵
-
-##### Week 1: 기초 도구 점검 및 설정
-**목표**: Part 2 도구들의 기본 설정 및 숙달
-
-**Day 1-2: Copilot 워크북 완성**
-- [ ] Exercise 1-2 재시도 (더 나은 결과 위해)
-- [ ] 내 연구 주제에 맞는 내용으로 수정
-- [ ] 완성된 파일들을 연구 폴더에 정리
-
-**Day 3-4: MCP 환경 구축**
-- [ ] MCP 설치 재검토 (문제가 있었으면 해결)
-- [ ] task-master-mcp 4개 실습 다시 진행
-- [ ] 성공적인 실습 후 내 연구에 적용
-
-**Day 5-7: Spec-driven Planning 적용**
-- [ ] 내 연구 Spec 문서 작성 (초안)
-- [ ] AI를 통한 Spec 검토 및 개선
-- [ ] WBS 작성 완성
-
-##### Week 2: 실제 연구 적용 시작
-**목표**: 현재 진행 중인 연구에 Part 2 도구 적용
-
-**Day 8-10: Copilot 워크북 실무 활용**
-- [ ] 실제 연구 프로젝트에 Exercise 3-4 적용
-- [ ] 데이터 분석이나 논문 작성에 활용
-- [ ] 기존 방법 대비 효율성 비교
-
-**Day 11-14: MCP 실무 통합**
-- [ ] task-master-mcp를 실제 연구 프로젝트 관리에 활용
-- [ ] 주간 진행 상황 업데이트 및 분석
-- [ ] 필요시 연구자용 MCP 서버 추가 설치
-
-##### Week 3: 고급 도구 탐구
-**목표**: 선택적 고급 도구 및 최적화
-
-**Day 15-17: SpecKit 체험 (선택적)**
-- [ ] SpecKit 설치 시도
-- [ ] 간단한 연구에 7단계 워크플로우 적용
-- [ ] 기존 방법과의 차이점 체감
-
-**Day 18-21: 워크플로우 최적화**
-- [ ] 3주간 경험을 바탕으로 개인적 워크플로우 개선
-- [ ] 효과적인 도구 조합 찾기
-- [ ] 문제점 및 개선사항 정리
-
-##### Week 4: 통합 및 확산
-**목표**: 완성된 워크플로우의 안정화 및 공유
-
-**Day 22-24: 전체 통합**
-- [ ] Part 1-2 도구들을 종합적으로 활용
-- [ ] 실제 연구 프로젝트에 완전 적용
-- [ ] 성과 측정 및 평가
-
-**Day 25-28: 공유 및 피드백**
-- [ ] 연구실 동료나 지도교수와 경험 공유
-- [ ] Part 2 방법론에 대한 피드백 수집
-- [ ] 후배 연구자에게 도구 사용법 설명
-
-**Day 29-30: Part 3 준비**
-- [ ] Part 3 학습 계획 수립
-- [ ] 현재 연구의 Part 3 적용 가능성 검토
-- [ ] 추가 학습 필요 분야 식별
-
-### 7.3 추가 학습 리소스
-
-#### 📚 공식 문서 및 튜토리얼
-
-##### GitHub Copilot
-- **공식 문서**: https://docs.github.com/copilot
-- **학생 가이드**: https://docs.github.com/education/learn-to-code
-- **비디오 튜토리얼**: YouTube "GitHub Copilot for Students"
-- **실습실**: GitHub Skills "Introduction to GitHub Copilot"
-
-##### MCP (Model Context Protocol)
-- **공식 웹사이트**: https://modelcontextprotocol.io/
-- **서버 목록**: https://github.com/modelcontextprotocol/servers
-- **설치 가이드**: 각 서버의 GitHub 저장소
-- **커뮤니티**: Discord #mcp-general
-
-##### SpecKit (GitHub)
-- **GitHub 저장소**: https://github.com/github/spec-kit
-- **공식 문서**: https://github.github.com/spec-kit/
-- **튜토리얼**: https://github.com/github/spec-kit/tree/main/examples
-- **커뮤니티**: GitHub Discussions
-
-#### 🎓 온라인 강의 및 교육
-
-##### Coursera/edX
-- "AI for Everyone" (Andrew Ng)
-- "Prompt Engineering for Everyone"
-- "Research Methods and Statistics"
-
-##### YouTube 채널
-- "GitHub Education" (Copilot 튜토리얼)
-- "MCP Community" (MCP 활용법)
-- "AI Research Tools" (최신 도구 소개)
-
-##### 블로그 및 논문
-- Towards Data Science (AI 연구 도구)
-- Nature Machine Intelligence (AI 연구 방법론)
-- MIT Technology Review (AI 최신 동향)
-
-### 7.4 Part 3 준비사항
-
-#### 🎯 Part 3 학습 준비
-
-##### 기술적 준비사항
-- [ ] **Part 1-2 완전 복습**: 모든 도구와 방법론 숙달
-- [ ] **실제 연구 프로젝트 선정**: Part 3에서 적용할 구체적 연구 주제
-- [ ] **연구 환경 구축**: 도구 설치 및 설정 완료 상태 유지
-- [ ] **시간 확보**: Part 3 학습 및 실습을 위한 충분한 시간
-
-##### 학습 자료 준비
-- [ ] **Part 1-2 파일 정리**: 완성된 워크북, Spec 문서, 프로젝트 파일
-- [ ] **연구 노트**: Part 1-2 적용 경험과 인사이트 기록
-- [ ] **QI/문제점**: Part 1-2에서 발견한 개선점 및 해결 필요 사항
-- [ ] **성공 사례**: 효과적으로 작동한 방법과 도구 조합
-
-#### 🚀 Part 3에서 배울 내용
-
-##### Section 1: 통합 워크플로우 설계
-**핵심 학습 내용**:
-- 연구 프로젝트별 맞춤 워크플로우 설계 방법론
-- 개인 연구 vs 팀 연구의 차이점과 대응 전략
-- 전공별 최적화 및 개인화 방법
-- 워크플로우 지속적 개선 및 적응
-
-**실습 내용**:
-- 자신의 연구에 맞는 통합 워크플로우 설계
-- 팀 연구를 위한 협업 워크플로우 구축
-- 전공별 특화 도구 조합 최적화
-
-##### Section 2: 실제 프로젝트 적용 사례
-**교육학 석사논문 프로젝트** (자세한 사례):
-- Part 1-2 도구들을 실제 연구에 완전 적용
-- 6개월 연구 과정을 4개월로 단축
-- 연구 품질 향상 및 효율성 극대화
-- 문제 발생 시 해결 과정과 대안
-
-**공학 연구실 팀 프로젝트**:
-- 5명 연구팀의 AI 워크플로우 도입
-- 역할 분담 및 협업 체계
-- 도구 통합 및 관리
-- 팀 전체 생산성 향상
-
-##### Section 3: 고급 활용법
-**AI 워크플로우 자동화**:
-- AI 도구들의 자동 연동
-- 반복 작업의 완전 자동화
-- 조건부 워크플로우 설계
-- AI와 인간의 역할 분담 최적화
-
-##### Section 4: 2025년 연구 트렌드
-**최신 AI 도구 탐구**:
-- Elicit, Perplexity Research 등 최신 도구
-- NotebookLM과 같은 AI 연구 보조 도구
-- 도구별 장단점 및 활용법
-- 기존 도구와의 비교 및 통합
-
-##### Section 5: 개인 맞춤화
-**개인 연구 분야 최적화**:
-- 자신의 전공에 맞는 도구 조합
-- 연구 성향에 따른 워크플로우
-- 학습 곡선 및 적응 전략
-- 개인화 도구 개발 및 커스터마이징
-
-#### 🏁 Part 2 마무리
-
-축하합니다! 이제 Part 1과 Part 2를 통해 연구 생산성을 획기적으로 향상시킬 수 있는 완전한 도구 세트를 갖추게 되었습니다.
-
-**핵심 메시지**:
-> "도구는 수단일 뿐, 중요한 것은 연구자로서의 사고방식과 접근법입니다. Part 1과 Part 2에서 학습한 방법론과 도구들을 통해, AI 시대의 성공적인 연구자가 되어가기 바랍니다."
-
-**다음 만남**: Part 3에서 실제 연구 프로젝트에 모든 도구를 통합하여 완전한 연구 워크플로우를 구축하는 방법을 배우게 됩니다.
-
-**Part 2 완전 완성!** 🎉
+Part 3로 이동
 
 ---
 
