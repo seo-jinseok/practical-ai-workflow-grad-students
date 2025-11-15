@@ -125,8 +125,9 @@
 
 **최신 업데이트** (2025-11-10 기준):
 - 🆕 GitHub Copilot 2025 신기능 완전 반영
+  - Plan mode (연구 계획 도우미)
   - Agent mode (AI 연구 비서)
-  - Multi-model 선택 (GPT-5, Claude Sonnet 4.5, Gemini 2.5 Pro, Grok)
+  - Multi-model 선택 (GPT-5.1, Claude Sonnet 4.5, Gemini 2.5 Pro, Grok)
   - Custom Instructions (AGENTS.md)
   - Prompt files (.prompt.md)
   - Vision (이미지 → 코드/분석)
@@ -302,9 +303,9 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 **구조 예(한글)**:
 ```
 내연구/
+├── AGENTS.md (Part 2에서 작성)
 ├── 00_컨텍스트/
-│   ├── 연구컨텍스트.md
-│   └── AGENTS.md (Part 2에서 작성)
+│   └── 연구컨텍스트.md
 ├── 01_계획/
 │   ├── 연구계획서.md
 │   └── 주간계획.md
@@ -323,9 +324,9 @@ GitHub가 학생들에게 제공하는 **무료 개발 도구 패키지**입니�
 **구조 예(영문)**:
 ```
 my-research/
+├── AGENTS.md
 ├── 00_context/
-│   ├── research-context.md
-│   └── AGENTS.md
+│   └── research-context.md
 ├── 01_planning/
 │   ├── research-proposal.md
 │   └── weekly-plan.md
@@ -800,7 +801,7 @@ graph TD
 > 📚 **더 많은 예시**: `resources/10_discipline_examples.md` 참조  
 > (인문학, 사회과학, 자연과학 등)
 
-### 3.4 AI가 컨텍스트를 이해하는 방법 (간략)
+### 3.4 AI가 컨텍스트를 이해하는 방법
 
 #### 🧮 토큰 (Token)과 컨텍스트 윈도우
 
@@ -812,7 +813,7 @@ graph TD
 **컨텍스트 윈도우**:
 - AI가 한 번에 처리할 수 있는 최대 토큰 수
 - GitHub Copilot 2025 모델별 윈도우:
-  - GPT-5: 128K 토큰 (약 10만 단어)
+  - GPT-5: 128K 토큰 (약 10만 단어, GPT-5.1은 200K 이상으로 알려짐)
   - Claude Sonnet 4.5: 200K 토큰 (약 15만 단어)
   - Gemini 2.5 Pro: **1M 토큰** (약 75만 단어) ← 최대!
 
@@ -872,9 +873,9 @@ graph TD
 > - **토큰(Token)**: 대규모 언어 모델이 텍스트를 처리할 때 사용하는 최소 단위, 모델·토크나이저에 따라 토큰 수가 다를 수 있음. 예: "안녕하세요"는 토크나이저에 따라 2~5토큰으로 분해될 수 있음  
 > - **임베딩**: 글을 숫자로 바꿔 AI가 이해하도록 '변환하는' 작업. 예: "고양이" → [0.2, ‑0.8, 0.5 …] 같은 벡터로 변경
 
-#### 📈 워드 프로세서(Word, 한글) vs Markdown 비교
+#### 📈 워드 프로세서(Word, HWP) vs Markdown 비교
 
-| 기능 | Microsoft Word,<br>한글(hwp) | Markdown |
+| 기능 | Microsoft Word,<br>HWP | Markdown |
 |------|----------------|----------|
 | **학습 난이도** | 중간 | 매우 쉬움 |
 | **파일 크기** | 큰 편 | 매우 작음 |
@@ -920,8 +921,6 @@ graph TD
 | 내용 3   | 내용 4   |
 ```
 
-![VS Code에서 Markdown 작성하는 모습](resources/images/part1/copilot-features/copilot-inline-completion.png)
-
 #### 🎯 연구 문서에 특화된 활용법
 
 **📋 체크리스트 만들기**:
@@ -946,6 +945,8 @@ graph TD
 | 연구 설계 | 80% | 🔄 진행중 |
 | 데이터 수집 | 30% | 📅 예정 |
 | 분석 | 0% | ⏳ 대기 |
+| 논문 작성 | 0% | ⏳ 대기 |
+
 ```
 
 **🔗 연구 자료 연결하기**:
@@ -1036,8 +1037,6 @@ graph TD
 3. [참고문헌 3]
 ```
 
-![연구 계획서 템플릿을 복사해서 사용하는 모습](resources/images/part1/practice/practice-context-writing.png)
-
 #### 📊 주간 진행 보고서 템플릿
 
 ```markdown
@@ -1097,11 +1096,10 @@ graph TD
 #### 🎨 Markdown 미리보기 및 편집
 
 **미리보기 기능**:
-1. `Ctrl+Shift+V` (Windows) / `Cmd+Shift+V` (Mac)
-2. 或는 우측 클릭 → "Open Preview"
-3. 실시간 미리보기와 편집 가능
-
-![VS Code의 Markdown 미리보기 기능](resources/images/part1/practice/copilot-markdown-editing-preview.png)
+1. visual studio code 확장 설치 : Markdown Preview Enhanced
+2. `Ctrl+K, V` (Windows) / `Cmd+K, V` (Mac) 단축키로 미리보기 열기
+3. 또는 우측 클릭 → "Open Preview"
+4. 실시간 미리보기와 편집 가능
 
 **권장 확장 프로그램** (Part 2에서 상세히 다룰 예정):
 - **Markdown All in One**: 완성도 높은 Markdown 에디팅
@@ -1117,11 +1115,6 @@ graph TD
 - `Ctrl+Shift+[` / `Ctrl+Shift+]`: 제목 레벨 변경
 - `Alt+Click`: 멀티 커서 편집
 
-**에뮬레이터 사용**:
-- `Tab`: 들여쓰기 또는 다음 목차
-- `Enter`: 다음 줄
-- `Shift+Enter`: 단락 내 줄바꿈
-
 > 📚 **상세 가이드**: `resources/05_markdown_quick_reference.md` 참조
 
 ---
@@ -1130,80 +1123,257 @@ graph TD
 
 ### 5.1 GitHub Copilot 2025 신기능 소개
 
-#### 🆕 2025년 주요 업데이트 (2025-11-10 기준)
+#### 🆕 2025년 주요 업데이트 (2025-11-15 기준)
 
 ```
 🎉 GitHub Copilot 2025 신기능
+├── 💬 Ask mode (기본 모드)
+│   ├── 코딩 질문 및 설명 요청
+│   ├── 코드 작성 및 문제 해결
+│   └── 일반적인 대화형 지원
+├── ✂️ Edit mode
+│   ├── 여러 파일을 동시에 편집
+│   ├── 작업 파일 세트(Working Set) 관리
+│   └── 세밀한 편집 제어
 ├── 🤖 Agent mode
-│   ├── AI가 연구 비서로 동작
-│   ├── 작업을 자동으로 분석하고 제안
-│   └── Complex multi-step 프로젝트 관리
+│   ├── **AI가 자율적으로 작업 수행**
+│   ├── 파일 자동 생성/편집, 터미널 명령 실행
+│   ├── 복잡한 다단계 프로젝트 자동 처리
+│   ├── MCP 서버 연동 가능
+│   └── 오류 발생 시 자동 반복 및 수정
+├── 📋 Plan mode (최신! Public Preview)
+│   ├── 프로젝트 전체 계획을 먼저 생성
+│   ├── 상세한 구현 계획 수립
+│   ├── 계획 검토 후 Agent로 자동 전환 가능
+│   └── 팀 공유 및 문서화 지원
 ├── 🔧 Custom Instructions
-│   ├── AGENTS.md 파일로 연구 맞춤형 지침 설정
-│   ├── Persistent 컨텍스트 유지
-│   └── 연구 스타일별 맞춤화
-├── 📁 Prompt files
-│   ├── .prompt.md 파일로 반복 사용 프롬프트 저장
-│   ├── 다양한 연구 상황별 프롬프트 템플릿
-│   └── 효과적인 프롬프트 공유 및 재사용
+│   ├── `.github/copilot-instructions.md` 파일로 프로젝트 맞춤 설정
+│   ├── 모든 대화에 자동 적용되는 지속적 컨텍스트
+│   └── 연구 스타일, 코딩 규칙, 용어 정의 등 설정 가능
+├── 📁 Prompt files (.prompt.md)
+│   ├── `.github/prompts/` 폴더에 저장
+│   ├── `/명령어`로 간단하게 호출 가능
+│   ├── 연구 상황별 템플릿 (문헌조사, 데이터분석, 논문작성)
+│   └── 팀 간 효과적인 프롬프트 공유
 ├── 🎨 Multi-model selection
-│   ├── GPT-5, Claude Sonnet 4.5, Gemini 2.5 Pro
-│   ├── Grok, OpenAI 모델들 통합
-│   └── 작업별 최적 모델 자동 추천
+│   ├── **GPT-5.1** (최신!), Claude Sonnet 4.5, Gemini 2.5 Pro
+│   ├── o1, o1-mini, Codex 모델 지원
+│   └── 작업별 최적 모델 선택 (분석/코드/문서)
 ├── 👁️ Vision capabilities
-│   ├── 이미지 업로드 및 분석
-│   ├── 스크린샷에서 데이터 추출
-│   ├── 차트/그래프 자동 분석
-│   └── 손그림을 코드로 변환
-└── 🔮 Next Edit Suggestions
-    ├── AI가 다음 작업 예측 및 제안
-    ├── 연구 진행 상황 기반 추천
-    └── 논리적 다음 단계 자동 제안
+│   ├── 이미지/스크린샷 업로드 및 분석
+│   ├── 차트/그래프/표 데이터 자동 추출
+│   ├── 다이어그램 및 UI 디자인 코드 변환
+│   └── 연구 관련 시각 자료 해석
+├── 🔮 Next Edit Suggestions
+│   ├── AI가 다음 작업 예측 및 자동 제안
+│   ├── 문맥 기반 코드/문서 완성
+│   └── 연구 논리 흐름에 맞는 다음 단계 추천
+└── 🌐 GitHub Skills & MCP
+    ├── `@github` 명령어로 GitHub 데이터 접근
+    ├── `@websearch`웹 검색(`#web`), 저장소 검색 기능
+    └── MCP 서버로 외부 도구 연동 가능
 ```
 
-> 💡 **핵심**: 2025 Copilot은 단순한 코드 완성 도구에서 **연구 파트너**로 진화했습니다!
+> 💡 **핵심**: 2025 Copilot은 단순한 코드 완성 도구에서 **자율 연구 파트너**로 진화했습니다!
+
+---
+
+**📌 모드별 활용 가이드**:
+
+| 모드 | 적합한 작업 | 제어 수준 | 속도 |
+|------|------------|----------|------|
+| **Ask** | 질문, 설명, 간단한 코드 생성 | 높음 | 빠름 |
+| **Edit** | 여러 파일 동시 수정, 리팩토링 | 중간 | 중간 |
+| **Agent** | 프로젝트 자동 구축, 복잡한 작업 | 낮음 | 느림 |
+| **Plan** | 프로젝트 계획 및 설계 | 중간 | 중간 |
+
+> 🎯 **연구자 팁**: 
+> - **프로젝트 시작**: Plan mode로 전체 구조 설계
+> - **빠른 질문**: Ask mode
+> - **대규모 작업**: Agent mode에 맡기고 검토만
+> - **정밀 수정**: Edit mode로 직접 제어
+
+#### Plan mode 사용법 (2025 Public Preview)
+
+**Plan mode란?**
+
+- **코드 작성 전 계획 단계**에 집중하는 모드
+- 프로젝트를 **구조화된 계획으로 먼저 설계**
+- 계획 검토 후 **Agent mode로 자동 전환** 가능
+- 팀원과 계획 공유 및 문서화 지원
+
+**핵심 기능**:
+
+- **Read-only 도구 사용**: 코드베이스 분석, 요구사항 파악
+- **계획 생성**: 단계별 구현 로드맵 작성
+- **질문 생성**: 모호한 요구사항에 대한 질문 제시
+- **표준 포맷**: 일관된 계획 문서 형식
+
+**사용 단계**:
+
+1. **프로젝트 설명**: VS Code Chat에서 Plan mode 선택 후 목표 설명
+
+   ```markdown
+   예시: "온라인 학습 참여도 분석 연구 프로젝트를 계획해줘.
+   - 문헌 리뷰 폴더 구조
+   - 데이터 수집 템플릿
+   - 분석 계획 문서
+   - 진행 상황 추적 시스템"
+   ```
+
+2. **계획 검토**: AI가 생성한 계획 확인
+
+   - 생성할 파일 및 디렉토리 목록
+   - 핵심 기능 및 의존성
+   - 불명확한 요구사항에 대한 질문
+   - 필요시 계획 수정 (예: 폴더명 변경, 기능 추가/제거)
+
+3. **실행 선택**:
+   - **Save plan**: 계획을 파일로 저장하여 팀과 공유
+   - **Hand off to agent**: Agent mode로 전환하여 자동 실행
+
+**연구자를 위한 실제 활용 예시**:
+
+```markdown
+프롬프트: "석사논문 프로젝트 구조를 계획해줘.
+- 교육학 전공
+- 온라인 학습 참여도 연구
+- 혼합 연구 방법론 (설문 + 인터뷰)
+- 6개월 일정"
+
+Plan mode 결과:
+📋 계획 요약:
+- 목적: 체계적인 연구 진행을 위한 폴더 구조 및 템플릿 생성
+- 범위: 계획부터 논문 작성까지 전체 lifecycle
+- 우려사항: IRB 승인 절차, 데이터 보안
+
+📁 제안 구조:
+├── 00_계획/
+│   ├── 연구계획서.md
+│   ├── 일정표.md
+│   └── 윤리승인문서/
+├── 01_문헌리뷰/
+│   ├── 주요논문/
+│   ├── 메모/
+│   └── 문헌정리.md
+├── 02_방법론/
+│   ├── 설문지.md
+│   ├── 인터뷰가이드.md
+│   └── 데이터수집계획.md
+├── 03_데이터/ (보안 폴더)
+├── 04_분석/
+└── README.md
+
+❓ 질문:
+1. IRB 승인은 이미 받으셨나요?
+2. 데이터 보안 요구사항은?
+3. 협업자가 있나요?
+
+[Save plan] [Hand off to agent]
+```
+
+**Plan mode vs Agent mode 비교**:
+
+| 특징 | Plan mode | Agent mode |
+|------|-----------|-----------|
+| 주요 목적 | 계획 수립 | 자동 실행 |
+| 파일 수정 | ❌ 없음 | ✅ 자동 생성/수정 |
+| 반복 실행 | ❌ 없음 | ✅ 오류 시 재시도 |
+| 적합한 경우 | 프로젝트 초기, 팀 공유 | 빠른 구현 필요 시 |
+| 제어 수준 | 높음 (검토 후 실행) | 낮음 (자율 실행) |
+
+> 🎯 **연구자 팁**: 
+> - **프로젝트 초기**: Plan mode로 설계 → 검토 → Agent로 실행
+> - **빠른 프로토타입**: Agent mode로 바로 시작
+> - **팀 협업**: Plan mode로 계획 문서 생성 후 공유
+
+---
 
 #### 🤖 Agent mode 사용법
 
 **Agent mode란?**
-- AI가 연구 진행 상황을 이해하고 다음 단계를 제안
-- 단순한 질문-답변을 넘어 **상호작용적 연구 지원**
+
+- AI가 **자율적으로 다단계 작업을 수행**하는 모드
+- 파일 생성/편집, 터미널 명령 실행, 외부 도구 연동
+- 오류 발생 시 **자동으로 반복 시도 및 수정**
+- MCP 서버와 연동하여 확장 가능
+
+**핵심 특징**:
+
+- **자율 실행**: 사용자 개입 없이 작업 완료
+- **파일 조작**: 여러 파일을 자동으로 생성/수정
+- **터미널 통합**: 명령어 실행 (설치, 빌드, 테스트)
+- **오류 처리**: 실패 시 자동으로 다시 시도
+- **Working Set**: 관련 파일들을 자동으로 추적
 
 **사용법**:
-1. Copilot Chat에서 "Agent mode 활성화" 요청
-2. 연구 컨텍스트 제공
-3. AI가 진행 상황 분석 및 다음 단계 제안
-4. 피드백 제공 → AI가 다시 제안 (반복)
+
+1. Copilot Chat에서 **Agent mode 선택**
+2. 구체적인 작업 목표 제시
+3. AI가 자동으로 작업 수행 (파일 생성, 편집, 명령 실행)
+4. 결과 확인 및 추가 요청
 
 **실제 사용 예시**:
 
 ```markdown
-사용자: "Agent mode로 내 연구를 도와줘. 
-- 연구 주제: 온라인 학습 참여도
-- 현재 단계: 문헌 조사 중
-- 막힌 점: 너무 많은 논문이 있'da
-어떻게 진행해야 할까?"
+프롬프트: "논문 작성을 위한 참고문헌 관리 시스템을 만들어줘.
+- BibTeX 파일 자동 생성
+- Markdown에서 인용 번호 자동 삽입
+- 참고문헌 목록 자동 정렬
+- Python 스크립트로 구현"
 
-AI (Agent mode):
-"연구 진행 상황을 분석했습니다. 문헌 조사 단계에서
-'너무 많은 자료' 문제는 매우 흔합니다. 
+AI (Agent mode 실행 과정):
+1. 📁 Working Set에 관련 파일 추가
+2. 📄 references.bib 파일 생성 (예시 항목 포함)
+3. 🐍 citation_manager.py 스크립트 작성
+   - BibTeX 파싱 기능
+   - Markdown 인용 처리
+   - 정렬 알고리즘
+4. 💻 터미널에서 pip install bibtexparser 실행 (권한 요청)
+5. 📝 README.md 작성 (사용법 포함)
+6. ✅ 테스트 실행 및 오류 수정
+7. 📦 완료 보고
 
-**제안하는 접근법**:
-1. **체계적 필터링**: 5년 내, 인용수 50회 이상, 1차 저널만
-2. **리뷰 논문 중심**: Systematic review, Meta-analysis 먼저
-3. **특정 키워드**: 'student engagement', 'online learning', 'higher ed'
-
-**다음 구체적 단계**:
-1. 오늘: 핵심 키워드로 20개 논문 수집
-2. 내일: 리뷰 논문 5개 선독
-3. 주말: 정리 및 요약 완료
-
-진행할까요? 구체적으로 어떤 keyword로 시작할까요?"
+결과:
+✅ references.bib 생성됨
+✅ citation_manager.py 작동 확인
+✅ README.md 문서화 완료
 ```
+
+**Agent mode vs 기존 방식**:
+
+| 방식 | 소요 시간 | 사용자 개입 | 완성도 |
+|------|-----------|------------|--------|
+| 수동 작업 | 2-3시간 | 지속적 | 70-80% |
+| Ask mode | 1-2시간 | 빈번 (복붙 필요) | 80-90% |
+| **Agent mode** | **10-20분** | **최소 (승인만)** | **90-95%** |
+
+**Agent mode 활용 시나리오**:
+
+1. **프로젝트 초기 설정**
+   - 폴더 구조 자동 생성
+   - 템플릿 파일 작성
+   - Git 저장소 초기화
+
+2. **복잡한 리팩토링**
+   - 여러 파일에 걸친 코드 수정
+   - 변수명/함수명 일괄 변경
+   - 구조 재구성
+
+3. **자동화 스크립트 작성**
+   - 데이터 처리 파이프라인
+   - 보고서 자동 생성
+   - 백업 및 정리 도구
+
+> ⚠️ **주의사항**:
+> - **파일 변경 권한**: 중요한 파일은 백업 후 사용
+> - **터미널 명령**: 실행 전 명령어 확인 후 승인
+> - **MCP 서버**: 외부 도구 연동 시 인증 필요
+> - **비용**: Premium 모델 사용 시 요청당 카운트됨 (follow-up 작업은 무료)
 
 #### 🔧 Custom Instructions 설정
 
-**AGENTS.md 파일 생성** (이름: `00_컨텍스트/AGENTS.md`):
+**AGENTS.md 파일 생성** (이름: `AGENTS.md` 또는 프로젝트 루트 폴더):
 
 ```markdown
 # 연구용 AI 에이전트 설정
@@ -1243,7 +1413,7 @@ AI (Agent mode):
 
 #### 📁 Prompt files 활용
 
-**.prompt.md 파일 예시** (이름: `문헌요약.prompt.md`):
+**.prompt.md 파일 예시** (이름 및 위치 : `.github/prompts/summarize.prompt.md`):
 
 ```markdown
 # 문헌 요약용 프롬프트
@@ -1276,8 +1446,8 @@ AI (Agent mode):
 ```
 
 **사용법**:
-1. Copilot Chat에서 `[문헌요약]` 또는 `@문헌요약` 입력
-2. 자동으로 위 프롬프트 자동 실행
+1. Copilot Chat에서 `/summarize` 입력 (prompt file 호출)
+2. 또는 Chat 패널에서 📎 버튼 클릭 → `summarize.prompt.md` 선택
 3. 논문 내용 붙여넣기
 4. 일관된 형식으로 결과 보장
 
@@ -1297,7 +1467,7 @@ AI (Agent mode):
 - 대안: Grok Code Fast 1, GPT-5
 
 ✍️ 논문 작성 및 교정
-- 우선: Claude Opus 4.1 (학술 작성 최고)
+- 우선: Claude Opus 4.1 (학술 작성 최고, GitHub Copilot Pro에서는 사용 불가)
 - 대안: GPT-5, Claude Sonnet 4.5
 
 👁️ 이미지/차트 분석
@@ -1310,11 +1480,9 @@ AI (Agent mode):
 ```
 
 **VS Code에서 모델 변경하기**:
-1. Copilot Chat 패널 상단 드롭다운 클릭
+1. Copilot Chat 패널 하든 드롭다운 클릭
 2. 원하는 모델 선택
 3. Chat 지속 시에도 언제든지 변경 가능
-
-![VS Code의 모델 선택 드롭다운](resources/images/part1/copilot-features/copilot-model-picker.png)
 
 #### 👁️ Vision capabilities 활용
 
@@ -1348,20 +1516,23 @@ AI: "분석한 결과입니다:
 - 개선 방안 도출"
 ```
 
-![이미지를 Copilot에 첨부하여 분석하는 모습](resources/images/part1/2025-features/copilot-vision-image-attach.png)
-
 #### 🔮 Next Edit Suggestions
 
 **자동 다음 단계 제안**:
-- AI가 연구 진행 상황 파악
-- 논리적 다음 단계를 예측하여 제안
-- 연구 진행에 도움이 되는 체크리스트 생성
+- 코드나 텍스트를 작성하다 멈추면 자동으로 다음 줄 제안이 나타남
+- 에디터 우측에 "✨ Copilot" 아이콘과 함께 제안 표시
+- Tab 키로 제안 수락, Esc로 거부
 
-**사용법**:
-1. 연구 컨텍스트를 Chat에 제공
-2. "다음 단계 제안줘" 또는 "Next Edit Suggestions" 입력
-3. AI가 진행 상황 분석 후 구체적 제안 제공
-4. 피드백 제공하여 AI가 재조정
+**작동 원리**:
+1. `.md`, `.py`, `.txt` 등의 파일에서 코드/텍스트 작성 중
+2. 입력을 멈추고 2-3초 대기
+3. AI가 자동으로 다음 줄을 예측하여 회색 텍스트로 표시
+4. Tab 키를 눌러 수락하거나 계속 타이핑하면 무시됨
+
+**연구 작성 활용 예**:
+- 논문 초록에서 "본 연구의 목적은"까지 쓰면 → 다음 문장 자동 제안
+- Python 코드에서 함수명까지 쓰면 → 나머지 코드 자동 제안
+- 참고문헌 작성 시 패턴 인식 → 다음 항목 형식 자동 제안
 
 ### 5.2 효과적인 AI 연구 대화법
 
@@ -1758,10 +1929,6 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 
 ---
 
-![Copilot Chat Panel - AI 연구 대화 인터페이스](resources/images/part1/copilot-features/copilot-chat-panel.png)
-
----
-
 ## 6. MCP 소개: AI 도구 연결의 새로운 표준
 
 ### 6.1 MCP가 해결하는 문제
@@ -1775,7 +1942,7 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 ```
 
 - 각 AI마다 다른 연결 방법
-- N개 AI × M개 도구 = N×M개 통합 필요
+- N개 AI × M(내 데이터의 종류 또는 도구 수)개 도구 = N×M개 통합 필요
 - 반복 작업, 호환성 문제
 
 #### ✨ MCP의 해결책
@@ -1791,19 +1958,20 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 
 ### 6.2 MCP 작동 방식
 
-```
-┌─────────────┐
-│ Host App    │ (Claude Desktop, VS Code)
-│ (MCP Client)│
-└──────┬──────┘
-       │ JSON over streams/HTTP
-       ├──────────┬──────────┬──────────┐
-       ▼          ▼          ▼          ▼
-  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐
-  │MCP     │ │MCP     │ │MCP     │ │MCP     │
-  │Server 1│ │Server 2│ │Server 3│ │Server 4│
-  └────────┘ └────────┘ └────────┘ └────────┘
-   (arxiv)   (zotero)  (jupyter)  (tasks)
+```mermaid
+graph TB
+    Client["Host App<br/>(MCP Client)<br/><br/>GitHub Copilot, Claude Desktop"]
+    
+    Client -->|"JSON over streams/HTTP"| Server1["MCP Server 1<br/>(arxiv)"]
+    Client -->|"JSON over streams/HTTP"| Server2["MCP Server 2<br/>(zotero)"]
+    Client -->|"JSON over streams/HTTP"| Server3["MCP Server 3<br/>(jupyter)"]
+    Client -->|"JSON over streams/HTTP"| Server4["MCP Server 4<br/>(tasks)"]
+    
+    style Client fill:#e1f5ff,stroke:#01579b,stroke-width:2px
+    style Server1 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style Server2 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style Server3 fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style Server4 fill:#fff3e0,stroke:#e65100,stroke-width:2px
 ```
 
 - **Client**: AI 앱 (Claude, Copilot)
@@ -1819,8 +1987,6 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 | **jupyter-mcp** | 노트북 통합 | 데이터 분석 자동화 |
 | **task-master-mcp** | 작업 관리 | 연구 일정 추적 |
 | **notion-mcp** | 노트 연동 | Notion 데이터베이스 활용 |
-
-![MCP Architecture Diagram](resources/images/part1/mcp/mcp-architecture-diagram.png)
 
 ### 6.4 왜 MCP를 알아야 하나?
 
@@ -1844,8 +2010,10 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 5. Zotero에 수동 추가
 
 **MCP 사용**:
-1. AI에게 "arxiv에서 'online learning' 최신 논문 5개 찾아서 요약하고 Zotero에 추가해줘"
-2. 끝! (AI가 모든 단계 자동 수행)
+1. AI에게 "arxiv에서 'online learning' 최신 논문 5개 찾아서 요약해줘"
+2. 끝! (AI가 검색부터 요약까지 자동 수행)
+
+💡 **참고**: 현재 Zotero MCP는 읽기 기능만 지원합니다 (검색, 조회, 메타데이터 가져오기 등)
 
 ### 6.6 MCP 시작 방법
 
@@ -1854,271 +2022,21 @@ AI: "연구 특성에 맞는 논문 구조를 제안합니다:
 - 왜 필요한지 이해 ✅
 
 **다음 (Part 2)**:
-- task-master-mcp 설치 및 실습
+- MCP 설치 및 실습
 - 연구 워크플로우에 통합
 - 다른 유용한 MCP 서버 탐색
-
+  
 **Part 3**:
 - 전체 연구 프로젝트에 MCP 활용
-
-### 6.7 MCP 생태계 (2025)
-
-**출시**: 2024년 11월 (Anthropic)
-
-**현황**: 수천 개 커뮤니티 서버
-
-**지원**: 
-- Anthropic Claude Desktop
-- VS Code (via extensions)
-- Microsoft 통합 발표
-- 다양한 언어 SDK
-
-**성장**: 빠르게 확산 중
-
-**표준화**: 업계 표준으로 자리잡는 중
-
-### 6.8 핵심 정리
-
-1. **MCP = AI 도구 연결 표준** (USB-C 같은)
-2. **N×M → N+M** (통합 복잡도 감소)
-3. **연구자 친화적** (arxiv, zotero, jupyter 등)
-4. **미래 표준** (2025년 급성장)
-5. **Part 2에서 실습** (task-master-mcp)
-
-**기억하세요**: 
-MCP는 AI가 여러분의 연구 도구들과 
-직접 대화할 수 있게 해주는 다리입니다! 🌉
 
 > 📚 **상세 가이드**: `resources/08_mcp_introduction_slides.md` 참조
 
 ---
 
-## 7. 실습 준비 완료 체크리스트
-
-### ✅ 기본 환경 설정 체크
-
-#### VS Code 및 Copilot 설정
-- [ ] **VS Code 다운로드 및 설치** (약 5분)
-  - [ ] Windows: "Add to PATH" 체크
-  - [ ] macOS: 기본 설정 진행
-  - [ ] 모든 OS: "Register Code as an editor" 체크
-
-- [ ] **GitHub Copilot 확장 설치** (약 5분)
-  - [ ] VS Code Extensions에서 "GitHub Copilot" 검색
-  - [ ] "Install" 클릭
-  - [ ] VS Code 재시작 완료
-
-- [ ] **GitHub 계정 연결**
-  - [ ] 하단 상태바 Copilot 아이콘 클릭
-  - [ ] "Sign in to GitHub" 선택
-  - [ ] 브라우저에서 GitHub 로그인
-  - [ ] "Authorize GitHub Copilot" 승인
-  - [ ] **Copilot Pro 활성화 확인** (학생 혜택 신청 완료 시)
-
-#### 학생 혜택 신청 (선택사항이지만 권장)
-- [ ] **GitHub Education Pack 신청** (약 10분)
-  - [ ] https://education.github.com/pack 방문
-  - [ ] "Get your pack" 클릭
-  - [ ] 학교 이메일 입력 (또는 학생증 업로드)
-  - [ ] 학교 정보 입력 (영문 학교명, 졸업 예정일)
-  - [ ] 사용 목적 작성 (영어, 2-3문장)
-  - [ ] 승인 대기 (1-3일 소요)
-
-### 📁 연구 폴더 구조 생성
-
-#### 기본 폴더 구조
-- [ ] **연구 메인 폴더 생성** (예: `내연구`)
-- [ ] **00_컨텍스트/** 폴더 생성
-  - [ ] `연구컨텍스트.md` 파일 생성
-  - [ ] 템플릿 복사 및 내용 채우기
-- [ ] **01_계획/** 폴더 생성
-  - [ ] `연구계획서.md` 파일 생성
-- [ ] **02_자료수집/** 폴더 생성
-  - [ ] `문헌정리.md` 파일 생성
-- [ ] **03_분석/** 폴더 생성
-  - [ ] `데이터분석.md` 파일 생성
-- [ ] **04_작성/** 폴더 생성
-  - [ ] `논문초안.md` 파일 생성
-- [ ] **README.md** 파일 생성
-  - [ ] 프로젝트 개요 간단히 작성
-
-#### VS Code에서 폴더 열기
-- [ ] **File → Open Folder...** 실행
-- [ ] 생성한 연구 폴더 선택
-- [ ] "Select Folder" 클릭
-- [ ] **Explorer에서 폴더 구조 확인**
-
-### 🧠 컨텍스트 작성 실습
-
-#### 연구 컨텍스트 파일 완성
-- [ ] **00_컨텍스트/연구컨텍스트.md 수정**
-  - [ ] Background 섹션 작성 (연구자 정보, 주제, 동기, 자원, 제약)
-  - [ ] Specification 섹션 작성 (연구 질문, 가설, 방법, 대상)
-  - [ ] Plan 섹션 작성 (일정, 위험 요소, 검토 일정)
-  - [ ] Task 섹션 작성 (현재 작업, 다음 주 계획)
-
-#### AI 활용 테스트
-- [ ] **Copilot Chat에 컨텍스트 제공 테스트**
-  - [ ] VS Code에서 `Ctrl+Shift+I` (Windows) / `Cmd+Shift+I` (Mac)
-  - [ ] 연구 컨텍스트 일부 복사하여 붙여넣기
-  - [ ] 구체적인 질문 1-2개 시도
-  - [ ] AI 응답 품질 확인
-
-### 📝 Markdown 실습
-
-#### 기본 Markdown 문법 테스트
-- [ ] **새 Markdown 파일 생성** (예: `마크다운_실습.md`)
-- [ ] **기본 문법 연습**
-  - [ ] 제목 (# ## ###)
-  - [ ] 굵은 글씨, 기울임
-  - [ ] 목록 (- , 1.)
-  - [ ] 표 생성
-  - [ ] 링크와 이미지
-  - [ ] 코드 블록
-
-#### 연구 문서 템플릿 활용
-- [ ] **연구 계획서 템플릿 복사**
-  - [ ] `03_분석/연구계획서.md` 파일 생성
-  - [ ] 템플릿 내용 복사
-  - [ ] 실제 연구 내용으로 수정
-- [ ] **주간 보고서 템플릿 복사**
-  - [ ] `99_기타/주간보고서_샘플.md` 파일 생성
-  - [ ] 템플릿 내용 복사
-
-#### Markdown 미리보기 기능
-- [ ] **미리보기 기능 테스트**
-  - [ ] `Ctrl+Shift+V` (Windows) / `Cmd+Shift+V` (Mac) 실행
-  - [ ] 실시간 미리보기 확인
-  - [ ] 편집과 미리보기가 동기화되는지 확인
-
-### 🤖 GitHub Copilot 2025 기능 테스트
-
-#### Agent mode 테스트
-- [ ] **Agent mode 활성화 시도**
-  - [ ] Copilot Chat에 "Agent mode로 내 연구 도와줘" 입력
-  - [ ] 연구 진행 상황 설명
-  - [ ] AI의 다음 단계 제안 확인
-
-#### Multi-model 선택 테스트
-- [ ] **모델 선택 드롭다운 사용**
-  - [ ] Chat 패널 상단 드롭다운 클릭
-  - [ ] 다양한 모델 (GPT-5, Claude Sonnet 4.5 등) 확인
-  - [ ] 모델 변경하여 응답 비교
-
-#### Vision 기능 테스트 (Pro 사용자)
-- [ ] **이미지 첨부 기능 테스트**
-  - [ ] 차트나 그래프 이미지 준비
-  - [ ] Copilot Chat에 이미지 첨부
-  - [ ] "이 이미지를 분석해줘" 질문
-  - [ ] AI의 분석 결과 확인
-
-#### Custom Instructions 설정
-- [ ] **AGENTS.md 파일 생성 시도**
-  - [ ] `00_컨텍스트/AGENTS.md` 파일 생성
-  - [ ] 기본 템플릿 복사
-  - [ ] 개인 정보和研究 스타일 수정
-
-### 📚 학습 자료 확인
-
-#### resources 파일들 확인
-- [ ] **`resources/` 폴더 확인**
-- [ ] **기존 파일들 확인**
-  - [ ] `01_github_copilot_student_guide.md` 열기
-  - [ ] `06_copilot_models_comparison.md` 열기
-  - [ ] `08_mcp_introduction_slides.md` 열기
-  - [ ] `11_screenshot_descriptions.md` 열기
-  - [ ] `README_Part1.md` 열기
-
-#### 추가 예정 파일들 확인 (Todo)
-- [ ] **미생성 파일들 확인**
-  - [ ] `02_vscode_setup_checklist.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `03_folder_structure_templates.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `04_context_template_2025.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `05_markdown_quick_reference.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `07_copilot_chat_examples.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `09_troubleshooting_guide.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `10_discipline_examples.md` (미생성 - 2주 내 생성 예정)
-  - [ ] `12_part1_practice_exercises.md` (미생성 - 2주 내 생성 예정)
-
-### 🚀 다음 단계 준비
-
-#### Part 2로의 진행 계획
-- [ ] **Part 2 학습 계획 수립**
-  - [ ] MCP 서버 실습 준비 (task-master-mcp)
-  - [ ] GitHub Copilot Workbook 실습 준비
-  - [ ] SpecKit 활용법 학습 계획
-
-#### 실제 연구 프로젝트 시작
-- [ ] **개인 연구 프로젝트 정의**
-  - [ ] 구체적인 연구 주제 확정
-  - [ ] 연구 컨텍스트 파일 완성
-  - [ ] 첫 번째 AI 대화 실행
-
-#### 피어 그룹 형성 (선택사항)
-- [ ] **동료 연구자들과 워크플로우 공유**
-  - [ ] GitHub repository 생성 (공개/비공개)
-  - [ ] 연구 자료 및 템플릿 공유
-  - [ ] AI 활용법 서로交流
-
-### 🔧 문제 해결 및 지원
-
-#### 일반적인 문제들
-- [ ] **VS Code 실행 문제**
-  - [ ] 컴퓨터 재시작
-  - [ ] VS Code 최신 버전으로 업데이트
-  - [ ] Extensions 재설치
-
-- [ ] **Copilot 연결 문제**
-  - [ ] GitHub 계정 재로그인
-  - [ ] VS Code 재시작
-  - [ ] Copilot 확장 재설치
-
-![Copilot 비활성 상태](resources/images/part1/troubleshooting/copilot-inactive-status.png)
-
-- [ ] **Markdown 문법 문제**
-  - [ ] `resources/05_markdown_quick_reference.md` 참조
-  - [ ] VS Code IntelliSense 활용
-  - [ ] 미리보기 기능으로 확인
-
-#### 추가 지원 resources
-- [ ] **Troubleshooting Guide 확인** (`resources/09_troubleshooting_guide.md` - 2주 내 생성 예정)
-- [ ] **GitHub Community 활용**: https://github.community/
-- [ ] **VS Code 공식 문서**: https://code.visualstudio.com/docs
-
-### 🎉 완료 인증
-
-#### 전체 체크리스트 완료 확인
-모든 항목에 ✅ 표시가 되었다면... **축하합니다!**
-
-**Part 1: 기초 편을 성공적으로 완료하셨습니다!**
-
-**다음 단계**:
-1. **Part 2: 고급 도구 편**으로 진행
-2. **실제 연구 프로젝트**에서 워크플로우 적용
-3. **동료들과의 피어 러닝** 지속
-
-> 💡 **마지막 팁**: 완전한 워크플로우는 한 번에 익혀지는 것이 아닙니다. 
-> 연구를 진행하면서 계속 연습하고 개선해 나가세요!
-
-### 📞 피드백 및 개선 요청
-
-이 Part 1 가이드에 대한 피드백을 주시면 더 나은 Part 2를 만들 수 있습니다:
-
-- **개선할 점**: 무엇이 더 명확했으면 좋겠는가?
-- **누락된 내용**: 어떤 주제가 더 필요하다고 생각하는가?
-- **실습 개선**: 어떤 실습이 더 유용할 것 같은가?
-- **일반화**: 다른 전공에서도 적용 가능한가?
-
-> 📧 **피드백 방법**: GitHub Issues 또는 메일로 보내주세요.
+➡️ **[Part 2: 고급 도구 편으로 이동](./Practical_AI_Workflow_for_Grad_Students_Part2.md)**
 
 ---
 
-**🎓 Part 1 완료! 이제 연구의 기반을 다졌습니다!**
-
-**→ 다음: Part 2: 고급 도구 편으로 진행하세요!**
-
----
-
-*최종 업데이트: 2025-11-12*  
+*최종 업데이트: 2025-11-15*  
 *버전: Part 1*  
-*소요 시간: 약 3시간 (읽기 2시간 + 실습 1시간)*
+*소요 시간: 약 3시간 (읽기 2시간 + 실습 1시간)**
